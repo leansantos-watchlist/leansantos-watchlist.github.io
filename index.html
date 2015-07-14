@@ -8,6 +8,20 @@
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css" rel="stylesheet">
 	<link href="css/mycss.css" rel="stylesheet">
 
+
+	<script src="js/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-animate.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<script src="js/dirPagination.js"></script>
+
+
+	<script src="js/myApp.js"></script>
+	<script src="js/controller/NavigationController.js"></script>
+	<script src="js/controller/HomeController.js"></script>
+	<script src="js/controller/MoviesController.js"></script>
+	<script src="js/controller/SeriesController.js"></script>
+	<script src="js/controller/WatchController.js"></script>
+
 </head>
 <body ng-app="mymovieApp">
 
@@ -17,7 +31,7 @@
 	<div><a href="#/"><h2>#WatchList</h2></a></div>
 
 	<div class="baseline-border">
-		<input type="text" ng-model="search" placeholder="Search here" style="text-align:center;">
+		<input type="text" class="form-control" ng-model="search" placeholder="Search here" style="text-align:center;">
 	</div>
 	<div class="navigation" ng-controller="NavigationController">
 		<ul>
@@ -41,18 +55,7 @@
 
 
 
-<script src="js/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-animate.js"></script>
-<script src="js/angular-route.min.js"></script>
-<script src="js/dirPagination.js"></script>
 
-
-<script src="js/myApp.js"></script>
-<script src="js/controller/NavigationController.js"></script>
-<script src="js/controller/HomeController.js"></script>
-<script src="js/controller/MoviesController.js"></script>
-<script src="js/controller/SeriesController.js"></script>
-<script src="js/controller/WatchController.js"></script>
 
 
 </body>
