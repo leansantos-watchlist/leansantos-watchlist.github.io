@@ -84,6 +84,7 @@ home.html*/
 	color:#F00;
 }
 .home-page .title{
+	white-space: nowrap; 
 	text-align: center;
  	overflow: hidden;
  	text-overflow: ellipsis;
