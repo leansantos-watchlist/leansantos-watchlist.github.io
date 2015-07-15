@@ -14,7 +14,7 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 			};
 
 			$scope.moviesplayer = function(){
-				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=moviesLink("+$scope.getparamId +",'link')&source2=moviesLink("+$scope.getparamId +",'link2')&source3=moviesLink("+$scope.getparamId +",'link3')&poster=" +$scope.moviesPoster($scope.getparamId));
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=moviesLink("+$scope.getparamId +")&poster=" +$scope.moviesPoster($scope.getparamId));
 			};
 
 		
@@ -33,7 +33,7 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 			};
 
 			$scope.seriesplayer = function(){
-				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=seriesLink("+$scope.getparamId +",'link')&source2=seriesLink("+$scope.getparamId +",'link2')&source3=seriesLink("+$scope.getparamId +",'link3')&poster=" +$scope.seriesPoster($scope.getparamId));
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=seriesLink("+$scope.getparamId +")&poster=" +$scope.seriesPoster($scope.getparamId));
 			};
 		});
 
