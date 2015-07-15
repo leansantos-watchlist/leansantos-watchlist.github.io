@@ -25,6 +25,9 @@
 </head>
 <body ng-app="mymovieApp">
 
+<div style="background-color:#eee;text-align:right;padding-right:50px">
+	<a href="">about us</a> | <a href="">contact us</a>
+</div>
 
 <!-- Header RigthSide Fixed navbar -->
 <div class="side-navbar side-navbar-fixed">
@@ -38,9 +41,11 @@
 			<li ng-repeat="nav in navigation.mainNav">
 				<a href="{{nav.link}}">{{nav.nav}}</a>
 			</li>
+			<li>
+				<a href="">f</a>
+			</li>
 		</ul>
 	</div>
-
 
 </div>
 <!-- End Header RigthSide Fixed navbar -->
@@ -49,10 +54,14 @@
 <!-- Partials content -->
 <div class="partials">
 	<div ng-view=""></div>
+
 </div>
 <!-- End Partials content -->
 
+<div style="width:100%;overflow:hidden;text-align:right;padding-right:50px" >
+	<p>Copyright 2015 © watchlist.com </p>
 
+</div>
 
 
 

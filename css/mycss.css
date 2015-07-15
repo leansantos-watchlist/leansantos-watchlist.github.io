@@ -1,8 +1,9 @@
 body{
-	background-color: #ffffff
+	background-color: #ffffff;
 }
 li{
 	list-style: none;
+
 }
 
 /*Header RigthSide Fixed navbar================ 
@@ -28,28 +29,29 @@ index.html*/
 	padding-top:15px;
 }
 .navigation ul li{
-	padding-top:10px;
+	padding-top:15px;
 }
 .navigation a{
+	padding:5px;
 	color: #494949;
-	font-size: 0.875em;
-	font-weight: bold;
+	font-size: 1.3em;
 }
 
 /*partials content*/
 .partials{
-	padding-left:250px;
+	padding-left:215px;
 }
 /*END -- partials content======*/
 
 @media screen and (max-width: 768px){
-	.side-navbar-fixed{position: static; width:100%;text-align: center}
-	.navigation ul{width: 250px;margin:0 auto !important;}
+	.side-navbar-fixed{position: static !important; width:100% !important;text-align: center}
+	.navigation ul{width: 300px;margin:0 auto !important;}
 	.navigation ul{margin:0;padding:0;overflow: hidden;}
 	.navigation li{float: left; padding-left: 25px}
 	.navigation a{display: block;}
 	.partials{padding-left:0;}
 }
+
 
 /*END 
 
@@ -63,8 +65,8 @@ Header RigthSide Fixed navbar================     */
 home.html*/
 
 .home-page img{
-	width: 150px;
-	height: 190px;
+	width: 140px;
+	height: 180px;
 }
 .home-page .video-item:hover{
 	box-shadow: 0 12px 10px #777;
@@ -73,9 +75,9 @@ home.html*/
 	animation:pulse 2s;
 }
 .video-item{
-	max-width:152px;
+	max-width:142px;
 	margin-right: 8px;
-	border:1px solid #FFFFFF;
+	border:1px solid #ffffff;
 	margin-bottom:15px;
 }
 .video-item a {
@@ -86,8 +88,8 @@ home.html*/
  	overflow: hidden;
  	text-overflow: ellipsis;
  	font-size:16px;
- 	height: 44px;
- 	max-height: 44px;
+ 	height: 25px;
+ 	max-height: 25px;
 }
 .home-page .year{
 	text-align: center;
@@ -143,7 +145,7 @@ home.html*/
 @media screen and (max-width: 990px){
 	.home-page img{width: 120px;height: 160px;}
 	.video-item{max-width:122px;}
-	.home-page .title{height:40px;max-height: 40px;font-size:14px;}
+	.home-page .title{max-height: 20px;font-size:14px;}
 }
 
 /*END 
