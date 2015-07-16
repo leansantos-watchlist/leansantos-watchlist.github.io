@@ -150,6 +150,8 @@ home.html*/
 	.home-page img{width: 120px;height: 160px;}
 	.video-item{max-width:122px;}
 	.home-page .title{max-height: 20px;font-size:14px;}
+	.home-page .recently-updated{margin-top:0 !important;}
+	.home-page .col-md-3{padding:0 15px !important;margin-top:0 !important;}
 }
 
 /*END 
