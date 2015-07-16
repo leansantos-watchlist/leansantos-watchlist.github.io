@@ -2,28 +2,41 @@
 	
 
 <div class="col-md-9" style="padding-right:5px;padding-left:20px">
-<div class="watch-movie" style="border:1px solid #ddd;background:#ffffff;">
-	<div class="title">
-		<h3>{{movies[getparamId].title}} - ({{movies[getparamId].released}})</h3>
-	</div>
+<div class="watch-movie" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
 
-	<div class="movie-summary" style="overflow:hidden">
+<div class="movie-summary" style="overflow:hidden;margin-top:5px;height:282px;">
 	<img style="float:left" width="180" height="280" ng-src="{{movies[getparamId].poster}}" alt="">
-		<ul style="background:#ffffff">
-			<li><b>Genre:</b> {{movies[getparamId].genres}}</li>
-			<li><b>Year:</b> </li>
-			<li><b>Duration:</b> </li>
-			<li><b>Directed By:</b> </li>
-			<li><b>Starring:</b> </li>
-		</ul>
-		<div style="background:#ffffff;height:100%;!important">
+	<div style="float:right">
+		<a href=""><img src="https://cdn3.iconfinder.com/data/icons/sphericalcons/32/tv.png" alt="">trailer</a>
+	</div>
+	<ul style="background:#ffffff;overflow:hidden;padding-left:5px;">
+		<li><b>Genre:</b> {{movies[getparamId].genres}}</li>
+		<li><b>Year:</b> {{movies[getparamId].released}}</li>
+		<li><b>Duration:</b> {{movies[getparamId].duration}}</li>
+		<li><b>Directed By:</b> {{movies[getparamId].starring}}</li>
+		<li><b>Starring:</b> </li>
+	</ul>
+	<div style="overflow:hidden;padding-left:5px;height:169px">
+		<div style="border:1px solid #ccc;border-radius:5px;height:100%;text-indent:25px;padding:5px;font-size:.9em">
 			{{movies[getparamId].summary}}
 		</div>
 	</div>
+</div>
+
+
+	<div class="title" >
+		<h3>{{movies[getparamId].title}} - ({{movies[getparamId].released}})</h3>
+	</div>
+
+
+
+	
+
+
 
 	<div>
 	    <!-- 16:9 aspect ratio -->
-	    <div class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;">
+	    <div class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
 	      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
 
 	      <iframe src="{{moviesplayer()}}" frameborder="0" allowfullscreen></iframe>

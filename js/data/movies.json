@@ -3,7 +3,7 @@
 "movies": [
 	{
 		"id": 0, "title": "Kingsman: The Secret Service", "category": "Movie", "genres": "Action | Adventure | Comedy",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A spy organization recruits an unrefined, but promising street kid into the agencyÃ¢ÂÂs ultra-competitive training program, just as a global threat emerges from a twisted tech genius.",
 		"poster": "https://lh3.googleusercontent.com/Me3N7J33CBNlTxFS4rEZOp1Bzwemn_PZHjn7PC__xBE=w280-h400-no",
@@ -12,7 +12,7 @@
 	},
 	{
 		"id": 1, "title": "Focus", "category": "Movie", "genres": "Comedy | Crime | Drama",
-		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Nicky Spurgeon is an extremely accomplished con man who takes an amateur con artist, Jess, under his wing. Nicky and Jess become romantically involved, and with NickyÃ¢ÂÂs profession of being a liar and a cheater for a living, he realizes that deception and love are things that donÃ¢ÂÂt go together. They split, only to see each other three years laterÃ¢ÂÂ¦ And things get messy.",
 		"poster": "https://lh3.googleusercontent.com/6w9DzrFJvHofRx9w49j3NIbj9A5FEwb9mqagPXf54ZU=w280-h400-no",
@@ -21,7 +21,7 @@
 	},
 	{
 		"id": 2, "title": "Night at the Museum: Secret of the Tomb", "category": "Movie", "genres": "Adventure | Comedy | Family",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Larry spans the globe, uniting favorite and new characters while embarking on an epic quest to save the magic before it is gone forever.",
 		"poster": "https://lh3.googleusercontent.com/-62QzeCNYNjIO2hMaZ9jbHduyYTAoeqnLvraKOt06IA=w280-h400-no",
@@ -30,7 +30,7 @@
 	},
 	{
 		"id": 3, "title": "Interstellar", "category": "Movie", "genres": "Adventure | Sci-Fi",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A group of explorers make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
 		"poster": "https://lh3.googleusercontent.com/humLH4aYt8-xa_5J89HE67mTWbdOvE2pBp3IAfFsUoU=w280-h400-no",
@@ -39,7 +39,7 @@
 	},
 	{
 		"id": 4, "title": "The Interview", "category": "Movie", "genres": "Action | Comedy",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Dave Skylark and producer Aaron Rapoport run the celebrity tabloid show Ã¢ÂÂSkylark Tonight.Ã¢ÂÂ When they land an interview with a surprise fan, North Korean dictator Kim Jong-un, they are recruited by the CIA to turn their trip to Pyongyang into an assassination mission.",
 		"poster": "https://lh3.googleusercontent.com/o83QFBeNEXQ2ItxUDouOCUqvzGM37Zjg2_kT4Ae7P0o=w280-h400-no",
@@ -48,7 +48,7 @@
 	},
 	{
 		"id": 5, "title": "The Theory of Everything", "category": "Movie", "genres": "Biography | Drama | Romance",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
 		"poster": "https://lh3.googleusercontent.com/8-uXNALXKx53F9eIgXcNZ4cc591CJPDRnoW2hBqvXFw=w280-h400-no",
@@ -57,7 +57,7 @@
 	},
 	{
 		"id": 6, "title": "The Maze Runner", "category": "Movie", "genres": "Action | Mystery | Sci-Fi",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Thomas is deposited in a community of boys after his memory is erased, soon learning theyÃ¢ÂÂre all trapped in a maze that will require him to join forces with fellow Ã¢ÂÂrunnersÃ¢ÂÂ for a shot at escape.",
 		"poster": "https://lh3.googleusercontent.com/-zQIQh53iFcBpKtnXZQ2Q0rkJeQ8C2f_H1rkPxDmq-k=w280-h400-no",
@@ -66,7 +66,7 @@
 	},
 	{
 		"id": 7, "title": "Dawn of the Planet of the Apes", "category": "Movie", "genres": "Action | Drama | Sci-Fi",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Ten years after a pandemic disease, apes who have survived it are drawn into battle with a group of human survivors.",
 		"poster": "https://lh3.googleusercontent.com/B1KSo9JDBDeVGPKG8WfHxZC9JY67hSm6WtXBCw5s0EY=w280-h400-no",
@@ -75,7 +75,7 @@
 	},
 	{
 		"id": 8, "title": "Teenage Mutant Ninja Turtles", "category": "Movie", "genres": "Action | Adventure | Comedy",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "When a kingpin threatens New York City, a news reporter find a quad of mutants which makes an alliance to unravel ShredderÃ¢ÂÂs plan as the Teenage Mutant Ninja Turtles.",
 		"poster": "https://lh3.googleusercontent.com/SwqEe7SPDHh7Gl8a0sZIDQV0zCNZp9Erd8PV4sfS-tM=w280-h400-no",
@@ -84,7 +84,7 @@
 	},								
 	{
 		"id": 9, "title": "Project Almanac", "category": "Movie", "genres": "Sci-Fi | Thriller",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A group of teens discover secret plans of a time machine, and construct one. However, things start to get out of control.",
 		"poster": "https://lh3.googleusercontent.com/ZcBDA6HZ3wm-EKLsqh-lZsDfkYCcBYxwNk2kcJGV5E0=w280-h400-no",
@@ -93,7 +93,7 @@
 	},
 	{
 		"id": 10, "title": "Furious Seven", "category": "Movie", "genres": "Action | Crime | Thriller",
-		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
 		"poster": "https://lh3.googleusercontent.com/coBYKYimHUOdeXf-w4mSt32OmpWrM46F8Gja-ng45DY=w280-h400-no",
@@ -102,7 +102,7 @@
 	},
 	{
 		"id": 11, "title": "Mad Max:Fury Road", "category": "Movie", "genres": "Action | Adventure | Sci-Fi",
-		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "In a stark desert landscape where humanity is broken, two rebels just might be able to restore order: Max, a man of action and of few words, and Furiosa, a woman of action who is looking to make it back to her childhood homeland.",
 		"poster": "https://lh3.googleusercontent.com/elKD6kvCfIDTgtFxw6mAgOZ22ZcuMGh9ulG53tKXFgg=w280-h400-no",
@@ -112,7 +112,7 @@
 	},											       
 	{
 		"id": 12, "title": "John Wick", "category": "Movie", "genres": "Action | Thriller",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "An ex-hitman comes out of retirement to track down the gangsters that took everything from him.",
 		"poster": "https://lh3.googleusercontent.com/g1W33XPenHav8v5FwdeQMzuogYO8A7svUcS9ggv3RmQ=w280-h400-no",
@@ -121,48 +121,48 @@
 	},												    
 	{
 		"id": 13, "title": "Lupin III", "category": "Movie", "genres": "Action | Adventure | Comedy",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Interpol Inspector Zenigata begins a world-wide hunt for the infamous thief Arsene Lupin III.",
 		"poster": "https://lh3.googleusercontent.com/xTiYXcO27IltRrWxuoKl5Onz9N86ICkHZOlaHrMlDcc=w280-h400-no",
-		"image": "",
+		"image": "https://lh3.googleusercontent.com/avTGX7opeWBZxpn8TI_6z_uXRJ3N4yoo8kbNTaFiyuo=w700-h350-no",
 		"link": "http://198.7.59.78:8777/bwcegmj6gw4pcnokal3cbmg77bzhprmkirfmzxls2iammnjsat65sn3fha/v.mp4"
 	},											  
 	{
 		"id": 14, "title": "Divergent", "category": "Movie", "genres": "Action | Adventure | Romance",
-		"released": 2014, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "In a world divided by factions based on virtues, Tris learns she’s Divergent and won’t fit in. When she discovers a plot to destroy Divergents, Tris and the mysterious Four must find out what makes Divergents dangerous before it’s too late.",
 		"poster": "https://lh3.googleusercontent.com/-4G1_aZx0h2tYmgmHMvT3rBgFKd7CbH6rXLj7yoJvnc=w280-h400-no",
-		"image": "",
+		"image": "https://lh3.googleusercontent.com/fWZE4P_1b-0x6mVZh0nxsbdG4F5XUqEDZFW_9YjtucU=w700-h350-no",
 		"link": "https://lh3.googleusercontent.com/UMOcKBQQ2ESaBzqQ3fW1-FAztYVh0kKWL-J3T5Yz0UY6=m22"
 	},
 	{
 		"id": 15, "title": "Insurgent", "category": "Movie", "genres": "Adventure | Sci-Fi | Thriller",
-		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side.",
 		"poster": "https://lh3.googleusercontent.com/pc-I--KeraNv8pU0r19oOGyyh4jIpY6xGoV67tbT4A4=w280-h400-no",
-		"image": "",	
+		"image": "https://lh3.googleusercontent.com/R5TSEnTK3IHkb2B5n0SVJbGc3_sWaycruqhk4ffOInY=w700-h350-no",	
 		"link": "https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=49971b53908a0656&itag=22&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439402584&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=1663EABB3E5D1E8C8D87660587DF77F46AF4860A.A7E5A4D42A010A345E982CB5F57830F36747D2EF&key=ck2"
 													        
 	},
 	{
 		"id": 16, "title": "Max", "category": "Movie", "genres": "Action | Family",
-		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A dog that helped US Marines in Afghanistan returns to the U.S. and is adopted by his handler's family after suffering a traumatic experience.",
 		"poster": "https://lh3.googleusercontent.com/5UtH12WA95ZSHChivcyakm1fU45U1KjHA9NbHAPR12Q=w280-h400-no",
-		"image": "",
+		"image": "https://lh3.googleusercontent.com/5F3RtI2jwo95ZcBGoxbg9B1o-P3tHz6IPFbhtwp0d1I=w700-h350-no",
 		"link": "https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=b29f638115554256&itag=18&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439226666&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=B426BA9BEAB3AEE9D969DEE7BB207BD864FCCA8C.A1B8436E4641B159AEDE928094CC5BF40AC8638F&key=ck2"
 	},													
 	{
 		"id": 17, "title": "Jurassic World", "category": "Movie", "genres": "Action | Adventure | Sci-Fi",
-		"released": 2015, "producedBy": "", "directedBy": "", "Starring": "",
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A new theme park is built on the original site of Jurassic Park. Everything is going well until the park’s newest attraction–a genetically modified giant stealth killing machine–escapes containment and goes on a killing spree.",
 		"poster": "https://lh3.googleusercontent.com/Gt96xLZI8He4ixL_aA5110FnU-o4ik5Y7eSioUP9GkM=w280-h400-no",
-		"image": "",
+		"image": "https://lh3.googleusercontent.com/UDM0albP4CsHLvRES2QeeyWTO1RFX6hPAMl5DyWccdc=w700-h350-no",
 		"link": "https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=48f4f4142cf58f38&itag=22&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439130146&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=4999D617F58DEDD3EAB59B7F415F12156C2A0CBC.429E6F771323E1D9EF421BBEE6680221B59C27E3&key=ck2"
 
 
