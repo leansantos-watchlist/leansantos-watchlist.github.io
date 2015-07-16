@@ -1,5 +1,5 @@
 body{
-	background-color: #ffffff;
+	background-color: #E9EAED;
 }
 li{
 	list-style: none;
@@ -10,23 +10,25 @@ li{
 
 index.html*/
 .side-navbar{
-	
 	text-align: right;
 	padding-top:15px;
-	width: 180px;
+	width: 220px;
 	height: 100%;
 }
 .baseline-border{
-	padding:14px 0;
+	padding:14px 10px;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 }
 .side-navbar-fixed{
 	position: fixed;
-	left: 30px;
+	top: 0;
+	border-right: 1px solid #ddd;
+	
 }
 .navigation{
 	padding-top:15px;
+	padding-right:10px;
 }
 .navigation ul li{
 	padding-top:15px;
@@ -45,11 +47,13 @@ index.html*/
 
 @media screen and (max-width: 768px){
 	.side-navbar-fixed{position: static !important; width:100% !important;text-align: center}
-	.navigation ul{width: 300px;margin:0 auto !important;}
+	.navigation ul{width: 475px;margin:0 auto !important;}
 	.navigation ul{margin:0;padding:0;overflow: hidden;}
 	.navigation li{float: left; padding-left: 25px}
 	.navigation a{display: block;}
 	.partials{padding-left:0;}
+	.twitter{float: left;}
+	.facebook{float: right;}
 }
 
 
@@ -101,7 +105,7 @@ home.html*/
 .movie-section{
 	overflow: hidden;
 	padding-bottom: 15px;
-	padding-left: 5px;
+
 }
 .movie-section .movie-list .movie-item{
 	float: left;
@@ -113,7 +117,6 @@ home.html*/
 .series-section{
 	overflow: hidden;
 	padding-bottom: 15px;
-	padding-left: 5px;
 }
 .series-section .series-list .series-item{
 	float: left;

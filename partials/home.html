@@ -3,9 +3,9 @@
 <div class="col-md-9" >
 
 <!-- MOVIES Section ========================================================= -->
-<div class="movie-section">
-	<h2 ><a href="#/movies" style="color:#494949">Movies</a></h2>
-	<div class="movie-list"  style="border-top:1px dotted grey;padding-top:15px;overflow:hidden;">
+<div class="movie-section" style="border:1px solid #ddd;background:#ffffff;margin-top:5px">
+	<h2  style="margin-top:10px;padding-left:5px"><a href="#/movies" style="color:#494949">Movies</a></h2>
+	<div class="movie-list"  style="border-top:1px dotted grey;padding:0 5px;margin:0 5px;padding-top:15px;overflow:hidden;">
 		
 		<div ng-repeat="movie in movies | filter:search | orderBy:'-id' | limitTo:10 " class="movie-item video-item">
 			<div class="title">
@@ -14,16 +14,16 @@
 			<div class="year"><i>({{ movie.released }})</i></div>
 			<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><img ng-src="{{ movie.poster }}" title="{{ movie.title }} ({{ movie.released }})"></a>
 		</div>
-			
+		
 	</div><!-- end div movie-list class -->
-	<p style="text-align:right;"><a href="#/movies">more movies...</a></p>
+	<p style="text-align:right;padding-right:10px"><a href="#/movies">more movies...</a></p>	
 </div>
 <!-- END MOVIES Section ===================================================================== -->
 
 <!-- SERIES Section ========================================================================= -->
-<div class="series-section">
-	<h2><a href="#/tv-series" style="color:#494949">Tv Series</a></h2>
-	<div class="series-list"  style="border-top:1px dotted grey;padding-top:15px;">
+<div class="series-section" style="border:1px solid #ddd;background:#ffffff;margin-top:5px">
+	<h2 style="margin-top:10px;padding-left:5px"><a href="#/tv-series" style="color:#494949">Tv Series</a></h2>
+	<div class="series-list"  style="border-top:1px dotted grey;padding:0 5px;margin:0 5px;padding-top:15px;overflow:hidden;">
 
 		<div ng-repeat="series in tvseries | filter:search | orderBy:'-id' | limitTo:10 " class="series-item video-item">
 			<div class="title">
@@ -32,8 +32,9 @@
 			<div class="episode-title"><i>(S{{ series.season }}-E{{ series.episode }})</i><p>{{ series.episodeTitle }}</p></div>
 			<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}" title="{{ series.title+' - '+series.episodeTitle}}(S{{series.season+'-E'+series.episode}})"><img ng-src="{{ series.poster }}" alt=""></a>
 		</div>
+		
 	</div><!-- end div series-list class-->
-	<p style="text-align:right;"><a href="#/tv-series">more tv series...</a></p>
+	<p style="text-align:right;padding-right:10px"><a href="#/tv-series">more tv series...</a></p>
 </div>
 <!-- END SERIES Section =============================================================== -->
 <hr>
@@ -71,9 +72,9 @@
 
 
 
-<div class="col-md-3">
+<div class="col-md-3" style="padding:0">
 
-	<div style="margin-top:55px;padding:5px;border-radius:5px;border:1px solid #ccc;">
+	<div style="margin-top:3px;padding:5px;border-radius:5px;border:1px solid #ccc;background:#ffffff">
 		<p style="font-size:1.2em;">Recently fixed & Added Video</p>
 		<a href="#/movies/17/watch-Jurassic%20World">Jurassic World</a> -<i style="color:green;">fixed!</i> <br>
 		<a href="#/movies/15/watch-Insurgent">Insurgent</a> - <i style="color:green;">fixed!</i> <br>

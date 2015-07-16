@@ -25,13 +25,13 @@
 </head>
 <body ng-app="mymovieApp">
 
-<div style="background-color:#eee;text-align:right;padding-right:50px">
+<div style="background-color:#ffffff;text-align:right;padding-right:50px">
 	<a href="">about us</a> | <a href="">contact us</a>
 </div>
 
 <!-- Header RigthSide Fixed navbar -->
-<div class="side-navbar side-navbar-fixed">
-	<div><a href="#/"><h2>#WatchList</h2></a></div>
+<div class="side-navbar side-navbar-fixed" style="background:#ffffff">
+	<div style="padding-right:10px"><a href="#/"><h2>#WatchList</h2></a></div>
 
 	<div class="baseline-border">
 		<input type="text" class="form-control" ng-model="search" placeholder="Search here" style="text-align:center;">
@@ -42,10 +42,10 @@
 				<a href="{{nav.link}}">{{nav.nav}}</a>
 			</li>
 			<li>
-				<a href="" title="twitter">
+				<a class="twitter" href="" title="twitter">
 					<img width="38" height="38" src="https://cdn0.iconfinder.com/data/icons/getsoci-2/128/getsoci5.png" alt="twitter">
 				</a>
-				<a href="" title="facebook">
+				<a class="facebook" href="" title="facebook">
 					<img width="38" height="38" src="https://cdn0.iconfinder.com/data/icons/getsoci-2/128/getsoci1.png" alt="facebook">
 				</a>
 			</li>
@@ -63,7 +63,7 @@
 </div>
 <!-- End Partials content -->
 
-<div style="width:100%;overflow:hidden;text-align:right;padding-right:50px" >
+<div style="background:#ffffff;width:100%;overflow:hidden;text-align:right;padding-right:50px" >
 	<p>Copyright 2015 © watchlist.com </p>
 
 </div>
