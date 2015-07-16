@@ -10,7 +10,7 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 			};
                         
 			$scope.moviesPoster = function(id){
-				return $sce.trustAsResourceUrl($scope.movies[id].poster);
+				return $sce.trustAsResourceUrl($scope.movies[id].image);
 			};
 
 			$scope.moviesplayer = function(){
@@ -29,7 +29,7 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 			};
                         
             $scope.seriesPoster = function(id){
-				return $sce.trustAsResourceUrl($scope.tvseries[id].poster);
+				return $sce.trustAsResourceUrl($scope.tvseries[id].image);
 			};
 
 			$scope.seriesplayer = function(){

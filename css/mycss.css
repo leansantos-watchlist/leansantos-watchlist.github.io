@@ -10,6 +10,7 @@ li{
 
 index.html*/
 .side-navbar{
+	background:#ffffff;
 	text-align: right;
 	padding-top:15px;
 	width: 220px;
@@ -41,7 +42,7 @@ index.html*/
 
 /*partials content*/
 .partials{
-	padding-left:215px;
+	padding-left:210px;
 }
 /*END -- partials content======*/
 
@@ -103,9 +104,18 @@ home.html*/
 
 /*movie-section ===================*/
 .movie-section{
+	border:1px solid #ddd;
+	background:#ffffff;
+	margin-top:5px
 	overflow: hidden;
 	padding-bottom: 15px;
-
+}
+.movie-section .movie-list{
+	border-top:1px dotted grey;
+	padding:0 5px;
+	margin:0 5px;
+	padding-top:15px;
+	overflow:hidden;
 }
 .movie-section .movie-list .movie-item{
 	float: left;
@@ -115,8 +125,18 @@ home.html*/
 
 /*series-section ==================*/
 .series-section{
+	border:1px solid #ddd;
+	background:#ffffff;
+	margin-top:5px
 	overflow: hidden;
 	padding-bottom: 15px;
+}
+.series-section .series-list{
+	border-top:1px dotted grey;
+	padding:0 5px;
+	margin:0 5px;
+	padding-top:15px;
+	overflow:hidden;
 }
 .series-section .series-list .series-item{
 	float: left;
@@ -151,7 +171,7 @@ home.html*/
 	.video-item{max-width:122px;}
 	.home-page .title{max-height: 20px;font-size:14px;}
 	.home-page .recently-updated{margin-top:0 !important;}
-	.home-page .col-md-3{padding:0 15px !important;margin-top:0 !important;}
+	.home-page .col-md-3{padding-right:5px !important;padding-left:20px !important;}
 }
 
 /*END 
@@ -205,6 +225,7 @@ movie.html */
 	.movies-page .poster img{width: 120px;height: 160px;}
 	.movies-page .movie-item{max-height:160px;}
 	.movies-page .summary{height:132px;max-height:132px;font-size:12px;}
+	.movies-page .col-md-3{padding-right:5px !important;padding-left:20px !important;}
 }
 
 /*END 
@@ -218,6 +239,10 @@ watch-movie.html*/
 	border-bottom: 1px dotted #333;
 	margin-bottom:10px;
 	padding-top:20px;
+}
+@media screen and (max-width: 990px){
+	
+	.watch-movies-page .col-md-3{padding-right:5px !important;padding-left:20px !important;}
 }
 
 /*END
@@ -272,6 +297,7 @@ series.html */
 	.series-page .poster img{width: 120px;height: 160px;}
 	.series-page .series-item{max-height:160px;}
 	.series-page .summary{height:132px;max-height:132px;font-size:12px;}
+	.series-page .col-md-3{padding-right:5px !important;padding-left:20px !important;}
 }
 
 /*Partials Watch Series page
