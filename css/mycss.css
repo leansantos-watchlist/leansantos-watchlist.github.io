@@ -53,8 +53,8 @@ index.html*/
 	.navigation li{float: left; padding-left: 25px}
 	.navigation a{display: block;}
 	.partials{padding-left:0;}
-	.twitter{float: left;}
-	.facebook{float: right;}
+	.twitter-icon{float: left;}
+	.facebook-icon{float: right;}
 }
 
 
@@ -240,7 +240,9 @@ watch-movie.html*/
 	margin-bottom:10px;
 }
 @media screen and (max-width: 990px){
-	
+	.watch-movies-page .related-title{width:170px !important}
+	.watch-movies-page .related-movies{margin-bottom: 5px}
+	.watch-movies-page .related-movies img{width:170px;height:110px;}
 	.watch-movies-page .col-md-3{padding-right:5px !important;padding-left:20px !important;}
 }
 
@@ -290,6 +292,28 @@ series.html */
 	box-shadow: 0 8px 10px #777;
 	background:#ffffff;
 	animation:pulse 2s;
+}
+
+.facebook-icon{
+	animation:fadeInRight 2s;
+}
+.twitter-icon{
+	animation:fadeInRight 3s;
+}
+.trailer-icon{
+	animation:fadeInRight 2s;
+}
+.facebook-icon:hover{
+	animation:flip 1s;
+	text-decoration: none;
+}
+.twitter-icon:hover{
+	animation:flip 1s;
+	text-decoration: none;
+}
+.trailer-icon:hover{
+	animation:flip 1s;
+	text-decoration: none;
 }
 
 @media screen and (max-width: 990px){

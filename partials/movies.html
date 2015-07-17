@@ -15,13 +15,13 @@
 
 			<div class="movie-item" dir-paginate="movie in movies |  filter:search | orderBy:'-id' | itemsPerPage: 10 ">
 				<div class="poster">
-					<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><img ng-src="{{ movie.poster }}" alt=""></a>		
+					<a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}"><img ng-src="{{ movie.poster }}" alt=""></a>		
 				</div>
 				<div class="title">
-					<a href="#/movies/{{movie.id}}/watch-{{ movie.title }}"><b>{{ movie.title }}</b> - <i>({{ movie.released }})</i></a>
+					<a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}"><b>{{ movie.title }}</b> - <i>({{ movie.released }})</i></a>
 				</div>
 				<div class="genre">
-					<i>{{ movie.genres }}</i>
+					<i>{{ movie.genres[0].genre+movie.genres[1].genre+movie.genres[2].genre }}</i>
 				</div>
 				<div class="summary">
 					<p>{{ movie.summary }}</p>
@@ -58,18 +58,17 @@
 
 
 
-<div class="col-md-3" style="padding:0;">
-	<div style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
+
+<div class="col-md-3" style="padding:0;" >
+	<div ng-controller="NavigationController" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
 		<div class="recently-updated" style="margin:5px 0;padding:5px;border-radius:5px;border:1px solid #ccc;background:#ffffff">
-			<p style="font-size:1.2em;">Recently fixed & Added Video</p>
-			<a href="#/movies/17/watch-Jurassic%20World">Jurassic World</a> -<i style="color:green;">fixed!</i> <br>
-			<a href="#/movies/15/watch-Insurgent">Insurgent</a> - <i style="color:green;">fixed!</i> <br>
-			<a href="#/movies/13/watch-Lupin%20III">Lupin III</a> - <i style="color:green;">fixed!</i> <br>
-			<a href="#/tv-series/6/watch-The%20Flash_S01-E07">The Flash S01-E07</a> - <i style="color:green;">fixed!</i> <br>
-			<a href="#/movies/7/watch-Dawn%20of%20the%20Planet%20of%20the%20Apes">Dawn of the Planet Apes</a> - <i style="color:green;">fixed!</i> 
-
-
-			<p style="text-align:right;padding-top:20px"><a href="">click here to report videos</a></p>
+			<p style="font-size:1.2em;font-weight:700">Recently fixed & Added Video</p>
+			<ul style="padding-left:0;">
+				<li ng-repeat="update in recentlyUpdate.updatedVideos">
+					<a href="{{update.link}}">{{update.title}}</a> -<i style="color:green">{{update.update}}!</i>
+				</li>
+			</ul>
+			<p style="text-align:right;padding-top:5px"><a href="">report broken video here</a></p>
 		</div>	
 	</div>
 </div><!-- End col-md-3 Class  -->
