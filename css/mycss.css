@@ -295,24 +295,31 @@ series.html */
 }
 
 .facebook-icon{
-	animation:fadeInRight 2s;
+	-moz-animation:fadeInRight 2s;
+	-webkit-animation:fadeInRight 2s;
 }
 .twitter-icon{
-	animation:fadeInRight 3s;
+	-moz-animation:fadeInRight 3s;
+	-webkit-animation:fadeInRight 3s;
 }
 .trailer-icon{
-	animation:fadeInRight 2s;
+	-moz-animation:fadeInRight 2s;
+	-webkit-animation:fadeInRight 2s;
+}
 }
 .facebook-icon:hover{
-	animation:flip 1s;
+	-moz-animation:flip 1s;
+	-webkit-animation:flip 1s;
 	text-decoration: none;
 }
 .twitter-icon:hover{
-	animation:flip 1s;
+	-moz-animation:flip 1s;
+	-webkit-animation:flip 1s;
 	text-decoration: none;
 }
 .trailer-icon:hover{
-	animation:flip 1s;
+	-moz-animation:flip 1s;
+	-webkit-animation:flip 1s;
 	text-decoration: none;
 }
 
