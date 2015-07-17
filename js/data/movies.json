@@ -2,7 +2,7 @@
 
 "movies": [
 	{
-		"id": 0, "title": "Kingsman: The Secret Service", "category": "Movie", "genres": "Action | Adventure | Comedy",
+		"id": 0, "titleUrl": "Kingsman", "title": "Kingsman: The Secret Service", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Comedy"},{"genre":" | Adventure"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A spy organization recruits an unrefined, but promising street kid into the agencyÃ¢ÂÂs ultra-competitive training program, just as a global threat emerges from a twisted tech genius.",
@@ -11,16 +11,17 @@
 		"link": "https://lh3.googleusercontent.com/Bb81Ugysw7B5afAfmCK2o0SbMNN-ZJFJ4wZAm24D8qU=m18"
 	},
 	{
-		"id": 1, "title": "Focus", "category": "Movie", "genres": "Comedy | Crime | Drama",
+		"id": 1, "titleUrl": "Focus", "title": "Focus", "category": "Movie", "genres": [{"genre":"Comedy | "},{"genre":"Crime"},{"genre":" | Drama"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Nicky Spurgeon is an extremely accomplished con man who takes an amateur con artist, Jess, under his wing. Nicky and Jess become romantically involved, and with NickyÃ¢ÂÂs profession of being a liar and a cheater for a living, he realizes that deception and love are things that donÃ¢ÂÂt go together. They split, only to see each other three years laterÃ¢ÂÂ¦ And things get messy.",
 		"poster": "https://lh3.googleusercontent.com/6w9DzrFJvHofRx9w49j3NIbj9A5FEwb9mqagPXf54ZU=w280-h400-no",
 		"image": "",
-		"link": "https://lh3.googleusercontent.com/M2MLjAUVYnNhJ_lUO0rV7_WyOANc9c8X9CoPJlUuRh8=m18"
+		"link": "https://lh3.googleusercontent.com/M2MLjAUVYnNhJ_lUO0rV7_WyOANc9c8X9CoPJlUuRh8=m18",
+		"link": "http://fsd1.vodlocker.com:8777/lkceannze24pcnokakvspym6xdi3feodxsrvlx34jsixxbzrgosqgudlpu/v.mp4"
 	},
 	{
-		"id": 2, "title": "Night at the Museum: Secret of the Tomb", "category": "Movie", "genres": "Adventure | Comedy | Family",
+		"id": 2, "titleUrl": "Night_at_the_Museum:Secret_of_the_Tomb", "title": "Night at the Museum:Secret of the Tomb", "category": "Movie", "genres":[{"genre":"Adventure | "},{"genre":"Comedy"},{"genre":" | Family"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Larry spans the globe, uniting favorite and new characters while embarking on an epic quest to save the magic before it is gone forever.",
@@ -29,7 +30,7 @@
 		"link": "http://fsd3.vodlocker.com:8777/osceatpxg64pcnokalucbmg3wpluyrbaur7gjtonophlorfl3g3pfycttq/v.mp4"
 	},
 	{
-		"id": 3, "title": "Interstellar", "category": "Movie", "genres": "Adventure | Sci-Fi",
+		"id": 3, "titleUrl": "Interstellar", "title": "Interstellar", "category": "Movie", "genres": [{"genre":"Adventure | "},{"genre":"Sci-Fi"},{"genre":""}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A group of explorers make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
@@ -38,7 +39,7 @@
 		"link": "https://lh3.googleusercontent.com/8zswiuhEf63vFboB1PAqjuPz7Ir5gM7Ir-pOeG-pclI=m18"
 	},
 	{
-		"id": 4, "title": "The Interview", "category": "Movie", "genres": "Action | Comedy",
+		"id": 4, "titleUrl": "The_Interview", "title": "The Interview", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Comedy"},{"genre":""}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Dave Skylark and producer Aaron Rapoport run the celebrity tabloid show Ã¢ÂÂSkylark Tonight.Ã¢ÂÂ When they land an interview with a surprise fan, North Korean dictator Kim Jong-un, they are recruited by the CIA to turn their trip to Pyongyang into an assassination mission.",
@@ -47,7 +48,7 @@
 		"link": "https://lh3.googleusercontent.com/fJQBa3kkNN0lOxA3rA6plJB3EZ1PV1Ov2pKbDPnv5Jk=m18"
 	},
 	{
-		"id": 5, "title": "The Theory of Everything", "category": "Movie", "genres": "Biography | Drama | Romance",
+		"id": 5, "titleUrl": "The_Theory_of_Everything", "title": "The Theory of Everything", "category": "Movie", "genres": [{"genre":"Drama | "},{"genre":"Biography"},{"genre":" | Romance"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
@@ -56,7 +57,7 @@
 		"link": "https://lh3.googleusercontent.com/aFFTNhEfezcLvRMxO9i0BPG040T-IT0nhFdFIEX2CDP-=m22"
 	},
 	{
-		"id": 6, "title": "The Maze Runner", "category": "Movie", "genres": "Action | Mystery | Sci-Fi",
+		"id": 6, "titleUrl": "The_Maze_Runner", "title": "The Maze Runner", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Mystery"},{"genre":" | Sci-Fi"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Thomas is deposited in a community of boys after his memory is erased, soon learning theyÃ¢ÂÂre all trapped in a maze that will require him to join forces with fellow Ã¢ÂÂrunnersÃ¢ÂÂ for a shot at escape.",
@@ -65,7 +66,7 @@
 		"link": "https://lh3.googleusercontent.com/l3OFvt_KQ3_EWIv-oiMlu1iq8oLvqAAN1tdbLRY4MkUV=m18"
 	},
 	{
-		"id": 7, "title": "Dawn of the Planet of the Apes", "category": "Movie", "genres": "Action | Drama | Sci-Fi",
+		"id": 7, "titleUrl": "Dawn_of_the_Planet_of_the_Apes", "title": "Dawn of the Planet of the Apes", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Drama"},{"genre":" | Sci-Fi"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Ten years after a pandemic disease, apes who have survived it are drawn into battle with a group of human survivors.",
@@ -74,7 +75,7 @@
 		"link": "https://lh3.googleusercontent.com/cMaa23pV-HPDc0_jwc4L8H8O2GGanplGD8Rsjq8Smg-_=m18"
 	},
 	{
-		"id": 8, "title": "Teenage Mutant Ninja Turtles", "category": "Movie", "genres": "Action | Adventure | Comedy",
+		"id": 8, "titleUrl": "Teenage_Mutant_Ninja_Turtles", "title": "Teenage Mutant Ninja Turtles", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Comedy"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "When a kingpin threatens New York City, a news reporter find a quad of mutants which makes an alliance to unravel ShredderÃ¢ÂÂs plan as the Teenage Mutant Ninja Turtles.",
@@ -83,7 +84,7 @@
 		"link": "http://50.7.100.74:8777/gkceabj5i24pcnokalhsdze5w2sen75xtkyk4mss7nwsnw7lgxs2q7fh24/v.mp4"
 	},								
 	{
-		"id": 9, "title": "Project Almanac", "category": "Movie", "genres": "Sci-Fi | Thriller",
+		"id": 9, "titleUrl": "Project_Almanac", "title": "Project Almanac", "category": "Movie", "genres": [{"genre":"Sci-Fi | "},{"genre":"Thriller"},{"genre":""}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A group of teens discover secret plans of a time machine, and construct one. However, things start to get out of control.",
@@ -92,7 +93,7 @@
 		"link": "https://lh3.googleusercontent.com/4kklWj_o4sZoN2KmSKmUF3WbYz2WZVDDAAv77WxGRs8=m18"
 	},
 	{
-		"id": 10, "title": "Furious Seven", "category": "Movie", "genres": "Action | Crime | Thriller",
+		"id": 10, "titleUrl": "Furious_Seven", "title": "Furious Seven", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Crime"},{"genre":" | Thriller"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
@@ -101,7 +102,7 @@
 		"link": "https://lh3.googleusercontent.com/QUANNGYYoBb7t1uEUsNYuoNA3Bwv0tD5vS1gXIA7Vg=m18"
 	},
 	{
-		"id": 11, "title": "Mad Max:Fury Road", "category": "Movie", "genres": "Action | Adventure | Sci-Fi",
+		"id": 11, "titleUrl": "Mad_Max:Fury_Road", "title": "Mad Max:Fury Road", "category": "Movie", "genres": [{"genre":"Adventure | "},{"genre":"Sci-Fi"},{"genre":" | Action"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "In a stark desert landscape where humanity is broken, two rebels just might be able to restore order: Max, a man of action and of few words, and Furiosa, a woman of action who is looking to make it back to her childhood homeland.",
@@ -111,7 +112,7 @@
 		
 	},											       
 	{
-		"id": 12, "title": "John Wick", "category": "Movie", "genres": "Action | Thriller",
+		"id": 12, "titleUrl": "John_Wick", "title": "John Wick", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Thriller"},{"genre":""}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "An ex-hitman comes out of retirement to track down the gangsters that took everything from him.",
@@ -120,7 +121,7 @@
 		"link": "http://fsd3.vodlocker.com:8777/osceapnphc4pcnokajbsb26p6ld3a3wrb7a32tzzbqhhh374vbgixagxbq/v.mp4"
 	},												    
 	{
-		"id": 13, "title": "Lupin III", "category": "Movie", "genres": "Action | Adventure | Comedy",
+		"id": 13, "titleUrl": "Lupin_III", "title": "Lupin III", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Comedy"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Interpol Inspector Zenigata begins a world-wide hunt for the infamous thief Arsene Lupin III.",
@@ -129,7 +130,7 @@
 		"link": "http://198.7.59.78:8777/bwcegmj6gw4pcnokal3cbmg77bzhprmkirfmzxls2iammnjsat65sn3fha/v.mp4"
 	},											  
 	{
-		"id": 14, "title": "Divergent", "category": "Movie", "genres": "Action | Adventure | Romance",
+		"id": 14, "titleUrl": "Divergent", "title": "Divergent", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Romance"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "In a world divided by factions based on virtues, Tris learns she’s Divergent and won’t fit in. When she discovers a plot to destroy Divergents, Tris and the mysterious Four must find out what makes Divergents dangerous before it’s too late.",
@@ -138,7 +139,7 @@
 		"link": "https://lh3.googleusercontent.com/UMOcKBQQ2ESaBzqQ3fW1-FAztYVh0kKWL-J3T5Yz0UY6=m22"
 	},
 	{
-		"id": 15, "title": "Insurgent", "category": "Movie", "genres": "Adventure | Sci-Fi | Thriller",
+		"id": 15, "titleUrl": "Insurgent", "title": "Insurgent", "category": "Movie", "genres": [{"genre":"Adventure | "},{"genre":"Sci-Fi"},{"genre":" | Thriller"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side.",
@@ -148,7 +149,7 @@
 													        
 	},
 	{
-		"id": 16, "title": "Max", "category": "Movie", "genres": "Action | Family",
+		"id": 16, "titleUrl": "Max", "title": "Max", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Family"},{"genre":""}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A dog that helped US Marines in Afghanistan returns to the U.S. and is adopted by his handler's family after suffering a traumatic experience.",
@@ -157,7 +158,7 @@
 		"link": "https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=b29f638115554256&itag=18&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439226666&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=B426BA9BEAB3AEE9D969DEE7BB207BD864FCCA8C.A1B8436E4641B159AEDE928094CC5BF40AC8638F&key=ck2"
 	},													
 	{
-		"id": 17, "title": "Jurassic World", "category": "Movie", "genres": "Action | Adventure | Sci-Fi",
+		"id": 17, "titleUrl": "Jurassic_World", "title": "Jurassic World", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Sci-Fi"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "",
 		"summary": "A new theme park is built on the original site of Jurassic Park. Everything is going well until the park’s newest attraction–a genetically modified giant stealth killing machine–escapes containment and goes on a killing spree.",
