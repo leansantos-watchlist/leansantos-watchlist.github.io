@@ -1,0 +1,88 @@
+<div class="series-page" style="min-height: 690px">
+	
+
+
+
+<div class="col-md-9" style="padding-right:5px;padding-left:20px">
+
+	<div class="series-list" style="border:1px solid #ddd;background:#ffffff;">
+		<div style="padding-left:10px">
+			
+
+			<!-- Movie info. -->
+			<div class="movie-summary" style="overflow:hidden;margin-top:5px;height:282px;">
+				<img style="float:left" width="180" height="280" ng-src="{{seriesList[getparamId].poster}}" alt="">
+				<div style="float:right">
+					<a class="trailer-icon" href="">watch<img src="https://cdn3.iconfinder.com/data/icons/sphericalcons/32/tv.png" alt="">trailer</a>
+				</div>
+				<ul style="background:#ffffff;overflow:hidden;padding-left:5px;">
+					<li><b>Genre:</b> {{seriesList[getparamId].genres[0].genre+seriesList[getparamId].genres[1].genre+seriesList[getparamId].genres[2].genre}}</li>
+					<li><b>Year:</b> {{seriesList[getparamId].released}}</li>
+					<li><b>Directed By:</b> {{seriesList[getparamId].directedBy}}</li>
+					<li><b>Starring:</b> {{seriesList[getparamId].starring}}</li>
+				</ul>
+				<div style="overflow:hidden;padding-left:5px;height:169px">
+					<div style="border:1px solid #ccc;border-radius:5px;height:100%;text-indent:25px;padding:5px;font-size:.9em">
+						{{seriesList[getparamId].summary}}
+					</div>
+				</div>
+			</div><!-- END Movie info. movie-summary class-->
+			
+		<h2 style="margin-top:10px;">{{seriesList[getparamId].title}}</h2>
+
+	
+	<div ng-repeat="season in seriesSeason(getparamId)">
+		Season {{season.season}}
+			<ul class="episode">
+				<li ng-repeat="episode in seriesEpisode(getparamId,season.id)">
+					<a href="#/tv-series/{{getparamId}}/{{getparamTitle}}/S{{season.season}}-E{{episode.episode}}/{{episode.episodetitleUrl}}">
+						Episode {{episode.episode}}
+					</a>
+				</li>
+			</ul>
+			
+	</div>
+
+
+		
+
+
+
+
+
+
+
+
+
+
+			
+		</div>
+	</div><!-- end div series-list class -->
+	
+	
+
+
+
+
+</div><!-- end div col-md-9 class -->
+
+
+
+
+<div class="col-md-3" style="padding:0;" >
+	<div ng-controller="NavigationController" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
+		<div class="recently-updated" style="margin:5px 0;padding:5px;border-radius:5px;border:1px solid #ccc;background:#ffffff">
+			<p style="font-size:1.2em;font-weight:700">Recently fixed & Added Video</p>
+			<ul style="padding-left:0;">
+				<li ng-repeat="update in recentlyUpdate.updatedVideos">
+					<a href="{{update.link}}">{{update.title}}</a> -<i style="color:green">{{update.update}}!</i>
+				</li>
+			</ul>
+			<p style="text-align:right;padding-top:5px"><a href="">report broken video here</a></p>
+		</div>	
+	</div>
+</div><!-- End col-md-3 Class  -->
+
+
+</div>
+

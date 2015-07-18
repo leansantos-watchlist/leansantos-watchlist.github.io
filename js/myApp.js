@@ -1,7 +1,16 @@
+
+// for localhost
+// var app = angular.module('mymovieApp', ['ngRoute', 'angularUtils.directives.dirPagination'])
+// var moviesdata = "js/data/movies.json"; 
+// var seriesdata = "js/data/series.json";
+// var tvseriesdata = "js/data/tvseries.json";
+
 var app = angular.module('mymovieApp', ['ngRoute', 'ngAnimate', 'angularUtils.directives.dirPagination'])
 
 var moviesdata = "http://leansantos-watchlist.github.io/js/data/movies.json"; 
 var seriesdata = "http://leansantos-watchlist.github.io/js/data/series.json";
+var tvseriesdata = "http://leansantos-watchlist.github.io/js/data/tvseries.json";
+
 
 app.config(['$routeProvider', function($routeProvider){
 
@@ -11,7 +20,7 @@ app.config(['$routeProvider', function($routeProvider){
 			controller: 'HomeController'
 		})
 		.when('/movies', {
-			templateUrl: 'partials/movies.html',
+			templateUrl: 'partials/movielist.html',
 			controller: 'MoviesController'
 		})
 		.when('/movies/:id/watch-:title', {
@@ -21,10 +30,14 @@ app.config(['$routeProvider', function($routeProvider){
 
 
 		.when('/tv-series', {
-			templateUrl: 'partials/series.html',
+			templateUrl: 'partials/serieslist.html',
 			controller: 'SeriesController'
 		})
-		.when('/tv-series/:id/watch-:title_S:season-E:episode', {
+		.when('/tv-series/:id/:title', {
+			templateUrl: 'partials/tvseries.html',
+			controller: 'SeriesController'
+		})
+		.when('/tv-series/:id/watch-:title', {
 			templateUrl: 'partials/watch-series.html',
 			controller: 'WatchController'
 		})

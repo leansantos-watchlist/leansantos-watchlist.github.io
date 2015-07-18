@@ -180,7 +180,7 @@ Partial Homepage =================================*/
 
 /* Partial Movie list page ================
 
-movie.html */
+movielist.html */
 .movies-page .poster{
 	float:left;
 }
@@ -253,7 +253,7 @@ Partisl Watch Movies page ========================*/
 
 /*Partial Tv Series list page =====================
 
-series.html */
+serieslist.html */
 .series-page .poster{
 	float:left;
 }

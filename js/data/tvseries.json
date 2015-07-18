@@ -1,0 +1,298 @@
+{
+
+"tvseries": [
+	{	"id": 0, "title": "The Flash", "titleUrl": "The_Flash", "released": "2015", "genres": [{"genre":"Adventure | "},{"genre":"Comics"},{"genre":" | Action"}], "poster": "https://lh3.googleusercontent.com/WD8rGg8bdwXlPGZoalkmCyKEb22BuW4HODN-_E6gw5M=w280-h400-no", 
+		"season":[
+			{	"id":0, "season":"01",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Flash S01-E01",
+						"episodetitleUrl":"Flash_S01-E01",
+						"image":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Flash S01-E02",
+						"episodetitleUrl":"Flash_S01-E02",
+						"image":"",
+						"source":""
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"Flash S01-E03",
+						"episodetitleUrl":"Flash_S01-E03",
+						"image":"",
+						"source":""
+					}
+						  ]
+			}
+
+				 ]
+	},
+
+	{	"id": 1, "title": "Arrow", "titleUrl": "Arrow", "released": "2015", "genres": [{"genre":"Adventure | "},{"genre":"Comics"},{"genre":" | Action"}], "poster": "https://lh3.googleusercontent.com/WD8rGg8bdwXlPGZoalkmCyKEb22BuW4HODN-_E6gw5M=w280-h400-no", 
+		"season":[
+			{	"id":0, "season":"01",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Arrow S01-E01",
+						"episodetitleUrl":"Arrow_S01-E01",
+						"image":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Arrow S01-E02",
+						"episodetitleUrl":"Arrow_S01-E02",
+						"image":"",
+						"source":""
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"Arrow S01-E03",
+						"episodetitleUrl":"Arrow_S01-E02",
+						"image":"",
+						"source":""
+					}
+						  ]
+			},			
+			{	"id":1, "season":"02",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Arrow S02-E01",
+						"episodetitleUrl":"Arrow_S02-E01",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Arrow S02-E02",
+						"episodetitleUrl":"Arrow_S02-E02",
+						"poster":"",
+						"source":""
+					}
+						  ]
+			}
+
+				 ]
+	},
+
+	{	"id": 2, "title": "Breaking Bad", "titleUrl": "Breaking_Bad", "released": "2002", "genres": [{"genre":"Drama | "},{"genre":"Crime"},{"genre":" | Action"}], "poster": "https://lh3.googleusercontent.com/WD8rGg8bdwXlPGZoalkmCyKEb22BuW4HODN-_E6gw5M=w280-h400-no", 
+		"season":[
+			{	"id":0, "season":"01",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Breaking Bad S01-E01",
+						"episodetitleUrl":"Breaking Bad S01-E01",
+						"image":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Breaking Bad S01-E02",
+						"episodetitleUrl":"",
+						"image":"",
+						"source":""
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"Breaking Bad S01-E03",
+						"episodetitleUrl":"",
+						"image":"",
+						"source":""
+					}
+						  ]
+			},			
+			{	"id":1, "season":"02",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Breaking Bad S02-E01",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Breaking Bad S02-E02",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					}
+						  ]
+			},
+			{	"id":2, "season":"03",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Breaking Bad S03-E01",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Breaking Bad S03-E02",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					}
+						  ]
+			},
+			{	"id":3, "season":"04",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Breaking Bad S04-E01",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Breaking Bad S04-E02",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"Breaking Bad S04-E03",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":3,
+						"episode":"04",
+						"episodetitle":"Breaking Bad S04-E04",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":4,
+						"episode":"05",
+						"episodetitle":"Breaking Bad S04-E05",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":5,
+						"episode":"06",
+						"episodetitle":"Breaking Bad S04-E06",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":6,
+						"episode":"07",
+						"episodetitle":"Breaking Bad S04-E07",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":7,
+						"episode":"08",
+						"episodetitle":"Breaking Bad S04-E08",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":8,
+						"episode":"09",
+						"episodetitle":"Breaking Bad S04-E09",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":9,
+						"episode":"10",
+						"episodetitle":"Breaking Bad S04-E10",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					}
+						  ]
+			},
+			{	"id":4, "season":"05",
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Breaking Bad  S05-E01",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Breaking Bad  S05-E02",
+						"episodetitleUrl":"",
+						"poster":"",
+						"source":""
+					}
+						  ]
+			}
+
+
+
+
+				 ]
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			]
+}

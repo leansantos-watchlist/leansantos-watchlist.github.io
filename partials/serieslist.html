@@ -1,0 +1,93 @@
+<div class="series-page" style="min-height: 690px">
+	
+
+
+
+<div class="col-md-9" style="padding-right:5px;padding-left:20px">
+
+	<div class="series-list" style="border:1px solid #ddd;background:#ffffff;">
+		<div style="padding-left:10px">
+			<h2 style="margin-top:10px;">Tv Series List</h2>
+			<dir-pagination-controls
+			    [max-size="5"]
+			    [direction-links="true"]
+			    [boundary-links="true"]>
+		    </dir-pagination-controls>
+
+
+
+			<div class="series-item" dir-paginate="series in seriesList | filter:search | orderBy:'-id' | itemsPerPage: 10">
+				<div class="poster">
+					<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})">
+						<img ng-src="{{ series.poster }}" alt="{{ series.title }} ({{ series.released }})">
+					</a>		
+				</div>
+				<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})">
+					<div class="title">
+						<b>{{ series.title }}</b> <i>({{series.released}})</i>
+					</div>
+					<div class="episode-title">
+						<i><b>{{ series.genres[0].genre+series.genres[1].genre+series.genres[2].genre }}</b></i>
+					</div>
+				</a>	
+				<div class="summary">
+					<p>{{ series.summary }}</p>
+				</div>
+			</div>
+
+
+
+
+
+			<!-- <div class="series-item" dir-paginate="series in tvseries | filter:search | orderBy:'-id' | itemsPerPage: 10">
+				<div class="poster">
+					<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}"><img ng-src="{{ series.poster }}" alt=""></a>		
+				</div>
+				<a href="#/tv-series/{{ series.id }}/watch-{{ series.title }}_S{{ series.season }}-E{{ series.episode }}">
+					<div class="title">
+						<b>{{ series.title }}</b>  <i>(S{{ series.season }} - E{{ series.episode }})</i>
+					</div>
+					<div class="episode-title">
+						<i><b>{{ series.episodeTitle }}</b></i>
+					</div>
+				</a>	
+				<div class="summary">
+					<p>{{ series.summary }}</p>
+				</div>
+			</div> --><!-- end div series-item class -->
+
+			<dir-pagination-controls
+			    [max-size="5"]
+			    [direction-links="true"]
+			    [boundary-links="true"]>
+		    </dir-pagination-controls>		
+		</div>
+	</div><!-- end div series-list class -->
+	
+	
+
+
+
+
+</div><!-- end div col-md-9 class -->
+
+
+
+
+<div class="col-md-3" style="padding:0;" >
+	<div ng-controller="NavigationController" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
+		<div class="recently-updated" style="margin:5px 0;padding:5px;border-radius:5px;border:1px solid #ccc;background:#ffffff">
+			<p style="font-size:1.2em;font-weight:700">Recently fixed & Added Video</p>
+			<ul style="padding-left:0;">
+				<li ng-repeat="update in recentlyUpdate.updatedVideos">
+					<a href="{{update.link}}">{{update.title}}</a> -<i style="color:green">{{update.update}}!</i>
+				</li>
+			</ul>
+			<p style="text-align:right;padding-top:5px"><a href="">report broken video here</a></p>
+		</div>	
+	</div>
+</div><!-- End col-md-3 Class  -->
+
+
+</div>
+

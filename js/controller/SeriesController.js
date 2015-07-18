@@ -1,26 +1,27 @@
-app.controller('SeriesController', ['$scope', '$http', function($scope, $http){
+app.controller('SeriesController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams){
 	$http.get(seriesdata)
 		.success(function(response){
 			$scope.tvseries = response.series;
 			
 		});
 
-
-	// $http.get(tvseriesdata)
-	// 	.success(function(response){
-	// 		$scope.testing = response.tvseries;
-	// 		$scope.season = response.tvseries[0].season;
-	// 		$scope.episode = response.tvseries[0].season[1].episode;
-
-	// 		$scope.seasonid = "";
-	// 		console.log(response.tvseries[0].season)
+// ALL Searies
+	$http.get(tvseriesdata)
+		.success(function(response){
+			$scope.seriesList = response.tvseries;
 			
 
-	// 		$scope.tvseries = function(id){
-	// 			return response.tvseries[id].id;
-	// 		};
-	// 		$scope.season = function(id){
-	// 			return response.tvseries[id].id;
-	// 		}
-	// 	});
+
+			$scope.seriesSeason = function(seriesId){
+				return response.tvseries[seriesId].season;
+			}
+
+			$scope.seriesEpisode = function(seriesId,seasonId){
+				return response.tvseries[seriesId].season[seasonId].episode;
+			} 
+			
+		});
+
+	$scope.getparamTitle = $routeParams.title;
+	$scope.getparamId = $routeParams.id;
 }])

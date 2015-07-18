@@ -19,20 +19,22 @@
 
  <!-- <div class="video-player" seriesplayer ></div> -->
 
-</div>
+</div><!-- End col-md-9 class -->
 
-<div class="col-md-3">
-	<div style="margin-top:55px;padding:5px;background:#eee">
-		<p style="font-size:1.2em;">Recently fixed & Added Video</p>
-		<a href="">Jurassic World</a> -<i style="color:green;">fixed!</i> <br>
-		<a href="">Insurgent</a> - <i style="color:green;">fixed!</i> <br>
-		<a href="">Lupin III</a> - <i style="color:green;">fixed!</i> 
 
-		<p style="text-align:right;padding-top:20px"><a href="">click here to report videos</a></p>
+<div class="col-md-3" style="padding:0;" >
+	<div ng-controller="NavigationController" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
+		<div class="recently-updated" style="margin:5px 0;padding:5px;border-radius:5px;border:1px solid #ccc;background:#ffffff">
+			<p style="font-size:1.2em;font-weight:700">Recently fixed & Added Video</p>
+			<ul style="padding-left:0;">
+				<li ng-repeat="update in recentlyUpdate.updatedVideos">
+					<a href="{{update.link}}">{{update.title}}</a> -<i style="color:green">{{update.update}}!</i>
+				</li>
+			</ul>
+			<p style="text-align:right;padding-top:5px"><a href="">report broken video here</a></p>
+		</div>	
 	</div>
-	
-	
-</div>
+</div><!-- End col-md-3 Class  -->
 
 
 </div>
