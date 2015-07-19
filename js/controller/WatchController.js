@@ -13,10 +13,18 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 				return $sce.trustAsResourceUrl($scope.movies[id].image);
 			};
 
-			$scope.moviesplayer = function(){
-				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=moviesLink("+$scope.getparamId +")&poster=" +$scope.moviesPoster($scope.getparamId));
+			// $scope.moviesplayer = function(){
+			// 	return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=moviesLink("+$scope.getparamId +")&poster=" +$scope.moviesPoster($scope.getparamId));
+			// };
+			$scope.moviesplayer1 = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=moviesSource1("+$scope.getparamId +")&poster=" +$scope.moviesPoster($scope.getparamId));
 			};
-
+			$scope.moviesplayer2 = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=moviesSource2("+$scope.getparamId +")&poster=" +$scope.moviesPoster($scope.getparamId));
+			};
+			$scope.moviesplayer3 = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=moviesSource3("+$scope.getparamId +")&poster=" +$scope.moviesPoster($scope.getparamId));
+			};
 		
 		});
 	$http.get(seriesdata)
