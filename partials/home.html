@@ -22,11 +22,11 @@
 <div class="series-section">
 	<h2 style="margin-top:10px;padding-left:5px"><a href="#/tv-series" style="color:#494949">Tv Series</a></h2>
 	<div class="series-list">
-		<div ng-repeat="series in seriesList | filter:search | orderBy:'-id' | limitTo:10 " class="series-item video-item">
+		<div ng-repeat="series in tvseriesList.allseries | filter:search | orderBy:'-id' | limitTo:10 " class="series-item video-item">
 			<div class="title">
 				<b><a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})">{{ series.title }}</a></b>
 			</div>
-			<div class="episode-title"><i>({{series.released}})</i><p>{{ series.episodeTitle }}</p></div>
+			<div style="" class="episode-title"><i>({{series.released}})</i><p style="font-size:1em;background:#008102;padding:1px;color:#ffffff"><b>{{ series.status }}</b></p></div>
 			<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})"><img ng-src="{{ series.poster }}" alt="{{ series.title }} ({{ series.released }})"></a>
 		</div>
 	</div><!-- end div series-list class-->

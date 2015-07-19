@@ -12,8 +12,12 @@ app.controller('HomeController', ['$scope', '$http', function($scope, $http){
 	$http.get(tvseriesdata)
 		.success(function(response){
 			$scope.seriesList = response.tvseries;
-			$scope.theflashS01 = response.tvseries[0].season[0].episode;
-			
+
+			$scope.tvseriesList =
+				{
+					allseries:response.tvseries,
+					season:function(seriesId){return response.tvseries[seriesId].season;}
+				}
 		});
 
 }])
