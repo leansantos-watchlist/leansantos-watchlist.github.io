@@ -15,7 +15,7 @@
 
 			<div class="movie-item" dir-paginate="movie in movies |  filter:search | orderBy:'-id' | itemsPerPage: 10 ">
 				<div class="poster">
-					<a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}"><img ng-src="{{ movie.poster }}" alt=""></a>		
+					<a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}"><img class="img-thumbnail" ng-src="{{ movie.poster }}" alt=""></a>		
 				</div>
 				<div class="title">
 					<a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}"><b>{{ movie.title }}</b> - <i>({{ movie.released }})</i></a>

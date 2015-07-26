@@ -11,7 +11,7 @@
 				<b><a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}" title="{{ movie.title }} ({{ movie.released }})">{{ movie.title }}</a></b>
 			</div>
 			<div class="year"><i>({{ movie.released }})</i></div>
-			<a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}"><img ng-src="{{ movie.poster }}" title="{{ movie.title }} ({{ movie.released }})"></a>
+			<a href="#/movies/{{movie.id}}/watch-{{ movie.titleUrl }}"><img class="img-thumbnail" ng-src="{{ movie.poster }}" title="{{ movie.title }} ({{ movie.released }})"></a>
 		</div>
 	</div><!-- end div movie-list class -->
 	<p style="text-align:right;padding-right:10px"><a href="#/movies">more movies...</a></p>	
@@ -23,11 +23,26 @@
 	<h2 style="margin-top:10px;padding-left:5px"><a href="#/tv-series" style="color:#494949">Tv Series</a></h2>
 	<div class="series-list">
 		<div ng-repeat="series in tvseriesList.allseries | filter:search | orderBy:'-id' | limitTo:10 " class="series-item video-item">
-			<div class="title">
+			<div class="title" >
 				<b><a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})">{{ series.title }}</a></b>
 			</div>
-			<div style="" class="episode-title"><i>({{series.released}})</i><p style="font-size:1em;background:#008102;padding:1px;color:#ffffff"><b>{{ series.status }}</b></p></div>
-			<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})"><img ng-src="{{ series.poster }}" alt="{{ series.title }} ({{ series.released }})"></a>
+
+			<div class="episode-title">
+				<i>({{series.released.year}})</i>
+			</div>
+			<div class="img-thumbnail" ng-switch on="series.status" style="overflow:hidden;margin-bottom:-5px">
+				<div style="overflow:hidden;text-align:center;">
+				<p ng-switch-when="Airing" style="font-size:.8em;background:#008102;padding:1px;color:#ffffff;">
+					<b>{{ series.status }}</b>
+				</p>
+				<p ng-switch-when="Ended" style="font-size:.8em;background:grey;padding:1px;color:#ffffff;margin-bottom:0">
+					<b>{{ series.status }}</b>
+				</p>
+				<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})">
+					<img ng-src="{{ series.poster }}" alt="{{ series.title }} ({{ series.released.year }})">
+				</a>
+				</div>
+			</div>
 		</div>
 	</div><!-- end div series-list class-->
 	<p style="text-align:right;padding-right:10px"><a href="#/tv-series">more tv series...</a></p>

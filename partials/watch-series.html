@@ -1,24 +1,104 @@
-<div class="watch-series-page" style="min-height: 690px">
+<div class="watch-series-page" >
 
-<div class="col-md-9">
-<div class="title">
-<h3>{{tvseries[getparamId].title}} - {{tvseries[getparamId].episodeTitle}}(S{{tvseries[getparamId].season}}-E{{tvseries[getparamId].episode}})</h3>
-</div>
 
-<div>
+
+<div class="col-md-9" style="padding-right:5px;padding-left:20px">
+
+	<div class="watch-series" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
+		<!-- Series info. -->
+		<div class="series-summary" style="overflow:hidden;margin-top:5px;height:282px;">
+			<img style="float:left" width="180" height="280" ng-src="{{seriesList[tvseriesParams.seriesId].poster}}" alt="">
+			<div style="float:right">
+				<a class="trailer-icon" href="">watch<img src="https://cdn3.iconfinder.com/data/icons/sphericalcons/32/tv.png" alt="">trailer</a>
+			</div>
+			<ul style="background:#ffffff;overflow:hidden;padding-left:5px;">
+				<li><b>Genres:</b> <span ng-repeat="genre in seriesList[tvseriesParams.seriesId].genres">{{genre.genre}}</span></li>
+				<li><b>Release Date:</b> {{seriesList[tvseriesParams.seriesId].released.month}} {{seriesList[tvseriesParams.seriesId].released.day}}, {{seriesList[tvseriesParams.seriesId].released.year}}</li>
+				<li><b>Duration:</b> {{seriesList[tvseriesParams.seriesId].duration}}</li>
+				<li><b>Creators:</b> <a ng-repeat="creator in seriesList[tvseriesParams.seriesId].creators" href="">{{creator.creator+', '}}</a></li>
+				<li><b>Starring:</b> <a ng-repeat="star in seriesList[tvseriesParams.seriesId].starring" href="">{{star.star+', '}}</a></li>
+			</ul>
+				
+
+			<div style="overflow:hidden;padding-left:5px;height:169px">
+				<div style="border:1px solid #ccc;border-radius:5px;height:100%;text-indent:25px;padding:5px;font-size:1em">
+					{{seriesList[tvseriesParams.seriesId].plot}}
+				</div>
+			</div>
+		</div><!-- END Movie info. movie-summary class-->
+
+		<div class="title" style="overflow:hidden">
+		<h3>{{seriesList[tvseriesParams.seriesId].title}}:{{'Season'+seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].season}} - {{'Episode'+seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].episode}}</h3>
+			<h4>
+			{{seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].episodetitle}}
+			</h4>
+		</div>
+
+		<div style="margin-bottom:3px">
+			<button ng-click="server='server1'">Server 1</button> 
+			<button ng-click="server='server2'">Server 2</button> 
+			<button ng-click="server='server3'">Server 3</button>
+		</div>
+
+		<!-- Embed Video -->
+		<div ng-switch on="server">
+		    <div ng-switch-default class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
+		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
+		      <iframe src="{{moviesplayer1()}}" frameborder="0" allowfullscreen></iframe>
+		    </div>
+		    <div ng-switch-when="server2" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
+		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
+		      <iframe src="{{moviesplayer2()}}" frameborder="0" allowfullscreen></iframe>
+		    </div>	
+		    <div ng-switch-when="server3" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
+		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
+		      <iframe src="{{moviesplayer3()}}" frameborder="0" allowfullscreen></iframe>
+		    </div>	        
+		</div>
+		
+		<!-- END Embed Video -->
+
+		 <!-- <div class="video-player" seriesplayer ></div> -->
 	
-<!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;">
- <!--  <iframe src="{{'http://watchlist.co.nf/html5-video-player/?link=' +seriesLink(getparamId) +'&poster=' +seriesPoster(getparamId)}}" allowfullscreen></iframe> -->
-
- 	<iframe src="{{seriesplayer()}}" frameborder="0" allowfullscreen></iframe>
-</div>
 
 
-</div>
 
- <!-- <div class="video-player" seriesplayer ></div> -->
+		<div class="episode-summary" style="margin-top:30px;overflow:hidden;">
 
+			<div style="width:70%;float:left;padding:5px;">
+				<h4 style="border-bottom:1px solid #ddd;padding-bottom:5px;color:#ffffff">Summary:</h4>
+				<p style="text-indent:25px;padding-bottom:30px;font-size:.9em;background:url('http://www.rainiertamayo.com/wp-content/themes/detube/images/section-shadow.png') repeat-x center;">
+				{{seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].summary}}
+				</p>
+
+
+			</div>
+			<div style="float:right;width:30%;padding:5px;">
+				<h4 style="border-bottom:1px solid #ddd;padding-bottom:5px">Next Episode--</h4>
+				<div style="max-height:555px;overflow:scroll;">
+					<div ng-hide="epi.id<=seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].id" ng-repeat="epi in seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode" >
+						<a href="#/tv-series/{{tvseriesParams.seriesId}}-{{tvseriesParams.seasonId}}-{{epi.id}}/{{getparamTitle}}/watch-{{epi.episodetitleUrl}}" title="({{'S'+seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].season}}-{{'E'+epi.episode}}) - {{epi.episodetitle}}">
+							<div style="height:20px;font-size:.9em;">
+							<strong>({{'S'+seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].season}}-{{'E'+epi.episode}}) - {{epi.episodetitle}}</strong>
+							</div>
+							<div style="overflow:hidden">
+								<img style="width:100%" src="{{epi.images.img}}" alt="">
+							</div>
+						</a>
+					</div>
+	
+
+				</div>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+
+
+
+	</div><!-- END watch series class -->
 </div><!-- End col-md-9 class -->
 
 

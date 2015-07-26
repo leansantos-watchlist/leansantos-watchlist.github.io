@@ -20,7 +20,19 @@ app.controller('SeriesController', ['$scope', '$http', '$routeParams', function(
 				return response.tvseries[seriesId].season[seasonId].episode;
 			} 
 			
+			$scope.latestseason = function(getparamId){
+				return response.tvseries[getparamId].latestseason.season;
+			}
+			$scope.latestseasonId = function(getparamId){
+				return response.tvseries[getparamId].latestseason.seasonId;
+			}
+			
 		});
+
+		$scope.toogle = function(){
+			return $scope.toogle=true;
+		};
+		
 
 	$scope.getparamTitle = $routeParams.title;
 	$scope.getparamId = $routeParams.id;

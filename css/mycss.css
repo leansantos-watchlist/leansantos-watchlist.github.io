@@ -1,5 +1,6 @@
 body{
 	background-color: #E9EAED;
+	font-family: Verdana, Arial, sans-serif;
 }
 li{
 	list-style: none;
@@ -70,8 +71,8 @@ Header RigthSide Fixed navbar================     */
 home.html*/
 
 .home-page img{
-	width: 140px;
-	height: 180px;
+	width: 140px !important;
+	height: 180px !important;
 }
 .home-page .video-item:hover{
 	box-shadow: 0 12px 10px #777;
@@ -93,9 +94,10 @@ home.html*/
 	text-align: center;
  	overflow: hidden;
  	text-overflow: ellipsis;
- 	font-size:16px;
- 	height: 25px;
- 	max-height: 25px;
+ 	font-size:14px;
+ 	height: 20px;
+ 	max-height: 20px;
+ 	
 }
 .home-page .year{
 	text-align: center;
@@ -145,7 +147,7 @@ home.html*/
 	text-align: center;
 	overflow: hidden;
 	font-size:12px;
-	height: 35px;
+	height: 18px;
 }
 .series-section .episode-title p{
 	font-size:15px;
@@ -264,7 +266,7 @@ serieslist.html */
 .series-page .series-item{
 	 overflow:hidden;
 	 border:1px solid #FFFFFF;
-	 max-height:190px;
+	 max-height:220px;
 	 margin-bottom: 10px;
 }
 .series-page .title{
@@ -318,7 +320,7 @@ serieslist.html */
 
 @media screen and (max-width: 990px){
 	.series-page .poster img{width: 120px;height: 160px;}
-	.series-page .series-item{max-height:160px;}
+	.series-page .series-item{max-height:190px;}
 	.series-page .summary{height:132px;max-height:132px;font-size:12px;}
 	.series-page .col-md-3{padding-right:5px !important;padding-left:20px !important;}
 }

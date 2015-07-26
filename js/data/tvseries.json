@@ -1,266 +1,509 @@
 {
 
 "tvseries": [
-	{	"id": 0, "title": "The Flash", "titleUrl": "The_Flash", "status":"Airing", "released": "2015", "genres": [{"genre":"Adventure | "},{"genre":"Comics"},{"genre":" | Action"}], "poster": "https://lh3.googleusercontent.com/WD8rGg8bdwXlPGZoalkmCyKEb22BuW4HODN-_E6gw5M=w280-h400-no", 
+
+	{	"id": 0, "title": "Breaking Bad", "titleUrl": "Breaking_Bad", "status":"Ended",
+		"released": {"month":"January","day":"20","year":"2008","endedyear":"2013"}, 
+		"genres": [{"genre":"Drama | "},{"genre":"Crime"},{"genre":" | Action"}], 
+		"creators":[{"creator":"Vince Gilligan","link":""}],
+		"starring":[{"star":"Bryan Cranston","link":""},{"star":"Aaron Paul","link":""},{"star":"Anna Gunn","link":""}],
+		"duration": "47 mins",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTQ0ODYzODc0OV5BMl5BanBnXkFtZTgwMDk3OTcyMDE@._V1_SY317_CR0,0,214,317_AL_.jpg", 
+		"latestseason":{"season":"05", "seasonId":4},
+		"plot":"Middle aged, and overqualified highschool chemistry teacher Walter White has been diagnosed with lung cancer. To make sure his family is financially secure, he teams up with a former student Jesse Pinkman and turns to a life of crime to make and distribute the purest crystal meth on the streets.",
 		"season":[
 			{	"id":0, "season":"01",
+				"finalepisode":{"finalepi":"03","epiId":2},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
-						"episodetitle":"Flash S01-E01",
-						"episodetitleUrl":"Flash_S01-E01",
-						"image":"",
-						"source":""
+						"episodetitle":"Pilot",
+						"episodetitleUrl":"Pilot",
+						"released":{"month":"January", "day":"20", "year":"2008"},
+						"summary":"A high school chemistry teacher is diagnosed with terminal lung cancer and resorts to selling methamphetamine to provide for his family when he is dead.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTQzNDg0Mzc5OV5BMl5BanBnXkFtZTgwOTE0OTc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":1,
 						"episode":"02",
-						"episodetitle":"Flash S01-E02",
-						"episodetitleUrl":"Flash_S01-E02",
-						"image":"",
-						"source":""
+						"episodetitle":"Cat's in the Bag...",
+						"episodetitleUrl":"Cat's_in_the_Bag",
+						"released":{"month":"January", "day":"27", "year":"2008"},
+						"summary":"Walt and Jesse try to decide what to do with the body of Emilio and their prisoner, Krazy 8.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTcyOTU0MTIxNF5BMl5BanBnXkFtZTgwMzAwOTc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":2,
 						"episode":"03",
-						"episodetitle":"Flash S01-E03",
-						"episodetitleUrl":"Flash_S01-E03",
-						"image":"",
-						"source":""
-					}
-						  ]
-			}
-
-				 ]
-	},
-
-	{	"id": 1, "title": "Arrow", "titleUrl": "Arrow", "status":"Airing", "released": "2015", "genres": [{"genre":"Adventure | "},{"genre":"Comics"},{"genre":" | Action"}], "poster": "http://ia.media-imdb.com/images/M/MV5BMTg3OTc0NzkyOV5BMl5BanBnXkFtZTgwMDMwMTM3MjE@._V1_SX214_AL_.jpg", 
-		"season":[
-			{	"id":0, "season":"01",
-				"episode":[
-					{
-						"id":0,
-						"episode":"01",
-						"episodetitle":"Arrow S01-E01",
-						"episodetitleUrl":"Arrow_S01-E01",
-						"image":"",
-						"source":""
-					},
-					{
-						"id":1,
-						"episode":"02",
-						"episodetitle":"Arrow S01-E02",
-						"episodetitleUrl":"Arrow_S01-E02",
-						"image":"",
-						"source":""
-					},
-					{
-						"id":2,
-						"episode":"03",
-						"episodetitle":"Arrow S01-E03",
-						"episodetitleUrl":"Arrow_S01-E02",
-						"image":"",
-						"source":""
+						"episodetitle":"...And the Bag's in the River",
+						"episodetitleUrl":"And_the_Bag's_in_the_River",
+						"released":{"month":"Febuary", "day":"10", "year":"2008"},
+						"summary":"Walt is struggling to decide if it's best to kill Krazy 8 or let him go.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMjI4NjIxOTkwMl5BMl5BanBnXkFtZTgwNTAwOTc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					}
 						  ]
 			},			
 			{	"id":1, "season":"02",
-				"episode":[
-					{
-						"id":0,
-						"episode":"01",
-						"episodetitle":"Arrow S02-E01",
-						"episodetitleUrl":"Arrow_S02-E01",
-						"poster":"",
-						"source":""
-					},
-					{
-						"id":1,
-						"episode":"02",
-						"episodetitle":"Arrow S02-E02",
-						"episodetitleUrl":"Arrow_S02-E02",
-						"poster":"",
-						"source":""
-					}
-						  ]
-			}
-
-				 ]
-	},
-
-	{	"id": 2, "title": "Breaking Bad", "titleUrl": "Breaking_Bad", "status":"Ended", "released": "2008", "genres": [{"genre":"Drama | "},{"genre":"Crime"},{"genre":" | Action"}], "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ0ODYzODc0OV5BMl5BanBnXkFtZTgwMDk3OTcyMDE@", 
-		"season":[
-			{	"id":0, "season":"01",
-				"episode":[
-					{
-						"id":0,
-						"episode":"01",
-						"episodetitle":"Breaking Bad S01-E01",
-						"episodetitleUrl":"Breaking Bad S01-E01",
-						"image":"",
-						"source":""
-					},
-					{
-						"id":1,
-						"episode":"02",
-						"episodetitle":"Breaking Bad S01-E02",
-						"episodetitleUrl":"",
-						"image":"",
-						"source":""
-					},
-					{
-						"id":2,
-						"episode":"03",
-						"episodetitle":"Breaking Bad S01-E03",
-						"episodetitleUrl":"",
-						"image":"",
-						"source":""
-					}
-						  ]
-			},			
-			{	"id":1, "season":"02",
+				"finalepisode":{"finalepi":"02","epiId":1},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
 						"episodetitle":"Breaking Bad S02-E01",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":1,
 						"episode":"02",
 						"episodetitle":"Breaking Bad S02-E02",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					}
 						  ]
 			},
 			{	"id":2, "season":"03",
+				"finalepisode":{"finalepi":"02","epiId":1},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
 						"episodetitle":"Breaking Bad S03-E01",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":1,
 						"episode":"02",
 						"episodetitle":"Breaking Bad S03-E02",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					}
 						  ]
 			},
 			{	"id":3, "season":"04",
+				"finalepisode":{"finalepi":"10","epiId":9},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
 						"episodetitle":"Breaking Bad S04-E01",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":1,
 						"episode":"02",
 						"episodetitle":"Breaking Bad S04-E02",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":2,
 						"episode":"03",
 						"episodetitle":"Breaking Bad S04-E03",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":3,
 						"episode":"04",
 						"episodetitle":"Breaking Bad S04-E04",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":4,
 						"episode":"05",
 						"episodetitle":"Breaking Bad S04-E05",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":5,
 						"episode":"06",
 						"episodetitle":"Breaking Bad S04-E06",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":6,
 						"episode":"07",
 						"episodetitle":"Breaking Bad S04-E07",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":7,
 						"episode":"08",
 						"episodetitle":"Breaking Bad S04-E08",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":8,
 						"episode":"09",
 						"episodetitle":"Breaking Bad S04-E09",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":9,
 						"episode":"10",
 						"episodetitle":"Breaking Bad S04-E10",
+						"released":{"month":"", "day":"", "year":""},
 						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"summary":"",
+						"images":{"img":"","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					}
 						  ]
 			},
 			{	"id":4, "season":"05",
+				"finalepisode":{"finalepi":"16","epiId":15},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
-						"episodetitle":"Breaking Bad  S05-E01",
-						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"episodetitle":"Live Free or Die",	
+						"episodetitleUrl":"Live_Free_or_Die",
+						"released":{"month":"July", "day":"15", "year":"2012"},
+						"summary":"Now that Gus is dead, Walt, Jesse, and Mike work to cover their tracks. Skyler panics when Ted Beneke wakes up.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMjIwMzc0Mjk2N15BMl5BanBnXkFtZTcwODM5NzY5Nw@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					},
 					{
 						"id":1,
 						"episode":"02",
-						"episodetitle":"Breaking Bad  S05-E02",
-						"episodetitleUrl":"",
-						"poster":"",
-						"source":""
+						"episodetitle":"Madrigal",
+						"episodetitleUrl":"Madrigal",
+						"released":{"month":"July", "day":"22", "year":"2012"},
+						"summary":"Walt and Jesse decide to start things up again. Mike meets an old friend, who is worried about the outcome of the DEA's investigation on Gus and how it will affect them all.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BNTc5NjQ0MTQwN15BMl5BanBnXkFtZTcwNDk2MzQxOA@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"Hazard Pay",
+						"episodetitleUrl":"Hazard_Pay",
+						"released":{"month":"July", "day":"29", "year":"2012"},
+						"summary":"Walt, Jesse and Mike start up business together.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BNzE0MzM0ODc3NV5BMl5BanBnXkFtZTgwMzcyNzc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":3,
+						"episode":"04",
+						"episodetitle":"Fifty-One",
+						"episodetitleUrl":"Fifty-One",
+						"released":{"month":"August", "day":"05", "year":"2012"},
+						"summary":"It's Walt's 51st birthday. His return to the drug business causes Skyler to go into depression.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BOTkwODc0MDU3NV5BMl5BanBnXkFtZTcwMzYxNTAyOA@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":4,
+						"episode":"05",
+						"episodetitle":"Dead Freight",
+						"episodetitleUrl":"Dead_Freight",
+						"released":{"month":"August", "day":"12", "year":"2012"},
+						"summary":"The boys plan on robbing a train that has an entire car of methylamine.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BNTk2MjQ4Mzk3Nl5BMl5BanBnXkFtZTcwNDI0MTQyOA@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":5,
+						"episode":"06",
+						"episodetitle":"Buyout",
+						"episodetitleUrl":"Buyout",
+						"released":{"month":"August", "day":"19", "year":"2012"},
+						"summary":"Jesse and Mike want out. They decide to sell the stolen methylamine to a competitor. That doesn't sit too well with Walt.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMjE4MDM4MTc3Nl5BMl5BanBnXkFtZTcwMjcxODgyOA@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":6,
+						"episode":"07",
+						"episodetitle":"Say My Name",
+						"episodetitleUrl":"Say_My_Name",
+						"released":{"month":"August", "day":"26", "year":"2012"},
+						"summary":"Mike and Jesse are out. Now Walt has to handle things on his own. Hank finally finds a rat in Mike's gang.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTM1MjcyMzIzMl5BMl5BanBnXkFtZTcwOTk4MzAzOA@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":7,
+						"episode":"08",
+						"episodetitle":"Gliding Over All",
+						"episodetitleUrl":"Gliding_Over_All",
+						"released":{"month":"September", "day":"02", "year":"2012"},
+						"summary":"Walt expands his business overseas, and the money is pouring in.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTU0NTU4NjQ5MV5BMl5BanBnXkFtZTcwOTM2MzQzOA@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":8,
+						"episode":"09",
+						"episodetitle":"Blood Money",
+						"episodetitleUrl":"Blood_Money",
+						"released":{"month":"August", "day":"11", "year":"2013"},
+						"summary":"Walt is out of the meth business and trying to move on with his life. Jesse tries to get rid of his money. Hank now knows that Walt is the famous Heisenberg.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMjI0MzMyMzg1MF5BMl5BanBnXkFtZTcwOTAyODc4OQ@@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":9,
+						"episode":"10",
+						"episodetitle":"Buried",
+						"episodetitleUrl":"Buried",
+						"released":{"month":"August", "day":"18", "year":"2013"},
+						"summary":"Hank is determined to bring down Walt. Walt scrambles to hide evidence before Hank gets to it, and Skyler tries to stop Hank and Marie from taking away the kids.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTcxNzk4NzYyN15BMl5BanBnXkFtZTgwMDg5OTcxMDE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":10,
+						"episode":"11",
+						"episodetitle":"Confessions",
+						"episodetitleUrl":"Confessions",
+						"released":{"month":"August", "day":"25", "year":"2013"},
+						"summary":"Walt makes his next move against Hank, putting Hank in a tough position. Hank confronts Jesse and attempts to turn him against Walt, and Jesse decides it's time to move on. Meanwhile, Todd has taken over the business.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTQxODQwNzIzOF5BMl5BanBnXkFtZTgwMDIxMDgxMDE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":11,
+						"episode":"12",
+						"episodetitle":"Rabid Dog",
+						"episodetitleUrl":"Rabid_Dpg",
+						"released":{"month":"September", "day":"01", "year":"2013"},
+						"summary":"Walt discovers Jesse broke into his house and attempted to burn it down. Walt wants to protect his family so he moves them into a hotel for a few nights. Jesse makes plans to take down Walt.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTgzMDYwNDAyOF5BMl5BanBnXkFtZTgwMzQ5OTcxMDE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":12,
+						"episode":"13",
+						"episodetitle":"To'hajiilee",
+						"episodetitleUrl":"To'hajiilee",
+						"released":{"month":"September", "day":"08", "year":"2013"},
+						"summary":"Jesse and Hank come up with an idea to take Walt down. Walt hires Todd's uncle to kill Jesse.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTQxODA3NTE1N15BMl5BanBnXkFtZTgwMTEyMjEyMDE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":13,
+						"episode":"14",
+						"episodetitle":"Ozymandias",
+						"episodetitleUrl":"Ozymandias",
+						"released":{"month":"September", "day":"15", "year":"2013"},
+						"summary":"Walt goes on the run. Jesse is taken hostage. Skyler believes it's time to tell Flynn the truth.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTM4NDcyNDMzMF5BMl5BanBnXkFtZTgwOTI0MTI2MDE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":14,
+						"episode":"15",
+						"episodetitle":"Granite State",
+						"episodetitleUrl":"Granite_State",
+						"released":{"month":"September", "day":"22", "year":"2013"},
+						"summary":"Walt struggles as he adapts to aspects of his new identity. Jesse plans an escape against Jack and his crew.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTY5MjI3MDg5NV5BMl5BanBnXkFtZTgwMDcyNzc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":15,
+						"episode":"16",
+						"episodetitle":"Felina",
+						"episodetitleUrl":"Felina",
+						"released":{"month":"September", "day":"29", "year":"2013"},
+						"summary":"Walter White makes one last attempt to secure his family's future, while also visiting some old enemies, during his final return to Albuquerque.",
+						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTQ3OTAwMTQzNl5BMl5BanBnXkFtZTgwMDQxMjUzMDE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
 					}
+
+
+
+
+
+
+
 						  ]
 			}
 

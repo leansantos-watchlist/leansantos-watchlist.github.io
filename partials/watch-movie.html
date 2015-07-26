@@ -16,6 +16,7 @@
 				<li><b>Directed By:</b> {{movies[getparamId].starring}}</li>
 				<li><b>Starring:</b> </li>
 			</ul>
+				
 			<div style="overflow:hidden;padding-left:5px;height:169px">
 				<div style="border:1px solid #ccc;border-radius:5px;height:100%;text-indent:25px;padding:5px;font-size:.9em">
 					{{movies[getparamId].summary}}
@@ -23,21 +24,34 @@
 			</div>
 		</div><!-- END Movie info. movie-summary class-->
 		
-		<div class="title" >
+		<div class="title" style="overflow:hidden">
 			<h3>{{movies[getparamId].title}} - ({{movies[getparamId].released}})</h3>
 			{{moviesplayer()}}
+						
 		</div>
 
-
+		<div style="margin-bottom:3px">
+			<button ng-click="server='server1'">Server 1</button> 
+			<button ng-click="server='server2'">Server 2</button> 
+			<button ng-click="server='server3'">Server 3</button>
+		</div>
+			
+		
 
 
 		<!-- Embed Video -->
-		<div>
-
-		    <div class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
-
+		<div ng-switch on="server">
+		    <div ng-switch-default class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
 		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
 		      <iframe src="{{moviesplayer1()}}" frameborder="0" allowfullscreen></iframe>
+		    </div>
+		    <div ng-switch-when="server2" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
+		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
+		      <iframe src="{{moviesplayer2()}}" frameborder="0" allowfullscreen></iframe>
+		    </div>	
+		    <div ng-switch-when="server3" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
+		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
+		      <iframe src="{{moviesplayer3()}}" frameborder="0" allowfullscreen></iframe>
 		    </div>	        
 		</div>
 		
@@ -57,7 +71,7 @@
 				<div class="related-title" style="width:180px;height:25px;">
 					{{movie.title}}
 				</div>
-					<img width="180" height="120" src="{{movie.image}}" alt="">
+					<img width="180" height="120" ng-src="{{movie.image}}" alt="">
 				</a>
 			</div>
 		</div><!-- END relate-movies class -->

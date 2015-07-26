@@ -27,14 +27,12 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 			};
 		
 		});
-	$http.get(seriesdata)
+	$http.get(tvseriesdata)
 		.success(function(response){
-			$scope.tvseries = response.series;
+			$scope.seriesList = response.tvseries;
 
 
-			$scope.seriesLink = function(id){
-				return $sce.trustAsResourceUrl($scope.tvseries[id].link);
-			};
+			
                         
             $scope.seriesPoster = function(id){
 				return $sce.trustAsResourceUrl($scope.tvseries[id].image);
@@ -45,9 +43,17 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 			};
 		});
 
-			$scope.getparamTitle = $routeParams.title;
+			$scope.getparamTitle = $routeParams.seriesTitle;
 			$scope.getparamId = $routeParams.id;
 			$scope.getCategory = $routeParams.category;
+
+			$scope.tvseriesParams =
+				{
+					seriesId: $routeParams.seriesId,
+					seasonId: $routeParams.seasonId,
+					episodeId: $routeParams.episodeId,
+					episodeTitle: $routeParams.episodeTitle
+				}
 	
 	
 

@@ -5,8 +5,8 @@
 // var seriesdata = "js/data/series.json";
 // var tvseriesdata = "js/data/tvseries.json";
 
-var app = angular.module('mymovieApp', ['ngRoute', 'ngAnimate', 'angularUtils.directives.dirPagination'])
 
+var app = angular.module('mymovieApp', ['ngRoute', 'ngAnimate', 'angularUtils.directives.dirPagination'])
 var moviesdata = "http://leansantos-watchlist.github.io/js/data/movies.json"; 
 var seriesdata = "http://leansantos-watchlist.github.io/js/data/series.json";
 var tvseriesdata = "http://leansantos-watchlist.github.io/js/data/tvseries.json";
@@ -37,7 +37,7 @@ app.config(['$routeProvider', function($routeProvider){
 			templateUrl: 'partials/tvseries.html',
 			controller: 'SeriesController'
 		})
-		.when('/tv-series/:id/watch-:title', {
+		.when('/tv-series/:seriesId-:seasonId-:episodeId/:seriesTitle/watch-:episodeTitle', {
 			templateUrl: 'partials/watch-series.html',
 			controller: 'WatchController'
 		})

@@ -17,21 +17,29 @@
 
 
 			<div class="series-item" dir-paginate="series in seriesList | filter:search | orderBy:'-id' | itemsPerPage: 10">
-				<div class="poster">
-					<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})">
-						<img ng-src="{{ series.poster }}" alt="{{ series.title }} ({{ series.released }})">
-					</a>		
+				<div  class="poster img-thumbnail" ng-switch on="series.status">		
+					<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released.year }})">
+						<img  ng-src="{{ series.poster }}" alt="{{ series.title }} ({{ series.released.year }})">
+					</a>	
+					<p ng-switch-when="Airing" style="font-size:.8em;background:#008102;padding:1px;color:#ffffff;margin-bottom:0;text-align:center">
+					<b>{{ series.status }}</b>
+					</p>	
+					<p ng-switch-when="Ended" style="font-size:.8em;background:grey;padding:1px;color:#ffffff;margin-bottom:0;text-align:center">
+					<b>{{ series.status }}</b>
+				</p>
 				</div>
-				<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released }})">
+
+				<a href="#/tv-series/{{series.id}}/{{series.titleUrl}}" title="{{ series.title }} ({{ series.released.year }})">
 					<div class="title">
-						<b>{{ series.title }}</b> <i>({{series.released}})</i>
-					</div>
-					<div class="episode-title">
-						<i><b>{{ series.genres[0].genre+series.genres[1].genre+series.genres[2].genre }}</b></i>
+						<b>{{ series.title }}</b> <i>({{series.released.year+'-'+series.released.endedyear}})</i>
 					</div>
 				</a>	
+					<div class="episode-genres" style="padding-left:5px;overflow:hidden;">
+						<i ng-repeat="genre in seriesList[series.id].genres">{{genre.genre}}</i>
+					</div>
+				
 				<div class="summary">
-					<p>{{ series.summary }}</p>
+					<p>{{ series.plot }}</p>
 				</div>
 			</div>
 
