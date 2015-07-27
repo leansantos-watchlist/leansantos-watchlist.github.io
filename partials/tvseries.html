@@ -41,7 +41,7 @@
 			<div style="overflow:hidden;margin-top:5px;height:123px;border-bottom:2px dotted #ddd;font-family: Verdana, Arial, sans-serif;font-family: Verdana, Arial, sans-serif;">
 				<div class="epi-img" style="float:left" >
 					<a href="#/tv-series/{{getparamId}}-{{latestseasonId(getparamId)}}-{{episode.id}}/{{getparamTitle}}/watch-{{episode.episodetitleUrl}}">
-					<img class="img-thumbnail" src="{{episode.images.img}}" alt="">
+					<img class="img-thumbnail" src="{{episode.images.img+episode.images.imgsize1}}" alt="">
 					</a>
 					<p style="color:#ffffff;text-align:right;padding-right:10px;margin-top:-25px"><strong>{{'S'+latestseason(getparamId)}}-{{'E'+episode.episode}}</strong></p>
 					
