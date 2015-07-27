@@ -37,7 +37,7 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[0].src);
 			};
 			$scope.seriesPoster = function(seriesId,seasonId,episodeId){
-				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].images.img);
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].images.img+$scope.tvseries[seriesId].season[seasonId].episode[episodeId].images.imgsize2);
 			};
                         
 			
