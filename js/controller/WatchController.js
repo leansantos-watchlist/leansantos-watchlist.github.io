@@ -31,15 +31,29 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 		.success(function(response){
 			$scope.seriesList = response.tvseries;
 
+			$scope.tvseries = response.tvseries; 
 
+			$scope.seriesSource1 = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[0].src);
+			};
+			$scope.seriesPoster = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].images.img);
+			};
+                        
 			
                         
-            $scope.seriesPoster = function(id){
-				return $sce.trustAsResourceUrl($scope.tvseries[id].image);
-			};
+   //          $scope.seriesPoster = function(id){
+			// 	return $sce.trustAsResourceUrl($scope.tvseries[id].image);
+			// };
 
-			$scope.seriesplayer = function(){
-				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=seriesLink("+$scope.getparamId +")&poster=" +$scope.seriesPoster($scope.getparamId));
+			$scope.tvseriesplayer1 = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=seriesSource1("+$scope.tvseriesParams.seriesId+","+$scope.tvseriesParams.seasonId+","+$scope.tvseriesParams.episodeId +")&poster=" +$scope.seriesPoster($scope.tvseriesParams.seriesId,$scope.tvseriesParams.seasonId,$scope.tvseriesParams.episodeId));
+			};
+			$scope.tvseriesplayer2 = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=seriesSource2("+$scope.tvseriesParams.seriesId+","+$scope.tvseriesParams.seasonId+","+$scope.tvseriesParams.episodeId +")&poster=" +$scope.seriesPoster($scope.tvseriesParams.seriesId,$scope.tvseriesParams.seasonId,$scope.tvseriesParams.episodeId));
+			};
+			$scope.tvseriesplayer3 = function(){
+				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=seriesSource3("+$scope.tvseriesParams.seriesId+","+$scope.tvseriesParams.seasonId+","+$scope.tvseriesParams.episodeId +")&poster=" +$scope.seriesPoster($scope.tvseriesParams.seriesId,$scope.tvseriesParams.seasonId,$scope.tvseriesParams.episodeId));
 			};
 		});
 
