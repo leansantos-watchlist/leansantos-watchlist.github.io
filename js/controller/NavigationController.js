@@ -20,7 +20,7 @@ app.controller('NavigationController',['$scope', '$routeParams', function($scope
 			{title: 'Jurassic World', update: 'fixed', link: '#/movies/17/watch-Jurassic_World'},
 			{title: 'Insurgent', update: 'fixed', link: '#/movies/15/watch-Insurgent'},
 			{title: 'Lupin III', update: 'fixed', link: '#/movies/13/watch-Lupin_III'},
-			{title: 'The Flash S01-E07', update: 'fixed', link: '#/tv-series/6/watch-The%20Flash_S01-E07'},
+			{title: 'Breaking Bad S05-E07', update: 'fixed', link: '#/tv-series/0-4-6/Breaking_Bad/watch-Say_My_Name'},
 			{title: 'Dawn of the Planet Apes', update: 'fixed', link: '#/movies/7/watch-Dawn_of_the_Planet_of_the_Apes'}
 				 ]
 	}

@@ -1,28 +1,42 @@
-<div class="anime-page" style="min-height: 690px">
-	<h2>Anime List</h2>
-
-	<div ng-controller="NavigationController">
-
+<div class="series-page" style="min-height: 690px">
 	
-		<div class="embed-responsive embed-responsive-16by9" style="background-color:black;">
-			<!-- <IFRAME SRC="http://mega-vids.com//embed-s0gdupznwfye-645x353.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=645 HEIGHT=373></IFRAME> -->
-			
 
-			<video controls autoplay src="https://agwm32.dl.openload.io/dl/l/9ZYVlGLsAHo/PangakoSayo5.25.15_1.mp4" type="video/mp4"></video>
 
-			<!-- <video controls autoplay src="http://fsd1.vodlocker.com:8777/lkceamj6gw4pcnokal3cbmg77dtvzupwuvuzjjfl6sbe5cfo5yzql7zx3m/v.mp4" type="video/mp4"></video> -->
 
-			<!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/EoNrAPoOI7g" frameborder="0" allowfullscreen></iframe> -->
-<!-- 
-			<video controls src="https://r2---sn-jvhja5g3-hoae.googlevideo.com/videoplayback?ms=au&clen=33360288&mv=m&mt=1435125861&expire=1435147502&sver=3&requiressl=yes&ipbits=0&mn=sn-jvhja5g3-hoae&mm=31&gir=yes&initcwndbps=2270000&pl=22&signature=165A0CD39C0E7A725E7375DD66D150EFE4234FCE.E586BF390B10E6DF5898027B7746E7F474F7491F&fexp=3300110%2C3300133%2C3300137%2C3300164%2C3310700%2C3311920%2C3312381%2C9405265%2C9407141%2C9407719%2C9408136%2C9408142%2C9408200%2C9408420%2C9408710%2C9412466%2C9412878%2C9413503%2C9414615%2C9414762%2C9415304%2C9416126%2C9416456%2C952640&upn=hNUZlg3tCVo&mime=video%2Fwebm&sparams=clen%2Cdur%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cupn%2Cexpire&id=o-AMcD5B5eTaHbk5iwItadV-QAF9Ba1M7C87EXTWhBi-4l&itag=243&source=youtube&ip=120.29.65.78&key=yt5&dur=1385.718&lmt=1396615318211024&cpn=qBs6iDd6tkqWk5lD&alr=yes&keepalive=yes&ratebypass=yes&c=WEB&cver=html5&range=0-1487730" type="video/mp4">
-				
-			</video>
-			<audio src="https://r2---sn-jvhja5g3-hoae.googlevideo.com/videoplayback?ms=au&clen=22248703&mv=m&mt=1435125861&expire=1435147502&sver=3&requiressl=yes&ipbits=0&mn=sn-jvhja5g3-hoae&mm=31&gir=yes&initcwndbps=2270000&pl=22&signature=56B5C90C2C6315E939121BAD4B43E0ECB8710C13.8CE14AAF79EC745114C01365AD2D6F1357C0D0FC&fexp=3300110%2C3300133%2C3300137%2C3300164%2C3310700%2C3311920%2C3312381%2C9405265%2C9407141%2C9407719%2C9408136%2C9408142%2C9408200%2C9408420%2C9408710%2C9412466%2C9412878%2C9413503%2C9414615%2C9414762%2C9415304%2C9416126%2C9416456%2C952640&upn=hNUZlg3tCVo&mime=audio%2Fmp4&sparams=clen%2Cdur%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cupn%2Cexpire&id=o-AMcD5B5eTaHbk5iwItadV-QAF9Ba1M7C87EXTWhBi-4l&itag=140&source=youtube&ip=120.29.65.78&key=yt5&dur=1385.836&lmt=1417223028856773&cpn=qBs6iDd6tkqWk5lD&alr=yes&keepalive=yes&ratebypass=yes&c=WEB&cver=html5&range=0-1487730" controls>			
-			</audio> -->
+<div class="col-md-9" style="padding-right:5px;padding-left:20px">
 
+	<div class="series-list" style="border:1px solid #ddd;background:#ffffff;">
+		<div style="padding-left:10px">
+			<h2 style="margin-top:10px;">Anime List</h2>
+			this page is currently under maintenace...
 
 		</div>
+	</div><!-- end div series-list class -->
+	
+	
+
+
+
+
+</div><!-- end div col-md-9 class -->
+
+
+
+
+<div class="col-md-3" style="padding:0;" >
+	<div ng-controller="NavigationController" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
+		<div class="recently-updated" style="margin:5px 0;padding:5px;border-radius:5px;border:1px solid #ccc;background:#ffffff">
+			<p style="font-size:1.2em;font-weight:700">Recently fixed & Added Video</p>
+			<ul style="padding-left:0;">
+				<li ng-repeat="update in recentlyUpdate.updatedVideos">
+					<a href="{{update.link}}">{{update.title}}</a> -<i style="color:green">{{update.update}}!</i>
+				</li>
+			</ul>
+			<p style="text-align:right;padding-top:5px"><a href="">report broken video here</a></p>
+		</div>	
 	</div>
-		
+</div><!-- End col-md-3 Class  -->
+
+
 </div>
 
