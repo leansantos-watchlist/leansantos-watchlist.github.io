@@ -3,7 +3,7 @@
 "tvseries": [
 
 	{	"id": 0, "title": "Breaking Bad", "titleUrl": "Breaking_Bad", "status":"Ended",
-		"released": {"month":"January","day":"20","year":"2008","endedyear":"2013"}, 
+		"released": {"month":"January","day":"20","year":"2008","endedyear":"-2013"}, 
 		"genres": [{"genre":"Drama | "},{"genre":"Crime"},{"genre":" | Action"}], 
 		"creators":[{"creator":"Vince Gilligan","link":""}],
 		"starring":[{"star":"Bryan Cranston","link":""},{"star":"Aaron Paul","link":""},{"star":"Anna Gunn","link":""}],
@@ -128,7 +128,7 @@
 						"summary":"After witnessing Tuco murder one of his junkies, Walt and Jesse fear that he will kill them next, to tie up loose ends. Unless they kill Tuco first.",
 						"images":{"img":"https://lh3.googleusercontent.com/Rpm68dMJj6LKTTG77nMP9pYjEursHERl4lhM96DddQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/WszBbVfIL3-eejQm5i2QQxZu18qUK3cRUCcSLpT0Pg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -142,7 +142,7 @@
 						"summary":"Tuco takes Walt and Jesse prisoner.",
 						"images":{"img":"https://lh3.googleusercontent.com/notklQGv63np_LrH0u3jD9EKn8-kK0CeE9ZYA2kDOQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/tZh1cNL_uHEHbh8ljJYOhxqk5MXeoduH3rmeKTkyww=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -156,7 +156,7 @@
 						"summary":"Walt and Jesse try to come up with alibis for their disappearances.",
 						"images":{"img":"https://lh3.googleusercontent.com/-YGUpzJi888axZpjn89j6M5SppK1vCUsCY27fD1Luw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/fPeqcjXgZuCnSUTVTMkM9RQLvcoLggrboJb7oatbcg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -170,7 +170,7 @@
 						"summary":"Skyler keeps mysteriously leaving without talking to Walt. Jesse's parents throw him out of his own house.",
 						"images":{"img":"https://lh3.googleusercontent.com/gJ7MTKpuhzhfydGtOhJ6OmcHugmzLhpazONw4tNGcg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/6eLt-EuK7TR7IiJ1s42XNnVyqjlVeRK70eTlOFn55g=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -184,7 +184,7 @@
 						"summary":"Walt and Jesse decide to start their own little empire with the help of Jesse's friends: Skinny Pete, Combo, and Badger. Meanwhile, Hank tries to pull himself together after his encounter with Tuco.",
 						"images":{"img":"https://lh3.googleusercontent.com/Yg2jlNgsYD6-Ys8HcfXqK3C8So3941T6l0aJEqULKg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/UGSlYfRlbOyTz2EapJdaltlpb9nGtP2d3KxUB6U3BQ=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -198,7 +198,7 @@
 						"summary":"After Skinny Pete gets ripped off, Walt makes Jesse go get the money. Meanwhile, Walt's cover story on how Elliott and Gretchen are paying for his medical treatment is on the verge of collapsing.",
 						"images":{"img":"https://lh3.googleusercontent.com/kgwBQiLh0txtRJAC9L7rHn-My4T6BRe0w1PWLB9slA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/QjW3p-X4efZl1bkaT_FiOPmQUsz_fI0oKEqViW1Czg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -212,7 +212,7 @@
 						"summary":"Rumor is spreading that Jesse killed the man that ripped Skinny Pete off. Walt uses this to his advantage on expanding their territory. Meanwhile, Hank has been promoted to the El Paso office. But it's not all he hoped it would be.",
 						"images":{"img":"https://lh3.googleusercontent.com/v5i78SnSLDHZPHdGc_Xk_ReOhypdF_nt_nuOxKasYQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/86_tp0Uq2VJZsh4kKbHcgoOgpa0D9Fly3CivLmmVig=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -226,7 +226,7 @@
 						"summary":"Badger is caught by the DEA. Walt and Jesse hire the best criminal lawyer in town, Saul Goodman.",
 						"images":{"img":"https://lh3.googleusercontent.com/xLLlLj8dzd6ld3S7ggOPSLFVFlrVTBew0CAsufcvUQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/fqcxz4Z73uYNAPjAtd7yzEAM0I_LILOknDJ39S_KWg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -240,7 +240,7 @@
 						"summary":"Walt and Jesse become stranded out in the middle of the desert after cooking more crystal.",
 						"images":{"img":"https://lh3.googleusercontent.com/pcA-05snhzxbSTy1lOueqB-tPSNvXNGzs-Ql0Wvrpw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/CHMEA3sjYBinI5L47lgbnddcmmAZ8gtYMIT1jjAaCA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -254,7 +254,7 @@
 						"summary":"Walt's cancer has greatly improved. Time to celebrate. Meanwhile Jesse tries to meet his new girlfriend's father.",
 						"images":{"img":"https://lh3.googleusercontent.com/2wCXfSnPth985VIgQzmzVQ-S_hffm-i1MBcjtYavHg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/0VhyXw70NfNhi3rk0y3qqpuyxwuUbeqC2gcFOnhsAg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -268,7 +268,7 @@
 						"summary":"Combo is found dead. Walt and Jesse's little empire begins to crumble. Saul tries to set them up with a mysterious distributor.",
 						"images":{"img":"https://lh3.googleusercontent.com/yiGMAj3JZ_fv0wmAtHi0W3d-S-cj5Cv-Wdulk2XQDA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/0-KTEcO1tskkWXKBtzysl3kyHkT39n_BxXNGUs6qyA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -282,7 +282,7 @@
 						"summary":"Walt and Skyler have a baby girl. Now that Jesse is hooked on heroin, Walt refuses to give him his money until he gets clean. Meanwhile, as an excuse for his money, Walt decides to donate the money to himself through his son's new website.",
 						"images":{"img":"https://lh3.googleusercontent.com/qj0qS1bR9zTC6meIv9YxKx7e4cWMGBk8nVF7XJekNQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/0-KTEcO1tskkWXKBtzysl3kyHkT39n_BxXNGUs6qyA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -296,7 +296,7 @@
 						"summary":"Walt's lies have pushed Skyler to her limit. She leaves with the kids. Meanwhile, Jesse blames himself for Jane's death and goes into rehab.",
 						"images":{"img":"https://lh3.googleusercontent.com/QrAs_lknC6XLohQyuJ-IZxFnY-yweaanglEQ1wlYfA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/-HJ1m-zGbOlq_owE_ljP_kDkv1Dch_NsP35OLQrQNg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -315,7 +315,7 @@
 						"summary":"Skyler is planning to divorce Walt now that she knows about the crystal meth. Jesse finishes rehab.",
 						"images":{"img":"https://lh3.googleusercontent.com/4hrVxwLfPkX9RZVS1gjKi2fEuoNJcw_vZ5BqBcw8Uq0", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/tJNF7dmwJ0qyXrn2Evd5qZtpAlrvjdS5FY88Ga60zQ=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -329,7 +329,7 @@
 						"summary":"Walter Jr is having a rough time accepting his parents' separation. Jesse buys his old house from his parents. Meanwhile, two mysterious men have come into town looking for Walt.",
 						"images":{"img":"https://lh3.googleusercontent.com/HHLCCKdvcYFJ42ofifZISCQafbtGGUF2PBzD3Pc_nWY", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/8_lCBRPBe-6BWG12C8su7CXTCAcruNS3y5NiRz0ofw=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -343,7 +343,7 @@
 						"summary":"Walt has moved back into the house without Skyler's consent. Now she can't get him out. Meanwhile, Jesse continues to cope with Jane's death.",
 						"images":{"img":"https://lh3.googleusercontent.com/9SMU0zn2exA3x_pM0rdVIssZQG0PcpmOCh2qiVxZFZ0", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/B_aT3s0GTWoPmNZBZ8fLJ9GNC-oj2r__QUK0CxO52A=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -357,7 +357,7 @@
 						"summary":"Walt's world crumbles even more when he finds out that Skyler is cheating on him. Jesse tries to set up a meeting with Gus to try and sell his own version of the blue meth. Meanwhile, Hank is growing obsessed with finding Heisenberg.",
 						"images":{"img":"https://lh3.googleusercontent.com/SQf1gv_gndfXoWFEDR7HKeuGwqJqtwEKD5ohRJsHyAA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/vxD6DIl_lbCzcCZxWRTSqK6U4BGQN7Ng2vILKjFTtA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -371,7 +371,7 @@
 						"summary":"Gus tries to get Walt back in the business by offering him three million dollars and a brand new lab. Jesse is furious that Walt received half of the money for his blue meth. Hank tries to track down the RV meth lab.",
 						"images":{"img":"https://lh3.googleusercontent.com/KLCKji-weZ6PKpWodjGnXAUagrVCXvWUQqVGga185MQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/MWdH6Okf4qCJtwNcOFelumfZ97Q55tULANinN5Ejyg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -385,7 +385,7 @@
 						"summary":"Walt's new business and assistant, Gale, are making his life much easier. Hank trails the RV back to Jesse. When Walt finds out, he tries to destroy the RV.",
 						"images":{"img":"https://lh3.googleusercontent.com/ydtcfqck695bTI37JDgw_-W4X7CkL5fd5pobZPqls8I", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/Jq8OzTQCE-zlE3O1KYBmKU3PFUgu4N6VC4Y4VYfYhw=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -399,7 +399,7 @@
 						"summary":"Jesse ends up in the hospital after getting beaten up by Hank. Now he is threatening to press charges against the DEA. To stop him, Walt decides to bring Jesse on as his partner, once again.",
 						"images":{"img":"https://lh3.googleusercontent.com/eR4uWkxiFNrp8f06SR84mKlF8XWmxBqNUFpL8UX0TVU", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/zYjsZfNzscjbEkwuEgCx3QFPe1pi_eMq7Xy7IKDjmw=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -413,7 +413,7 @@
 						"summary":"Hank ends up in the hospital after being attacked by Tuco's cousins. Walt spends too much time by his family's side when he should be cooking meth.",
 						"images":{"img":"https://lh3.googleusercontent.com/WBXnwJY8vJnbJZaozC-K5Ok0Yl6ox2bGUrf6E60NE5A", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/pwDlCjyq17tI3W844c8SGk4x4EWnOUvza_Kxs21nNw=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -427,7 +427,7 @@
 						"summary":"Skyler hatches a plan as Hank's hospital bills stack up. Meanwhile, Walt and Gus come to a better understanding as Jesse, looking for more independence, pursues a new opportunity.",
 						"images":{"img":"https://lh3.googleusercontent.com/nRJvvvVE7s0losdGpnJ0iJ__D5AYNESE5H9MIxAzbxs", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/87Q1CCTg-tWyIrl4tf99x80bKn-03JF3DPw3o5SfbA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -441,7 +441,7 @@
 						"summary":"There is a fly loose in the lab. Walt and Jesse must do whatever they can to kill it before it contaminates the meth.",
 						"images":{"img":"https://lh3.googleusercontent.com/i-Tu4fV8oYUmoW_v10ftHNsg-ZEjVQVxz3ZXkMpkBDk", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/qq8lyx9-Cl2g59_nYXEgoKYOsuYAWzqN7U63Xpc6HA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -455,7 +455,7 @@
 						"summary":"Skyler gets more involved in Walt's business, much to his chagrin as Hank struggles with his recovery. Meanwhile, Jesse takes an active role in his new enterprise, leading him to a startling discovery.",
 						"images":{"img":"https://lh3.googleusercontent.com/xaXQPTIKKJ8WbYWDuhF1Ft9sBkDvpUFRxmhj6jyMpcM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/q21Ll9EKz7IsBa6vrdMJoAhp50r-VbY0AIz-GBinWw=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -469,7 +469,7 @@
 						"summary":"Against Walt's advice, Jesse lashes out. Fearing for Jesse's safety, Walt takes drastic action to intervene. Meanwhile a tragic event leads to a shocking confrontation.",
 						"images":{"img":"https://lh3.googleusercontent.com/Zu3puPAwbQtmGYtN6MybvJK-uxNbxaFr0vaiJWkmufo", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/JuccO75t2WRilVmeuQHONhetJwaZ-dbZ-gQKDTqxbQ=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -483,7 +483,7 @@
 						"summary":"Jesse has disappeared and Walt is in big trouble with Gus. So Gus rehires Gale to learn from Walt's cooking so that they can dispose of Walt once and for all.",
 						"images":{"img":"https://lh3.googleusercontent.com/8Yu9wecnZ4BbVHNjMi0c0O05C7QF3HfXfU_Yd4M2n5c", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/xe7OleAXMYEIAPzarfLf2U3f65a2gZwzz-vaVaZB1w=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -502,7 +502,7 @@
 						"summary":"Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile, Skyler tries to find out what happened to Walt.",
 						"images":{"img":"https://lh3.googleusercontent.com/lzJExu4-cNwDi1fOnkOgaPtdohW8Rkitl-vIFzYhAt8", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/gBHKTHO2Ovj4DzFrCmjLs-85LmabDsiXWBcZe-yudOg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -516,7 +516,7 @@
 						"summary":"Walt attempts to form a new alliance as he plans his next move. Meanwhile Skyler pushes Walt towards a business opportunity, in hopes of protecting the family.",
 						"images":{"img":"https://lh3.googleusercontent.com/JQaeG3HjySkzJuyG3FP3M_6Mv9w87cM13Ar-vnyF7MU", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/lqDyY-xS14kePnMnbSzbps6dVFo81z1F6yEX5eNvLFg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -530,7 +530,7 @@
 						"summary":"While Walt worries about Gus's interference and Jesse's increasingly fragile state of mind, Skyler steps up the pressure to get what she wants.",
 						"images":{"img":"https://lh3.googleusercontent.com/CK4dnMDwP856qsShG5qsOmvCe7fwQZ4n-mmcVUOTNio", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/3CM_QDzdSVU8jwQJoFFz42fCaHD9BkhyBReHqZUv-XQ=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -544,7 +544,7 @@
 						"summary":"As Skyler concocts an elaborate story to explain the Whites' finances, a worried Walt discovers that Hank has begun a new investigation.",
 						"images":{"img":"https://lh3.googleusercontent.com/JdRFzjygIaupFKgMXq_KzTj3TZby2AHRUM_Lm2fFivM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/MfOFhe-sk7LFn46ybLIESvyay1d9JtyM3x8uGeOjeag=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -558,7 +558,7 @@
 						"summary":"Jesse rides shotgun with Mike on a perilous run of pickups, prompting Walt to worry that his partner is about to be killed.",
 						"images":{"img":"https://lh3.googleusercontent.com/3GE-DYTch1M95MOGD2rI32IxK3TAkJeh2l6YNNzxC2s", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/qsgDM0tyNCYWXknPeLHwgofLSdeBzsDf_pcCQE41O0E=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -572,7 +572,7 @@
 						"summary":"Skyler adopts an aloof approach when she suspects that Walt isn't telling her the truth. Meanwhile, Jesse proves his worth to Mike and Gus.",
 						"images":{"img":"https://lh3.googleusercontent.com/mTAdMv4W-7UQWuiffiLOsnPmFmnyfqL708T5lxL5RaE", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/aPmgsFHH_up9F48sfQgenEq99iJI-Q_j_ZovjdbyB-Q=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -586,7 +586,7 @@
 						"summary":"Ordered to return the car he bought for his son, Walt strikes back by putting Skyler in a tough spot with their new money-laundering operation.",
 						"images":{"img":"https://lh3.googleusercontent.com/rA2H1FKRP_839hxf_cFmoHzUZfzb0vPmODCFIGUjAbw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/2QNdPlaPsqPq-ZoIT9JB04_M9Pn-Hl0AuZ_gol2C6yM=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -600,7 +600,7 @@
 						"summary":"When Hank produces evidence that Gus is Albuquerque's crystal meth kingpin, Walt worries that he and Jesse will be killed to protect their boss.",
 						"images":{"img":"https://lh3.googleusercontent.com/J3CB9dqOKLBPyvTBS_DjBOMZeGrZKAvoUtDrWLimfLI", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/_RwLxyjWHH31ifSP4XsTyCz5O7579x4ccogpZaIheg=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -614,7 +614,7 @@
 						"summary":"While Walt tries to subvert Hank's probe into the Albuquerque meth scene, a deadly warning forces Gus to consider a deal with the cartel.",
 						"images":{"img":"https://lh3.googleusercontent.com/pty6ZK2NAeRa61M7Fa9nbgHjQDZb9P_PT-kUStm00cM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/s8NXr5RAcsOOR7_0RcP8zfwUjmH-Sal9C1fvXrf7qVA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -628,7 +628,7 @@
 						"summary":"Jesse, Gus, and Mike fly down to Mexico, and Jesse cooks the blue meth for the cartel. Walt misses his son's 16th birthday after his fight with Jesse.",
 						"images":{"img":"https://lh3.googleusercontent.com/yqtKDaKiP2zri-GCbOJPpJhLFpmBKM4pcd2FtjPBZXM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/uaoLmxNLYCjqbRtnvacqEt-x3yYayFm6jVkW0oB-SA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -642,7 +642,7 @@
 						"summary":"Hank asks Walt to drive him to the laundry where the meth lab is hidden. Ted still won't pay the IRS so Skyler asks Saul for help, and Saul sends in his A-Team. Gus and Jesse return from Mexico, and Walt fears he is in trouble with Gus.",
 						"images":{"img":"https://lh3.googleusercontent.com/Ve-fq-_LFGt_miinLo-JGUf2f0DSSIOSJvbL4cbiiRs", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/CRTp6vEKvDs1zoitqUECVtvyfqPIf2VJDBZBpkRs2A=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -656,7 +656,7 @@
 						"summary":"The DEA is putting Hank and his family in protective custody; however, Walt refuses and awaits his fate in his house. Meanwhile, Brock has fallen terribly ill and Jesse suspects Walt may be behind it.",
 						"images":{"img":"https://lh3.googleusercontent.com/pEJFBRi3YenEatHNLjTbqHMGfG0zac9syBWzQQfwZic", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/SvNUMwDHHlwlGwU8pR-3-wKh56UX2KbaXthLTigeDCY=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -670,7 +670,7 @@
 						"summary":"Jesse is brought to the FBI for questioning on his knowledge of Ricin. In a last effort to kill Gus, Walt must ask for help from an old enemy.",
 						"images":{"img":"https://lh3.googleusercontent.com/TMSUAR2u1d02irp0PC7Ms92yPnWRBXhqhpIriAuoito", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/0Z0Cx5fb96zJni7W4_LDerEXp4y5gZAA9GhkaFc8SA=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -689,7 +689,7 @@
 						"summary":"Now that Gus is dead, Walt, Jesse, and Mike work to cover their tracks. Skyler panics when Ted Beneke wakes up.",
 						"images":{"img":"https://lh3.googleusercontent.com/GNFnnYy6Vr-CK9PrnM3Y7ThzJzZ_RWM8byO7b7EKc5U","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/aUOE8ZLk5D7PUzNWVHETCg4AGBxy3mPQuBjXp99gzU8=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -703,7 +703,7 @@
 						"summary":"Walt and Jesse decide to start things up again. Mike meets an old friend, who is worried about the outcome of the DEA's investigation on Gus and how it will affect them all.",
 						"images":{"img":"https://lh3.googleusercontent.com/x4PMyldK7mVa1NuKwCDxaHzBPGZdTdFIghcJrC2ncmU","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/bv2_az7-JgCElG6QSXdau0-60HAuIsrmpbxy36JC8qM=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -717,7 +717,7 @@
 						"summary":"Walt, Jesse and Mike start up business together.",
 						"images":{"img":"https://lh3.googleusercontent.com/EasYtyGOPjX1BJDrtOh6n2A_bfXUgZpgAfyPthytRZ0","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/P12d0dWzlTe2auVuwhmH_WMWl3m_-RiUmpefd_wCxog=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -731,7 +731,7 @@
 						"summary":"It's Walt's 51st birthday. His return to the drug business causes Skyler to go into depression.",
 						"images":{"img":"https://lh3.googleusercontent.com/LHDJYzqUc9ehk1BHh2qnPm_bs4vloM7g7o6fAKOvF1o","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/GZrskOWoRMWkH4KyJ3B41QHJNlpgczkT-K4WucuSod4=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -745,7 +745,7 @@
 						"summary":"The boys plan on robbing a train that has an entire car of methylamine.",
 						"images":{"img":"https://lh3.googleusercontent.com/fWJ57nNpCAEMEOHLaL78pVkpAf8X_kQrgq_D-6He4AI","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/92G5R4MufaQ4_t-3vasKQN0VWfDkHctuRqavqDx3-ls=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -759,7 +759,7 @@
 						"summary":"Jesse and Mike want out. They decide to sell the stolen methylamine to a competitor. That doesn't sit too well with Walt.",
 						"images":{"img":"https://lh3.googleusercontent.com/s_7IC8fV_LZzbbe7rjFKZrR3YhVKcFmp5_YyoZ--v_g","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/xYcGqSGqV2y6TMGSgsVQOXEeF1OZXHiAWPNhrmRphcI=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -787,7 +787,7 @@
 						"summary":"Walt expands his business overseas, and the money is pouring in.",
 						"images":{"img":"https://lh3.googleusercontent.com/GgWJ4LArf0MSk-z1r0FzL4_OJKUG7T8JryreijMGxTg","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/mRUdkGuzy-MJdHTEHIC9xadVjhqXnofdsRE5Wuo6ZIE=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -801,7 +801,7 @@
 						"summary":"Walt is out of the meth business and trying to move on with his life. Jesse tries to get rid of his money. Hank now knows that Walt is the famous Heisenberg.",
 						"images":{"img":"https://lh3.googleusercontent.com/4V2TAYjQgWXWSWEUlgRWqQ7a522SmdYMz9goyUXy73k","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/pMets9i7LnojBIiDY3Ro0AMQI6sxHnMrx7ZzDAET5dY=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -815,7 +815,7 @@
 						"summary":"Hank is determined to bring down Walt. Walt scrambles to hide evidence before Hank gets to it, and Skyler tries to stop Hank and Marie from taking away the kids.",
 						"images":{"img":"https://lh3.googleusercontent.com/4V4RgPAGHRP77zuMuv-iMCrdd4yh2FYKb468Tnfp-7A","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/na6jBIsayRvu6DyB1vwZ1rxVJf2Qfe2INqEvsmra91k=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -829,7 +829,7 @@
 						"summary":"Walt makes his next move against Hank, putting Hank in a tough position. Hank confronts Jesse and attempts to turn him against Walt, and Jesse decides it's time to move on. Meanwhile, Todd has taken over the business.",
 						"images":{"img":"https://lh3.googleusercontent.com/DMg3ULZomioX--qrMvmBmtBK64DbTxzV88iwjx-3_RQ","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/ejvZjxe7yjPZA9Wc3YnT7Z3IE1doRR7hjjt5D0NXlK8=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -843,7 +843,7 @@
 						"summary":"Walt discovers Jesse broke into his house and attempted to burn it down. Walt wants to protect his family so he moves them into a hotel for a few nights. Jesse makes plans to take down Walt.",
 						"images":{"img":"https://lh3.googleusercontent.com/L5CJvfWZrBF9hnMjkiJSe1FK0FVt8ErB35G1PXjmaZ8","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/XniDUOZN21QNEKFF_ZzqwvM4LAAC98whxO_4AzOUcIk=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -857,7 +857,7 @@
 						"summary":"Jesse and Hank come up with an idea to take Walt down. Walt hires Todd's uncle to kill Jesse.",
 						"images":{"img":"https://lh3.googleusercontent.com/vDBzzZI3Av-gc0FkvhxkbEHJCO3_qYmttOeR7dgKfAc","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/fjaIEd3adIO7_BhziIrReq3Z273s2rUsxpT2cgBFNI4=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -871,7 +871,7 @@
 						"summary":"Walt goes on the run. Jesse is taken hostage. Skyler believes it's time to tell Flynn the truth.",
 						"images":{"img":"https://lh3.googleusercontent.com/naiGDwoF16UwtU08lHjFok3Pkq4dsQT1VEJUFBNBWdE","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/-0q15Raoe3Hmj_xFbYTiZ_l9W6uTqeDE3th7Ri6FIqo=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -885,7 +885,7 @@
 						"summary":"Walt struggles as he adapts to aspects of his new identity. Jesse plans an escape against Jack and his crew.",
 						"images":{"img":"https://lh3.googleusercontent.com/fEdeUuseMzXGwk4_0QqHg-sE1k5EqkfSK2Z76jmI52Y","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/m7pkACXtx53jjZODuU1lembgUDn9TaumEGDz9s3QHrM=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -899,7 +899,7 @@
 						"summary":"Walter White makes one last attempt to secure his family's future, while also visiting some old enemies, during his final return to Albuquerque.",
 						"images":{"img":"https://lh3.googleusercontent.com/tNxdekAWFknY5gVr1cqSly8kA4KTPVUdc3WjyEU8BYU","imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"","type":""},
+							{"src":"https://lh3.googleusercontent.com/BTWDPL7dL3cKK2UWVk-SjCf6CcYdDGL0J7YuO160EZs=m18","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -910,6 +910,126 @@
 
 
 
+
+						  ]
+			}
+
+
+
+
+				 ]
+	},
+	{	"id": 1, "title": "iZombie", "titleUrl": "iZombie", "status":"Airing",
+		"released": {"month":"March","day":"17","year":"2015","endedyear":""}, 
+		"genres": [{"genre":"Comedy | "},{"genre":"Crime"},{"genre":" | Drama"}], 
+		"creators":[{"creator":"Diane Ruggiero","link":""},{"creator":"Rob Thomas","link":""}],
+		"starring":[{"star":"Rose McIver","link":""},{"star":"Malcolm Goodwin","link":""},{"star":"Rahul Kohli","link":""}],
+		"duration": "42 mins",
+		"poster": "https://lh3.googleusercontent.com/mzGVmSzkbHvDaRWY2KxcwqZ8Mes72tmd2JaihpVm8jM=w280-h400-no", 
+		"latestseason":{"season":"01", "seasonId":0},
+		"plot":"Liv Moore is a medical resident with a promising career and a fiancé, but when she goes to a boat party, things go horribly wrong. Liv gets turned into a zombie after getting scratched by one. Now, Liv has traded her job for a job at the morgue, broken off her engagement, and completely changed her life. At the morgue, after eating the brain of a murder victim, Liv gets visions that can be used to piece together her murder. But unable to share her true identity with her family and friends, Liv struggles.",
+		"season":[
+			{	"id":0, "season":"01",
+				"finalepisode":{"finalepi":"07","epiId":6},
+				"episode":[
+					{
+						"id":0,
+						"episode":"01",
+						"episodetitle":"Pilot",
+						"episodetitleUrl":"Pilot",
+						"released":{"month":"January", "day":"20", "year":"2008"},
+						"summary":"A high school chemistry teacher is diagnosed with terminal lung cancer and resorts to selling methamphetamine to provide for his family when he is dead.",
+						"images":{"img":"https://lh3.googleusercontent.com/GC0xX5YAQINu7q0sUSygWEptUHuApC0fj-pk3tuEZA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"https://lh3.googleusercontent.com/FYTcOWonesz2oAixD1k3Rchazg_gpWZWEscufYY59w=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":1,
+						"episode":"02",
+						"episodetitle":"Cat's in the Bag...",
+						"episodetitleUrl":"Cat's_in_the_Bag",
+						"released":{"month":"January", "day":"27", "year":"2008"},
+						"summary":"Walt and Jesse try to decide what to do with the body of Emilio and their prisoner, Krazy 8.",
+						"images":{"img":"https://lh3.googleusercontent.com/OX_6ZeYVJ0u5Offl26BdNz2cPnxHbV_W-VIB3SFZrg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"https://lh3.googleusercontent.com/lbvQuhVNRI7mPcVfpNqacSseHUs7gvwO2J0-i-__iA=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"...And the Bag's in the River",
+						"episodetitleUrl":"And_the_Bag's_in_the_River",
+						"released":{"month":"Febuary", "day":"10", "year":"2008"},
+						"summary":"Walt is struggling to decide if it's best to kill Krazy 8 or let him go.",
+						"images":{"img":"https://lh3.googleusercontent.com/hPXNa4009KfYiD8_OVFp88g-8B1v401S5ynPiMaEXw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"https://lh3.googleusercontent.com/Kf0CwJXT3lVpGowfQ1VGNatAOaTdEj4RgeYLH3vY_g=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":3,
+						"episode":"04",
+						"episodetitle":"Cancer Man",
+						"episodetitleUrl":"Cancer_Man",
+						"released":{"month":"Febuary", "day":"17", "year":"2008"},
+						"summary":"Walt tells the rest of his family about his cancer. Jesse tries to make amends with his own parents.",
+						"images":{"img":"https://lh3.googleusercontent.com/q-yrL-oV_9nnDRhEcZS0azai9vS3yQMyKkEAjQUzqg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"https://lh3.googleusercontent.com/tQjLDDSgI2e-WpZiRaZCT-eNWXRic8G2yXLlr3dRCA=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":4,
+						"episode":"05",
+						"episodetitle":"Gray Matter",
+						"episodetitleUrl":"Gray_Matter",
+						"released":{"month":"Febuary", "day":"24", "year":"2008"},
+						"summary":"Walt rejects everyone who tries to help him with the cancer. Jesse tries his best to create Walt's meth, with the help of an old friend.",
+						"images":{"img":"https://lh3.googleusercontent.com/vojxe1BrDURfU9zgQwcMfG7xSSDv3q2NsIzcgqsZGw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"https://lh3.googleusercontent.com/f3QGnTCvMRg1_1Cv4vRyWITe3cOjt9rIycv36-yVkw=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":5,
+						"episode":"06",
+						"episodetitle":"Crazy Handful of Nothin'",
+						"episodetitleUrl":"Crazy_Handful_of_Nothin'",
+						"released":{"month":"March", "day":"02", "year":"2008"},
+						"summary":"With the side effects and cost of his treatment mounting, Walt demands that Jesse finds a wholesaler to buy their drugs, which lands him in trouble.",
+						"images":{"img":"https://lh3.googleusercontent.com/7nGGFj4C7WZXuYTUNxO5wHZBKDgrrXHZkfpI40oSGQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"https://lh3.googleusercontent.com/3eibLYnddjoI4J4Z8YxYziPzd_UJ0pIWirkVzzN3zQ=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":6,
+						"episode":"07",
+						"episodetitle":"A No-Rough-Stuff-Type Deal",
+						"episodetitleUrl":"A_No-Rough-Stuff-Type_Deal",
+						"released":{"month":"March", "day":"09", "year":"2008"},
+						"summary":"Walt and Jesse try to up their game by making more of the crystal every week for Tuco. Unfortunately, some of the ingredients they need is not easy to find. Meanwhile, Skyler realizes that her sister is a shoplifter.",
+						"images":{"img":"https://lh3.googleusercontent.com/PnQ0w12ku1bDpibD7f8VZIXeIENhPz40t0UotRoZVA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"https://lh3.googleusercontent.com/6IwLQRWS0vQXCrYwSXOlwIIIrZoqJXZyxvUAhWvbOw=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					}
 
 						  ]
 			}
