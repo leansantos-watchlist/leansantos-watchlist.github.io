@@ -13,7 +13,7 @@
 		"plot":"Middle aged, and overqualified highschool chemistry teacher Walter White has been diagnosed with lung cancer. To make sure his family is financially secure, he teams up with a former student Jesse Pinkman and turns to a life of crime to make and distribute the purest crystal meth on the streets.",
 		"season":[
 			{	"id":0, "season":"01",
-				"finalepisode":{"finalepi":"03","epiId":2},
+				"finalepisode":{"finalepi":"07","epiId":6},
 				"episode":[
 					{
 						"id":0,
@@ -22,7 +22,7 @@
 						"episodetitleUrl":"Pilot",
 						"released":{"month":"January", "day":"20", "year":"2008"},
 						"summary":"A high school chemistry teacher is diagnosed with terminal lung cancer and resorts to selling methamphetamine to provide for his family when he is dead.",
-						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTQzNDg0Mzc5OV5BMl5BanBnXkFtZTgwOTE0OTc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"images":{"img":"https://lh3.googleusercontent.com/GC0xX5YAQINu7q0sUSygWEptUHuApC0fj-pk3tuEZA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -36,7 +36,7 @@
 						"episodetitleUrl":"Cat's_in_the_Bag",
 						"released":{"month":"January", "day":"27", "year":"2008"},
 						"summary":"Walt and Jesse try to decide what to do with the body of Emilio and their prisoner, Krazy 8.",
-						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMTcyOTU0MTIxNF5BMl5BanBnXkFtZTgwMzAwOTc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"images":{"img":"https://lh3.googleusercontent.com/OX_6ZeYVJ0u5Offl26BdNz2cPnxHbV_W-VIB3SFZrg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -50,26 +50,83 @@
 						"episodetitleUrl":"And_the_Bag's_in_the_River",
 						"released":{"month":"Febuary", "day":"10", "year":"2008"},
 						"summary":"Walt is struggling to decide if it's best to kill Krazy 8 or let him go.",
-						"images":{"img":"http://ia.media-imdb.com/images/M/MV5BMjI4NjIxOTkwMl5BMl5BanBnXkFtZTgwNTAwOTc5MjE@._V1_UX200_CR0,0,200,112_AL_.jpg","poster":""},
+						"images":{"img":"https://lh3.googleusercontent.com/hPXNa4009KfYiD8_OVFp88g-8B1v401S5ynPiMaEXw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":3,
+						"episode":"04",
+						"episodetitle":"Cancer Man",
+						"episodetitleUrl":"Cancer_Man",
+						"released":{"month":"Febuary", "day":"17", "year":"2008"},
+						"summary":"Walt tells the rest of his family about his cancer. Jesse tries to make amends with his own parents.",
+						"images":{"img":"https://lh3.googleusercontent.com/q-yrL-oV_9nnDRhEcZS0azai9vS3yQMyKkEAjQUzqg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":4,
+						"episode":"05",
+						"episodetitle":"Gray Matter",
+						"episodetitleUrl":"Gray_Matter",
+						"released":{"month":"Febuary", "day":"24", "year":"2008"},
+						"summary":"Walt rejects everyone who tries to help him with the cancer. Jesse tries his best to create Walt's meth, with the help of an old friend.",
+						"images":{"img":"https://lh3.googleusercontent.com/vojxe1BrDURfU9zgQwcMfG7xSSDv3q2NsIzcgqsZGw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":5,
+						"episode":"06",
+						"episodetitle":"Crazy Handful of Nothin'",
+						"episodetitleUrl":"Crazy_Handful_of_Nothin'",
+						"released":{"month":"March", "day":"02", "year":"2008"},
+						"summary":"With the side effects and cost of his treatment mounting, Walt demands that Jesse finds a wholesaler to buy their drugs, which lands him in trouble.",
+						"images":{"img":"https://lh3.googleusercontent.com/7nGGFj4C7WZXuYTUNxO5wHZBKDgrrXHZkfpI40oSGQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":6,
+						"episode":"07",
+						"episodetitle":"A No-Rough-Stuff-Type Deal",
+						"episodetitleUrl":"A_No-Rough-Stuff-Type_Deal",
+						"released":{"month":"March", "day":"09", "year":"2008"},
+						"summary":"Walt and Jesse try to up their game by making more of the crystal every week for Tuco. Unfortunately, some of the ingredients they need is not easy to find. Meanwhile, Skyler realizes that her sister is a shoplifter.",
+						"images":{"img":"https://lh3.googleusercontent.com/PnQ0w12ku1bDpibD7f8VZIXeIENhPz40t0UotRoZVA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
 					}
+
 						  ]
 			},			
 			{	"id":1, "season":"02",
-				"finalepisode":{"finalepi":"02","epiId":1},
+				"finalepisode":{"finalepi":"13","epiId":12},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
-						"episodetitle":"Breaking Bad S02-E01",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Seven Thirty-Seven",
+						"episodetitleUrl":"Seven_Thirty-Seven",
+						"released":{"month":"March", "day":"08", "year":"2009"},
+						"summary":"After witnessing Tuco murder one of his junkies, Walt and Jesse fear that he will kill them next, to tie up loose ends. Unless they kill Tuco first.",
+						"images":{"img":"https://lh3.googleusercontent.com/Rpm68dMJj6LKTTG77nMP9pYjEursHERl4lhM96DddQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -79,11 +136,165 @@
 					{
 						"id":1,
 						"episode":"02",
-						"episodetitle":"Breaking Bad S02-E02",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Grilled",
+						"episodetitleUrl":"Grilled",
+						"released":{"month":"March", "day":"15", "year":"2009"},
+						"summary":"Tuco takes Walt and Jesse prisoner.",
+						"images":{"img":"https://lh3.googleusercontent.com/notklQGv63np_LrH0u3jD9EKn8-kK0CeE9ZYA2kDOQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"Bit by a Dead Bee",
+						"episodetitleUrl":"Bit_by_a_Dead_Bee",
+						"released":{"month":"March", "day":"22", "year":"2009"},
+						"summary":"Walt and Jesse try to come up with alibis for their disappearances.",
+						"images":{"img":"https://lh3.googleusercontent.com/-YGUpzJi888axZpjn89j6M5SppK1vCUsCY27fD1Luw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":3,
+						"episode":"04",
+						"episodetitle":"Down",
+						"episodetitleUrl":"Down",
+						"released":{"month":"March", "day":"29", "year":"2009"},
+						"summary":"Skyler keeps mysteriously leaving without talking to Walt. Jesse's parents throw him out of his own house.",
+						"images":{"img":"https://lh3.googleusercontent.com/gJ7MTKpuhzhfydGtOhJ6OmcHugmzLhpazONw4tNGcg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":4,
+						"episode":"05",
+						"episodetitle":"Breakage",
+						"episodetitleUrl":"Breakage",
+						"released":{"month":"April", "day":"05", "year":"2009"},
+						"summary":"Walt and Jesse decide to start their own little empire with the help of Jesse's friends: Skinny Pete, Combo, and Badger. Meanwhile, Hank tries to pull himself together after his encounter with Tuco.",
+						"images":{"img":"https://lh3.googleusercontent.com/Yg2jlNgsYD6-Ys8HcfXqK3C8So3941T6l0aJEqULKg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":5,
+						"episode":"06",
+						"episodetitle":"Peekaboo",
+						"episodetitleUrl":"Peekaboo",
+						"released":{"month":"April", "day":"12", "year":"2009"},
+						"summary":"After Skinny Pete gets ripped off, Walt makes Jesse go get the money. Meanwhile, Walt's cover story on how Elliott and Gretchen are paying for his medical treatment is on the verge of collapsing.",
+						"images":{"img":"https://lh3.googleusercontent.com/kgwBQiLh0txtRJAC9L7rHn-My4T6BRe0w1PWLB9slA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":6,
+						"episode":"07",
+						"episodetitle":"Negro Y Azul",
+						"episodetitleUrl":"Negro_Y_Azul",
+						"released":{"month":"April", "day":"19", "year":"2009"},
+						"summary":"Rumor is spreading that Jesse killed the man that ripped Skinny Pete off. Walt uses this to his advantage on expanding their territory. Meanwhile, Hank has been promoted to the El Paso office. But it's not all he hoped it would be.",
+						"images":{"img":"https://lh3.googleusercontent.com/v5i78SnSLDHZPHdGc_Xk_ReOhypdF_nt_nuOxKasYQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":7,
+						"episode":"08",
+						"episodetitle":"Better Call Saul",
+						"episodetitleUrl":"Better_Call_Saul",
+						"released":{"month":"April", "day":"26", "year":"2009"},
+						"summary":"Badger is caught by the DEA. Walt and Jesse hire the best criminal lawyer in town, Saul Goodman.",
+						"images":{"img":"https://lh3.googleusercontent.com/xLLlLj8dzd6ld3S7ggOPSLFVFlrVTBew0CAsufcvUQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":8,
+						"episode":"09",
+						"episodetitle":"4 Days Out",
+						"episodetitleUrl":"4_Days_Out",
+						"released":{"month":"May", "day":"03", "year":"2009"},
+						"summary":"Walt and Jesse become stranded out in the middle of the desert after cooking more crystal.",
+						"images":{"img":"https://lh3.googleusercontent.com/pcA-05snhzxbSTy1lOueqB-tPSNvXNGzs-Ql0Wvrpw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":9,
+						"episode":"10",
+						"episodetitle":"Over",
+						"episodetitleUrl":"Over",
+						"released":{"month":"May", "day":"10", "year":"2009"},
+						"summary":"Walt's cancer has greatly improved. Time to celebrate. Meanwhile Jesse tries to meet his new girlfriend's father.",
+						"images":{"img":"https://lh3.googleusercontent.com/2wCXfSnPth985VIgQzmzVQ-S_hffm-i1MBcjtYavHg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":10,
+						"episode":"11",
+						"episodetitle":"Mandala",
+						"episodetitleUrl":"Mandala",
+						"released":{"month":"May", "day":"17", "year":"2009"},
+						"summary":"Combo is found dead. Walt and Jesse's little empire begins to crumble. Saul tries to set them up with a mysterious distributor.",
+						"images":{"img":"https://lh3.googleusercontent.com/yiGMAj3JZ_fv0wmAtHi0W3d-S-cj5Cv-Wdulk2XQDA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":11,
+						"episode":"12",
+						"episodetitle":"Phoenix",
+						"episodetitleUrl":"Phoenix",
+						"released":{"month":"May", "day":"24", "year":"2009"},
+						"summary":"Walt and Skyler have a baby girl. Now that Jesse is hooked on heroin, Walt refuses to give him his money until he gets clean. Meanwhile, as an excuse for his money, Walt decides to donate the money to himself through his son's new website.",
+						"images":{"img":"https://lh3.googleusercontent.com/qj0qS1bR9zTC6meIv9YxKx7e4cWMGBk8nVF7XJekNQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":12,
+						"episode":"13",
+						"episodetitle":"ABQ",
+						"episodetitleUrl":"ABQ",
+						"released":{"month":"May", "day":"31", "year":"2009"},
+						"summary":"Walt's lies have pushed Skyler to her limit. She leaves with the kids. Meanwhile, Jesse blames himself for Jane's death and goes into rehab.",
+						"images":{"img":"https://lh3.googleusercontent.com/QrAs_lknC6XLohQyuJ-IZxFnY-yweaanglEQ1wlYfA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -93,16 +304,16 @@
 						  ]
 			},
 			{	"id":2, "season":"03",
-				"finalepisode":{"finalepi":"02","epiId":1},
+				"finalepisode":{"finalepi":"13","epiId":12},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
-						"episodetitle":"Breaking Bad S03-E01",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"No Más",
+						"episodetitleUrl":"No_Más",
+						"released":{"month":"March", "day":"21", "year":"2010"},
+						"summary":"Skyler is planning to divorce Walt now that she knows about the crystal meth. Jesse finishes rehab.",
+						"images":{"img":"https://lh3.googleusercontent.com/4hrVxwLfPkX9RZVS1gjKi2fEuoNJcw_vZ5BqBcw8Uq0", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -112,11 +323,165 @@
 					{
 						"id":1,
 						"episode":"02",
-						"episodetitle":"Breaking Bad S03-E02",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Caballo sin Nombre",
+						"episodetitleUrl":"Caballo_sin_Nombre",
+						"released":{"month":"March", "day":"28", "year":"2010"},
+						"summary":"Walter Jr is having a rough time accepting his parents' separation. Jesse buys his old house from his parents. Meanwhile, two mysterious men have come into town looking for Walt.",
+						"images":{"img":"https://lh3.googleusercontent.com/HHLCCKdvcYFJ42ofifZISCQafbtGGUF2PBzD3Pc_nWY", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":2,
+						"episode":"03",
+						"episodetitle":"I.F.T.",
+						"episodetitleUrl":"I.F.T.",
+						"released":{"month":"April", "day":"04", "year":"2010"},
+						"summary":"Walt has moved back into the house without Skyler's consent. Now she can't get him out. Meanwhile, Jesse continues to cope with Jane's death.",
+						"images":{"img":"https://lh3.googleusercontent.com/9SMU0zn2exA3x_pM0rdVIssZQG0PcpmOCh2qiVxZFZ0", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":3,
+						"episode":"04",
+						"episodetitle":"Green Light",
+						"episodetitleUrl":"Green_Light",
+						"released":{"month":"April", "day":"11", "year":"2010"},
+						"summary":"Walt's world crumbles even more when he finds out that Skyler is cheating on him. Jesse tries to set up a meeting with Gus to try and sell his own version of the blue meth. Meanwhile, Hank is growing obsessed with finding Heisenberg.",
+						"images":{"img":"https://lh3.googleusercontent.com/SQf1gv_gndfXoWFEDR7HKeuGwqJqtwEKD5ohRJsHyAA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":4,
+						"episode":"05",
+						"episodetitle":"Más",
+						"episodetitleUrl":"Más",
+						"released":{"month":"April", "day":"18", "year":"2010"},
+						"summary":"Gus tries to get Walt back in the business by offering him three million dollars and a brand new lab. Jesse is furious that Walt received half of the money for his blue meth. Hank tries to track down the RV meth lab.",
+						"images":{"img":"https://lh3.googleusercontent.com/KLCKji-weZ6PKpWodjGnXAUagrVCXvWUQqVGga185MQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":5,
+						"episode":"06",
+						"episodetitle":"Sunset",
+						"episodetitleUrl":"Sunset",
+						"released":{"month":"April", "day":"25", "year":"2010"},
+						"summary":"Walt's new business and assistant, Gale, are making his life much easier. Hank trails the RV back to Jesse. When Walt finds out, he tries to destroy the RV.",
+						"images":{"img":"https://lh3.googleusercontent.com/ydtcfqck695bTI37JDgw_-W4X7CkL5fd5pobZPqls8I", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":6,
+						"episode":"07",
+						"episodetitle":"One Minute",
+						"episodetitleUrl":"One_Minute",
+						"released":{"month":"May", "day":"02", "year":"2010"},
+						"summary":"Jesse ends up in the hospital after getting beaten up by Hank. Now he is threatening to press charges against the DEA. To stop him, Walt decides to bring Jesse on as his partner, once again.",
+						"images":{"img":"https://lh3.googleusercontent.com/eR4uWkxiFNrp8f06SR84mKlF8XWmxBqNUFpL8UX0TVU", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":7,
+						"episode":"08",
+						"episodetitle":"I See You",
+						"episodetitleUrl":"I_See_You",
+						"released":{"month":"May", "day":"09", "year":"2010"},
+						"summary":"Hank ends up in the hospital after being attacked by Tuco's cousins. Walt spends too much time by his family's side when he should be cooking meth.",
+						"images":{"img":"https://lh3.googleusercontent.com/WBXnwJY8vJnbJZaozC-K5Ok0Yl6ox2bGUrf6E60NE5A", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":8,
+						"episode":"09",
+						"episodetitle":"Kafkaesque",
+						"episodetitleUrl":"Kafkaesque",
+						"released":{"month":"May", "day":"16", "year":"2010"},
+						"summary":"Skyler hatches a plan as Hank's hospital bills stack up. Meanwhile, Walt and Gus come to a better understanding as Jesse, looking for more independence, pursues a new opportunity.",
+						"images":{"img":"https://lh3.googleusercontent.com/nRJvvvVE7s0losdGpnJ0iJ__D5AYNESE5H9MIxAzbxs", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":9,
+						"episode":"10",
+						"episodetitle":"Fly",
+						"episodetitleUrl":"Fly",
+						"released":{"month":"May", "day":"23", "year":"2010"},
+						"summary":"There is a fly loose in the lab. Walt and Jesse must do whatever they can to kill it before it contaminates the meth.",
+						"images":{"img":"https://lh3.googleusercontent.com/i-Tu4fV8oYUmoW_v10ftHNsg-ZEjVQVxz3ZXkMpkBDk", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":10,
+						"episode":"11",
+						"episodetitle":"Abiquiu",
+						"episodetitleUrl":"Abiquiu",
+						"released":{"month":"May", "day":"30", "year":"2010"},
+						"summary":"Skyler gets more involved in Walt's business, much to his chagrin as Hank struggles with his recovery. Meanwhile, Jesse takes an active role in his new enterprise, leading him to a startling discovery.",
+						"images":{"img":"https://lh3.googleusercontent.com/xaXQPTIKKJ8WbYWDuhF1Ft9sBkDvpUFRxmhj6jyMpcM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":11,
+						"episode":"12",
+						"episodetitle":"Half Measures",
+						"episodetitleUrl":"Half_Measures",
+						"released":{"month":"June", "day":"06", "year":"2010"},
+						"summary":"Against Walt's advice, Jesse lashes out. Fearing for Jesse's safety, Walt takes drastic action to intervene. Meanwhile a tragic event leads to a shocking confrontation.",
+						"images":{"img":"https://lh3.googleusercontent.com/Zu3puPAwbQtmGYtN6MybvJK-uxNbxaFr0vaiJWkmufo", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":12,
+						"episode":"13",
+						"episodetitle":"Full Measure",
+						"episodetitleUrl":"Full_Measure",
+						"released":{"month":"June", "day":"13", "year":"2010"},
+						"summary":"Jesse has disappeared and Walt is in big trouble with Gus. So Gus rehires Gale to learn from Walt's cooking so that they can dispose of Walt once and for all.",
+						"images":{"img":"https://lh3.googleusercontent.com/8Yu9wecnZ4BbVHNjMi0c0O05C7QF3HfXfU_Yd4M2n5c", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -131,11 +496,11 @@
 					{
 						"id":0,
 						"episode":"01",
-						"episodetitle":"Breaking Bad S04-E01",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Box Cutter",
+						"episodetitleUrl":"Box_Cutter",
+						"released":{"month":"July", "day":"17", "year":"2011"},
+						"summary":"Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile, Skyler tries to find out what happened to Walt.",
+						"images":{"img":"https://lh3.googleusercontent.com/lzJExu4-cNwDi1fOnkOgaPtdohW8Rkitl-vIFzYhAt8", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -145,11 +510,11 @@
 					{
 						"id":1,
 						"episode":"02",
-						"episodetitle":"Breaking Bad S04-E02",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Thirty-Eight Snub",
+						"episodetitleUrl":"Thirty-Eight_Snub",
+						"released":{"month":"July", "day":"24", "year":"2011"},
+						"summary":"Walt attempts to form a new alliance as he plans his next move. Meanwhile Skyler pushes Walt towards a business opportunity, in hopes of protecting the family.",
+						"images":{"img":"https://lh3.googleusercontent.com/JQaeG3HjySkzJuyG3FP3M_6Mv9w87cM13Ar-vnyF7MU", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -159,11 +524,11 @@
 					{
 						"id":2,
 						"episode":"03",
-						"episodetitle":"Breaking Bad S04-E03",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Open House",
+						"episodetitleUrl":"Open_House",
+						"released":{"month":"July", "day":"31", "year":"2011"},
+						"summary":"While Walt worries about Gus's interference and Jesse's increasingly fragile state of mind, Skyler steps up the pressure to get what she wants.",
+						"images":{"img":"https://lh3.googleusercontent.com/CK4dnMDwP856qsShG5qsOmvCe7fwQZ4n-mmcVUOTNio", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -173,11 +538,11 @@
 					{
 						"id":3,
 						"episode":"04",
-						"episodetitle":"Breaking Bad S04-E04",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Bullet Points",
+						"episodetitleUrl":"Open_House",
+						"released":{"month":"August", "day":"07", "year":"2011"},
+						"summary":"As Skyler concocts an elaborate story to explain the Whites' finances, a worried Walt discovers that Hank has begun a new investigation.",
+						"images":{"img":"https://lh3.googleusercontent.com/JdRFzjygIaupFKgMXq_KzTj3TZby2AHRUM_Lm2fFivM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -187,11 +552,11 @@
 					{
 						"id":4,
 						"episode":"05",
-						"episodetitle":"Breaking Bad S04-E05",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Shotgun",
+						"episodetitleUrl":"Shotgun",
+						"released":{"month":"August", "day":"14", "year":"2011"},
+						"summary":"Jesse rides shotgun with Mike on a perilous run of pickups, prompting Walt to worry that his partner is about to be killed.",
+						"images":{"img":"https://lh3.googleusercontent.com/3GE-DYTch1M95MOGD2rI32IxK3TAkJeh2l6YNNzxC2s", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -201,11 +566,11 @@
 					{
 						"id":5,
 						"episode":"06",
-						"episodetitle":"Breaking Bad S04-E06",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Cornered",
+						"episodetitleUrl":"Cornered",
+						"released":{"month":"August", "day":"21", "year":"2011"},
+						"summary":"Skyler adopts an aloof approach when she suspects that Walt isn't telling her the truth. Meanwhile, Jesse proves his worth to Mike and Gus.",
+						"images":{"img":"https://lh3.googleusercontent.com/mTAdMv4W-7UQWuiffiLOsnPmFmnyfqL708T5lxL5RaE", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -215,11 +580,11 @@
 					{
 						"id":6,
 						"episode":"07",
-						"episodetitle":"Breaking Bad S04-E07",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Problem Dog",
+						"episodetitleUrl":"Problem_Dog",
+						"released":{"month":"August", "day":"28", "year":"2011"},
+						"summary":"Ordered to return the car he bought for his son, Walt strikes back by putting Skyler in a tough spot with their new money-laundering operation.",
+						"images":{"img":"https://lh3.googleusercontent.com/rA2H1FKRP_839hxf_cFmoHzUZfzb0vPmODCFIGUjAbw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -229,11 +594,11 @@
 					{
 						"id":7,
 						"episode":"08",
-						"episodetitle":"Breaking Bad S04-E08",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Hermanos",
+						"episodetitleUrl":"Hermanos",
+						"released":{"month":"September", "day":"04", "year":"2011"},
+						"summary":"When Hank produces evidence that Gus is Albuquerque's crystal meth kingpin, Walt worries that he and Jesse will be killed to protect their boss.",
+						"images":{"img":"https://lh3.googleusercontent.com/J3CB9dqOKLBPyvTBS_DjBOMZeGrZKAvoUtDrWLimfLI", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -243,11 +608,11 @@
 					{
 						"id":8,
 						"episode":"09",
-						"episodetitle":"Breaking Bad S04-E09",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Bug",
+						"episodetitleUrl":"Bug",
+						"released":{"month":"September", "day":"11", "year":"2011"},
+						"summary":"While Walt tries to subvert Hank's probe into the Albuquerque meth scene, a deadly warning forces Gus to consider a deal with the cartel.",
+						"images":{"img":"https://lh3.googleusercontent.com/pty6ZK2NAeRa61M7Fa9nbgHjQDZb9P_PT-kUStm00cM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
@@ -257,11 +622,53 @@
 					{
 						"id":9,
 						"episode":"10",
-						"episodetitle":"Breaking Bad S04-E10",
-						"released":{"month":"", "day":"", "year":""},
-						"episodetitleUrl":"",
-						"summary":"",
-						"images":{"img":"","poster":""},
+						"episodetitle":"Salud",
+						"episodetitleUrl":"Salud",
+						"released":{"month":"September", "day":"18", "year":"2011"},
+						"summary":"Jesse, Gus, and Mike fly down to Mexico, and Jesse cooks the blue meth for the cartel. Walt misses his son's 16th birthday after his fight with Jesse.",
+						"images":{"img":"https://lh3.googleusercontent.com/yqtKDaKiP2zri-GCbOJPpJhLFpmBKM4pcd2FtjPBZXM", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":10,
+						"episode":"11",
+						"episodetitle":"Crawl Space",
+						"episodetitleUrl":"Crawl_Space",
+						"released":{"month":"September", "day":"25", "year":"2011"},
+						"summary":"Hank asks Walt to drive him to the laundry where the meth lab is hidden. Ted still won't pay the IRS so Skyler asks Saul for help, and Saul sends in his A-Team. Gus and Jesse return from Mexico, and Walt fears he is in trouble with Gus.",
+						"images":{"img":"https://lh3.googleusercontent.com/Ve-fq-_LFGt_miinLo-JGUf2f0DSSIOSJvbL4cbiiRs", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":11,
+						"episode":"12",
+						"episodetitle":"End Times",
+						"episodetitleUrl":"End_Times",
+						"released":{"month":"October", "day":"02", "year":"2011"},
+						"summary":"The DEA is putting Hank and his family in protective custody; however, Walt refuses and awaits his fate in his house. Meanwhile, Brock has fallen terribly ill and Jesse suspects Walt may be behind it.",
+						"images":{"img":"https://lh3.googleusercontent.com/pEJFBRi3YenEatHNLjTbqHMGfG0zac9syBWzQQfwZic", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":12,
+						"episode":"13",
+						"episodetitle":"Face Off",
+						"episodetitleUrl":"Face_Off",
+						"released":{"month":"October", "day":"09", "year":"2011"},
+						"summary":"Jesse is brought to the FBI for questioning on his knowledge of Ricin. In a last effort to kill Gus, Walt must ask for help from an old enemy.",
+						"images":{"img":"https://lh3.googleusercontent.com/TMSUAR2u1d02irp0PC7Ms92yPnWRBXhqhpIriAuoito", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
 							{"src":"","type":""},
 							{"src":"","type":""},
