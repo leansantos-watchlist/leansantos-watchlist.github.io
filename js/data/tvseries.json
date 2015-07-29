@@ -930,18 +930,18 @@
 		"plot":"Liv Moore is a medical resident with a promising career and a fiancé, but when she goes to a boat party, things go horribly wrong. Liv gets turned into a zombie after getting scratched by one. Now, Liv has traded her job for a job at the morgue, broken off her engagement, and completely changed her life. At the morgue, after eating the brain of a murder victim, Liv gets visions that can be used to piece together her murder. But unable to share her true identity with her family and friends, Liv struggles.",
 		"season":[
 			{	"id":0, "season":"01",
-				"finalepisode":{"finalepi":"07","epiId":6},
+				"finalepisode":{"finalepi":"13","epiId":12},
 				"episode":[
 					{
 						"id":0,
 						"episode":"01",
 						"episodetitle":"Pilot",
 						"episodetitleUrl":"Pilot",
-						"released":{"month":"January", "day":"20", "year":"2008"},
-						"summary":"A high school chemistry teacher is diagnosed with terminal lung cancer and resorts to selling methamphetamine to provide for his family when he is dead.",
-						"images":{"img":"https://lh3.googleusercontent.com/GC0xX5YAQINu7q0sUSygWEptUHuApC0fj-pk3tuEZA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"released":{"month":"March", "day":"17", "year":"2015"},
+						"summary":"Olivia 'Liv' Moore was a rosy-cheeked, disciplined, over-achieving medical resident who had her life path completely mapped out, until the night she attended a party that unexpectedly turned into a zombie feeding frenzy.",
+						"images":{"img":"https://lh3.googleusercontent.com/bgcFP8aDGlGoJLPEvSOQQbtUO1fCTiTvdHM4oU7soNw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"https://lh3.googleusercontent.com/FYTcOWonesz2oAixD1k3Rchazg_gpWZWEscufYY59w=m18","type":""},
+							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -949,13 +949,13 @@
 					{
 						"id":1,
 						"episode":"02",
-						"episodetitle":"Cat's in the Bag...",
-						"episodetitleUrl":"Cat's_in_the_Bag",
-						"released":{"month":"January", "day":"27", "year":"2008"},
-						"summary":"Walt and Jesse try to decide what to do with the body of Emilio and their prisoner, Krazy 8.",
-						"images":{"img":"https://lh3.googleusercontent.com/OX_6ZeYVJ0u5Offl26BdNz2cPnxHbV_W-VIB3SFZrg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"episodetitle":"Brother, Can You Spare a Brain?",
+						"episodetitleUrl":"Brother_Can_You_Spare_a_Brain?",
+						"released":{"month":"March", "day":"24", "year":"2015"},
+						"summary":"Liv and Clive work together to solve the mysterious death of a well known painter.",
+						"images":{"img":"https://lh3.googleusercontent.com/otOCw3_X9yjEneM5kUxHy01QYAFuz9d4t9u-Gw9o13s", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"https://lh3.googleusercontent.com/lbvQuhVNRI7mPcVfpNqacSseHUs7gvwO2J0-i-__iA=m18","type":""},
+							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -963,13 +963,13 @@
 					{
 						"id":2,
 						"episode":"03",
-						"episodetitle":"...And the Bag's in the River",
-						"episodetitleUrl":"And_the_Bag's_in_the_River",
-						"released":{"month":"Febuary", "day":"10", "year":"2008"},
-						"summary":"Walt is struggling to decide if it's best to kill Krazy 8 or let him go.",
-						"images":{"img":"https://lh3.googleusercontent.com/hPXNa4009KfYiD8_OVFp88g-8B1v401S5ynPiMaEXw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"episodetitle":"The Exterminator",
+						"episodetitleUrl":"The_Exterminator?",
+						"released":{"month":"March", "day":"31", "year":"2015"},
+						"summary":"Liv and Babineaux learn the victim in a hit and run was the killer in one of Peyton's cases.",
+						"images":{"img":"https://lh3.googleusercontent.com/v4h8ZRQHjKDpPHiQkbBpnsb8KM5URVDDlaDFKK1bJ14", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"https://lh3.googleusercontent.com/Kf0CwJXT3lVpGowfQ1VGNatAOaTdEj4RgeYLH3vY_g=m18","type":""},
+							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -977,13 +977,13 @@
 					{
 						"id":3,
 						"episode":"04",
-						"episodetitle":"Cancer Man",
-						"episodetitleUrl":"Cancer_Man",
-						"released":{"month":"Febuary", "day":"17", "year":"2008"},
-						"summary":"Walt tells the rest of his family about his cancer. Jesse tries to make amends with his own parents.",
-						"images":{"img":"https://lh3.googleusercontent.com/q-yrL-oV_9nnDRhEcZS0azai9vS3yQMyKkEAjQUzqg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"episodetitle":"Liv and Let Clive",
+						"episodetitleUrl":"Liv_and_Let_Clive?",
+						"released":{"month":"April", "day":"07", "year":"2015"},
+						"summary":"Clive refuses Liv's help when one of his former criminal contacts is murdered.",
+						"images":{"img":"https://lh3.googleusercontent.com/QWTinF3Qd2gfXhgLoT0_tCb8V39l2NEwyBfr7-38nfQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"https://lh3.googleusercontent.com/tQjLDDSgI2e-WpZiRaZCT-eNWXRic8G2yXLlr3dRCA=m18","type":""},
+							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -991,13 +991,13 @@
 					{
 						"id":4,
 						"episode":"05",
-						"episodetitle":"Gray Matter",
-						"episodetitleUrl":"Gray_Matter",
-						"released":{"month":"Febuary", "day":"24", "year":"2008"},
-						"summary":"Walt rejects everyone who tries to help him with the cancer. Jesse tries his best to create Walt's meth, with the help of an old friend.",
-						"images":{"img":"https://lh3.googleusercontent.com/vojxe1BrDURfU9zgQwcMfG7xSSDv3q2NsIzcgqsZGw", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"episodetitle":"Flight of the Living Dead",
+						"episodetitleUrl":"Flight_of_the_Living_Dead?",
+						"released":{"month":"April", "day":"14", "year":"2015"},
+						"summary":"Liv must eat the brains of her murdered sorority sister in order to gain insight about the crime.",
+						"images":{"img":"https://lh3.googleusercontent.com/bi4hCEOa4-MIbmkA47awRbobN7mY_4vFP9Ttv2GGXSg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"https://lh3.googleusercontent.com/f3QGnTCvMRg1_1Cv4vRyWITe3cOjt9rIycv36-yVkw=m18","type":""},
+							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -1005,13 +1005,13 @@
 					{
 						"id":5,
 						"episode":"06",
-						"episodetitle":"Crazy Handful of Nothin'",
-						"episodetitleUrl":"Crazy_Handful_of_Nothin'",
-						"released":{"month":"March", "day":"02", "year":"2008"},
-						"summary":"With the side effects and cost of his treatment mounting, Walt demands that Jesse finds a wholesaler to buy their drugs, which lands him in trouble.",
-						"images":{"img":"https://lh3.googleusercontent.com/7nGGFj4C7WZXuYTUNxO5wHZBKDgrrXHZkfpI40oSGQ", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"episodetitle":"Virtual Reality Bites",
+						"episodetitleUrl":"Virtual_Reality_Bites?",
+						"released":{"month":"April", "day":"21", "year":"2015"},
+						"summary":"Liv inherits agoraphobia -- and computer gaming skills -- after eating a hacker's brain.",
+						"images":{"img":"https://lh3.googleusercontent.com/f-xS0c8z4rX8SUZiy2JUBAtxjVqe-McYud2bpe4jDJI", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"https://lh3.googleusercontent.com/3eibLYnddjoI4J4Z8YxYziPzd_UJ0pIWirkVzzN3zQ=m18","type":""},
+							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]
@@ -1019,13 +1019,97 @@
 					{
 						"id":6,
 						"episode":"07",
-						"episodetitle":"A No-Rough-Stuff-Type Deal",
-						"episodetitleUrl":"A_No-Rough-Stuff-Type_Deal",
-						"released":{"month":"March", "day":"09", "year":"2008"},
-						"summary":"Walt and Jesse try to up their game by making more of the crystal every week for Tuco. Unfortunately, some of the ingredients they need is not easy to find. Meanwhile, Skyler realizes that her sister is a shoplifter.",
-						"images":{"img":"https://lh3.googleusercontent.com/PnQ0w12ku1bDpibD7f8VZIXeIENhPz40t0UotRoZVA", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"episodetitle":"Maternity Liv",
+						"episodetitleUrl":"Maternity_Liv?",
+						"released":{"month":"April", "day":"28", "year":"2015"},
+						"summary":"When a pregnant woman dies, Liv develops a strong maternal instinct from eating her brain.",
+						"images":{"img":"https://lh3.googleusercontent.com/RW3StWz-dxmeO9n6phWBqFDc2mMfNiM7kpeh0OG7Z6Q", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
 						"source":[
-							{"src":"https://lh3.googleusercontent.com/6IwLQRWS0vQXCrYwSXOlwIIIrZoqJXZyxvUAhWvbOw=m18","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":7,
+						"episode":"08",
+						"episodetitle":"Dead Air",
+						"episodetitleUrl":"Dead_Air",
+						"released":{"month":"May", "day":"05", "year":"2015"},
+						"summary":"Liv gains insight after eating the brains of a talk show host who specialized in relationships.",
+						"images":{"img":"https://lh3.googleusercontent.com/KC1Smp2jUJaCzdqkL12JlibrAZ25AXBfKXoD8G7fhCs", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":8,
+						"episode":"09",
+						"episodetitle":"Patriot Brains",
+						"episodetitleUrl":"Patriot_Brains",
+						"released":{"month":"May", "day":"12", "year":"2015"},
+						"summary":"Liv and Clive investigate the death of a former sniper; Major gets closer to the truth.",
+						"images":{"img":"https://lh3.googleusercontent.com/IM8Xs9cQQgC_rNfiLF9UwJDZviYzfAFt-8Wee3JNRsg", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":9,
+						"episode":"10",
+						"episodetitle":"Mr. Berserk",
+						"episodetitleUrl":"Mr._Berserk",
+						"released":{"month":"May", "day":"19", "year":"2015"},
+						"summary":"A journalist working on a story linking psychotic episodes with an energy drink is murdered.",
+						"images":{"img":"https://lh3.googleusercontent.com/VtTgZGXPrlOH7H_Wv56TtyLHMnpG-IXacZtdAWJQAF8", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":10,
+						"episode":"11",
+						"episodetitle":"Astroburger",
+						"episodetitleUrl":"Astroburger",
+						"released":{"month":"May", "day":"26", "year":"2015"},
+						"summary":"A person close to Major dies of an apparent suicide; a secret computer file comes to light.",
+						"images":{"img":"https://lh3.googleusercontent.com/Z2gypD7iLErtkrerlPFxAlj9V2CGXtfGeBhaUm1iNSs", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":11,
+						"episode":"12",
+						"episodetitle":"Dead Rat, Live Rat, Brown Rat, White Rat",
+						"episodetitleUrl":"Dead_Rat,_Live_Rat,_Brown_Rat,_White_Rat",
+						"released":{"month":"June", "day":"02", "year":"2015"},
+						"summary":"After a group of drunken teenagers cover up an accident, one of them is murdered.",
+						"images":{"img":"https://lh3.googleusercontent.com/JSQ0b9wb3Fk8OvEC5EtQOPHUtNxVs93o85zz4fWgIUI", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
+							{"src":"","type":""},
+							{"src":"","type":""}
+								 ]
+					},
+					{
+						"id":12,
+						"episode":"13",
+						"episodetitle":"Blaine's World",
+						"episodetitleUrl":"Blaine's_World",
+						"released":{"month":"June", "day":"09", "year":"2015"},
+						"summary":"Liv and Clive discover new evidence in the Max Rager case and go see Vaughn Du Clark.",
+						"images":{"img":"https://lh3.googleusercontent.com/MhfxQwxPGU8w1KNaTOpDlx5febJ8HLLtGsDE2EWGEVo", "imgsize1":"=w200-h112-no","imgsize2":"=w710-h397-no","poster":""},
+						"source":[
+							{"src":"","type":""},
 							{"src":"","type":""},
 							{"src":"","type":""}
 								 ]

@@ -38,8 +38,8 @@
 
 		<!-- default episode show -->
 		<div ng-if="!selected_season" ng-repeat="episode in seriesEpisode(getparamId,latestseasonId(getparamId))">
-			<div style="overflow:hidden;margin-top:5px;height:123px;border-bottom:2px dotted #ddd;font-family: Verdana, Arial, sans-serif;font-family: Verdana, Arial, sans-serif;">
-				<div class="epi-img" style="float:left" >
+			<div style="overflow:hidden;margin-top:5px;height:130px;border-bottom:2px dotted #ddd;font-family: Verdana, Arial, sans-serif;font-family: Verdana, Arial, sans-serif;">
+				<div class="epi-img" style="float:left;" >
 					<a href="#/tv-series/{{getparamId}}-{{latestseasonId(getparamId)}}-{{episode.id}}/{{getparamTitle}}/watch-{{episode.episodetitleUrl}}">
 					<img class="img-thumbnail" src="{{episode.images.img+episode.images.imgsize1}}" alt="">
 					</a>
@@ -62,7 +62,7 @@
 
 		<!-- show when select other season -->
 		<div ng-repeat="episode in seriesEpisode(getparamId,selected_season.id)">
-			<div style="overflow:hidden;margin-top:5px;height:123px;border-bottom:2px dotted #ddd;">
+			<div style="overflow:hidden;margin-top:5px;height:130px;border-bottom:2px dotted #ddd;">
 				<div class="epi-img" style="float:left" >
 					<a href="#/tv-series/{{getparamId}}-{{selected_season.id}}-{{episode.id}}/{{getparamTitle}}/watch-{{episode.episodetitleUrl}}">
 					<img class="img-thumbnail" src="{{episode.images.img+episode.images.imgsize1}}" alt="">
