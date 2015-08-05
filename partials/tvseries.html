@@ -18,7 +18,7 @@
 					<li><b>Starring:</b> <a ng-repeat="star in seriesList[getparamId].starring" href="">{{star.star+', '}}</a></li>
 				</ul>
 				<div style="overflow:hidden;padding-left:5px;height:169px">
-					<div style="border:1px solid #ccc;border-radius:5px;height:100%;text-indent:25px;padding:5px;font-size:1em">
+					<div style="overflow:scroll;border:1px solid #ccc;border-radius:5px;height:169px;text-indent:25px;padding:5px;font-size:1em">
 						{{seriesList[getparamId].plot}}
 					</div>
 				</div>
@@ -53,14 +53,14 @@
 					<a href="#/tv-series/{{getparamId}}-{{latestseasonId(getparamId)}}-{{episode.id}}/{{getparamTitle}}/watch-{{episode.episodetitleUrl}}"><strong>{{episode.episodetitle}}</strong>
 					</a>
 				</div>
-				<div class="epi-summary" style="overflow:hidden;padding-left:5px;margin-top:12px;height:85px;text-indent:25px;font-size:.9em;">
+				<div class="epi-summary" style="overflow:scroll;padding-left:5px;margin-top:12px;height:85px;text-indent:25px;font-size:.9em;">
 					<p>{{episode.summary}}</p>
 				</div>	
 			</div>
 		</div>
 	
 
-		<!-- show when select other season -->
+		<!-- show when selected other season -->
 		<div ng-repeat="episode in seriesEpisode(getparamId,selected_season.id)">
 			<div style="overflow:hidden;margin-top:5px;height:130px;border-bottom:2px dotted #ddd;">
 				<div class="epi-img" style="float:left" >
@@ -77,7 +77,7 @@
 					<a href="#/tv-series/{{getparamId}}-{{selected_season.id}}-{{episode.id}}/{{getparamTitle}}/watch-{{episode.episodetitleUrl}}"><strong>{{episode.episodetitle}}</strong>
 					</a>
 				</div>
-				<div class="epi-summary" style="overflow:hidden;padding-left:5px;margin-top:12px;height:85px;text-indent:25px;font-size:.9em;">
+				<div class="epi-summary" style="overflow:scroll;padding-left:5px;margin-top:12px;height:85px;text-indent:25px;font-size:.9em;">
 					<p>{{episode.summary}}</p>
 				</div>	
 			</div>
