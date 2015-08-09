@@ -17,11 +17,11 @@ app.controller('NavigationController',['$scope', '$routeParams', function($scope
 	$scope.recentlyUpdate =
 	{
 		updatedVideos:[
-			{title: 'Jurassic World', update: 'fixed', link: '#/movies/17/watch-Jurassic_World'},
-			{title: 'Insurgent', update: 'fixed', link: '#/movies/15/watch-Insurgent'},
+			{title: 'Ant-Man', update: 'new', link: '#/movies/19/watch-Ant-Man'},
+			{title: 'Mission: Impossible - Rogue Nation', update: 'new', link: '#/movies/18/watch-Mission:_Impossible-Rogue_Nation'},
 			{title: 'Lupin III', update: 'fixed', link: '#/movies/13/watch-Lupin_III'},
-			{title: 'Breaking Bad S05-E07', update: 'fixed', link: '#/tv-series/0-4-6/Breaking_Bad/watch-Say_My_Name'},
-			{title: 'Dawn of the Planet Apes', update: 'fixed', link: '#/movies/7/watch-Dawn_of_the_Planet_of_the_Apes'}
+			{title: 'Focus', update: 'fixed', link: '#/movies/1/watch-Focus'},
+			{title: 'Mad Max:Fury Road', update: 'fixed', link: '#/movies/11/watch-Mad_Max:Fury_Road'}
 				 ]
 	}
 
