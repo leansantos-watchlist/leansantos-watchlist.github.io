@@ -58,23 +58,43 @@
 		<!-- END Embed Video -->
 
 
+		
+		<div class="episode-summary" style="margin-top:10px;overflow:hidden;">
+
+			<div style="width:70%;float:left;padding:5px;">
+				<h4 style="border-bottom:1px solid #ddd;padding-bottom:5px;">{{movies[getparamId].title}} - Comments:</h4>
+				<!-- Facebook Comment Plug-in -->
+                <iframe height="890" style="border:none;width: 100%;" src="http://watchlist.co.nf/comment-plugin"></iframe>                          
+                <!-- END Facebook Comment Plug-in -->
 
 
-
-
-
-		<!-- Related Movies -->
-		<div class="related-movies" style="margin-top:30px;overflow:hidden;">
-			<h4>Related Movies</h4>
-			<div ng-repeat="movie in movies | filter: movies[getparamId].genres[1].genre | limitTo:4 " style="float:left;margin-left:1px;">
-				<a href="#/movies/{{movie.id}}/watch-{{movie.titleUrl}}" title="{{movie.title}} - ({{movie.released}})">
-				<div class="related-title" style="width:180px;height:25px;">
-					{{movie.title}}
-				</div>
-					<img width="180" height="120" ng-src="{{movie.image}}" alt="">
-				</a>
 			</div>
-		</div><!-- END relate-movies class -->
+			<div style="float:right;width:30%;padding:5px;">
+				<h4 style="border-bottom:1px solid #ddd;padding-bottom:5px">Related Movies--</h4>
+				<div style="">
+					<!-- Related Movies -->
+					<div class="related-movies" style="overflow:hidden;">
+						<div ng-repeat="movie in movies | filter: movies[getparamId].genres[1].genre | limitTo:6 " style="float:left;margin-left:1px;">
+							<a href="#/movies/{{movie.id}}/watch-{{movie.titleUrl}}" title="{{movie.title}} - ({{movie.released}})">
+							<div class="related-title" style="width:180px;height:25px;">
+								{{movie.title}}
+							</div>
+								<img style="width:100%" ng-src="{{movie.image}}" alt="">
+							</a>
+						</div>
+					</div><!-- END relate-movies class -->
+				
+
+				</div>
+				</div>
+				
+				
+			</div>
+
+
+
+
+		
 		
 	</div><!-- END watch-movie class -->
 </div><!-- END col-md-9 class -->

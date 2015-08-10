@@ -245,9 +245,10 @@
 		"poster": "https://lh3.googleusercontent.com/qP9VZJsoHK8DhHqj-o6NWFWD_9tCAjq7wey8pSK43Rg=w280-h400-no",
 		"image": "https://lh3.googleusercontent.com/449iTThK_-JsOYu1Igt4ojBSq-Spm56gGgrnQDUN3bs=w710-h397-no",
 		"source": [
-			{"src":"http://fsd2.vodlocker.com:8777/lgceasafc64pcnokajasnzezwdxfrhxrinh3li4umyhdxoe3natsho32im/v.mp4"},
-			{"src":"http://31.14.252.116:8777/iwjtbuop56oammfvg7pfcsg7ojufvjouyotmymah22qskufyz2rdujmblq4q/v.mp4"},
-			{"src":"http://fsd3.vodlocker.com:8777/oscea5zucs4pcnokajasn4u7wuzp6toan6r5qwudlfrdbgzklwudso6h2a/v.mp4"}
+			{"src":"http://fsd3.vodlocker.com:8777/oscea5zucs4pcnokajasn4u7wuzp6toan6r5qwudlfrdbgzklwudso6h2a/v.mp4"},
+			{"src":"http://fsd1.vodlocker.com:8777/lkcebb4zcw4pcnokajkcnm6443ejqraa7mt6noolkhnjygmourhu4cok2m/v.mp4"},
+			{"src":"http://fsd3.vodlocker.com:8777/oscea5zucs4pcnokajasn4u7wuzp6toan6r5qwudlfrdbgzklvibwxb26a/v.mp4"}
+			
 				]	
 	},													
 	{
@@ -261,6 +262,32 @@
 			{"src":"http://50.7.100.74:8777/gkceajpmcs4pcnokajmcn2467k6ish6cc4ve2aldf5wb3mzsieuuecqyk4/v.mp4"},
 			{"src":"http://50.7.161.34:182/d/7nseqxjnljrwuximnu7cb3cw5xbgumictq3vesjp57kzmxmwm7liwk3n/video.mp4"},
 			{"src":"http://93.115.7.242:8777/iojtbdat56oammfvg7jfcfm6ovguhnuuuafokaiwsp57bdskd75mkkq5oubq/v.mp4"}
+				]	
+	},													
+	{
+		"id": 20, "titleUrl": "Fantastic_4", "title": "Fantastic 4", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Sci-Fi"}],
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "100 mins",
+		"summary": "Four young outsiders teleport to an alternate and dangerous universe which alters their physical form in shocking ways. The four must learn to harness their new abilities and work together to save Earth from a former friend turned enemy.",
+		"poster": "https://lh3.googleusercontent.com/ad26Aq2YoMgQC1vZMDfaBKUcUVW2vXT8_tLNNh22pyw=w280-h400-no",
+		"image": "https://lh3.googleusercontent.com/ee5T0Bh1cDBg2rqb-WyezEhTSe2P1wURV3V9U9xT83I=w626-h350-no",
+		"source": [
+			{"src":"https://lh3.googleusercontent.com/LSYjlPMFlKi92Il5GkOjsy2CN0Vosh9I-hZXfQv4Na8=m18"},
+			{"src":"http://fsd4.vodlocker.com:8777/pkceaixxcw4pcnokajlsn2giwgcbaz4bpsxpvi5w62z5nn65ypm7pmcg5y/v.mp4"},
+			{"src":"http://fsd1.vodlocker.com:8777/lkceajppcw4pcnokajlsnmwd5qe62fz34lnryhejtuz442dibvftlfcaom/v.mp4"}		
+				]	
+	},													
+	{
+		"id": 21, "titleUrl": "Terminator_Genisys", "title": "Terminator Genisys", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Sci-Fi"}],
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "126 mins",
+		"summary": "John Connor sends Kyle Reese back in time to protect Sarah Connor, but when he arrives in 1984, nothing is as he expected it to be.",
+		"poster": "https://lh3.googleusercontent.com/amXwcl4H8xfPYxwEVFCbTcmabYnfBjWZ9LcIZMopF_g=w280-h400-no",
+		"image": "https://lh3.googleusercontent.com/0pCC8KtRehAxFkkXDDyK8jM67Q6-VPB0HNG7vlurIb0=w626-h350-no",
+		"source": [
+			{"src":"https://lh3.googleusercontent.com/pTJJ8HL4JlGAr_MJ3LqETVz0O0tiSZwmgD2bMrwMjQ8=m22"},
+			{"src":"http://fsd2.vodlocker.com:8777/lgceaqnpcw4pcnokajicn26www33yx77fh4fhi74zngewuoe6gtkmus5xu/v.mp4"},
+			{"src":"http://fsd2.vodlocker.com:8777/lgceajspcs4pcnokajicn26wwx6qvlgkpdg5ys3rtbgoitm2exgshyyeiq/v.mp4"}		
 				]	
 	}
 
