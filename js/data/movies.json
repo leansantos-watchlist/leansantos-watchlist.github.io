@@ -22,8 +22,8 @@
 		"poster": "https://lh3.googleusercontent.com/6w9DzrFJvHofRx9w49j3NIbj9A5FEwb9mqagPXf54ZU=w280-h400-no",
 		"image": "https://lh3.googleusercontent.com/mU6IP0cjPYnLAlX5kvDtwy5Wz_HY5SyPP4Rw9BDntlg=w710-h397-no",
 		"source": [
-			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=f89dcc590e082ae7&itag=18&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1439142886&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=2F268C614276B0342098E0AD2B4F757086103493.1AFE212A78EF37660C3EC7F3BA1C1D4376219D62&key=lh1&begin=0&cm2=0"},
-			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=f89dcc590e082ae7&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1439142886&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C3DC7DEB19534F95C7F71EA9F9891E21E8738ACF.51C64E64454053AF2580B84CF7331C1423933021&key=lh1&begin=0&cm2=0"},
+			{"src":"https://lh3.googleusercontent.com/SDMCjCjZLNa88tqGLw9l27n0kjoou5PRiIoQ_lv8Yw=m22"},
+			{"src":""},
 			{"src":""}
 				]
 	},
@@ -35,7 +35,7 @@
 		"poster": "https://lh3.googleusercontent.com/-62QzeCNYNjIO2hMaZ9jbHduyYTAoeqnLvraKOt06IA=w280-h400-no",
 		"image": "https://lh3.googleusercontent.com/NO-e0hxPTHhs4GCVQYSCKWTk0ZjARvJBaefdFfEq5y8=w710-h397-no",
 		"source": [
-			{"src":"http://fsd3.vodlocker.com:8777/osceatpxg64pcnokalucbmg3wpluyrbaur7gjtonophlorfl3g3pfycttq/v.mp4"},
+			{"src":"https://lh3.googleusercontent.com/8AZMMhqlsmiFwvJMpcc6WXzsF_gIXDflq3AYRRLV6A=m22"},
 			{"src":""},
 			{"src":""}
 				]
@@ -113,8 +113,8 @@
 		"poster": "https://lh3.googleusercontent.com/SwqEe7SPDHh7Gl8a0sZIDQV0zCNZp9Erd8PV4sfS-tM=w280-h400-no",
 		"image": "https://lh3.googleusercontent.com/dBk_INI4T2UkwuCk283ABszxezlu9v-a04qBtjTAP4I=w626-h350-no",
 		"source": [
+			{"src":"https://openload.io/stream/RxFpD5YDlwc~1439382158~120.29.0.0~trNd8GJl?mime=true"},
 			{"src":"http://50.7.100.74:8777/gkceabj5i24pcnokalhsdze5w2sen75xtkyk4mss7nwsnw7lgxs2q7fh24/v.mp4"},
-			{"src":""},
 			{"src":""}
 				]
 	},								
