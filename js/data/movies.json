@@ -179,9 +179,9 @@
 		"poster": "https://lh3.googleusercontent.com/xTiYXcO27IltRrWxuoKl5Onz9N86ICkHZOlaHrMlDcc=w280-h400-no",
 		"image": "https://lh3.googleusercontent.com/sBjYTctAolvauSZlu8lJIoVvBzv981myNWKgz7NBOHE=w710-h397-no",
 		"source": [
-			{"src":"http://filmbagus21.com/out.php?type=&id=13601&link=0"},
 			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=261e9d69a5ac56d7&itag=18&source=picasa&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439323321&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=B5B38FEBCA32689134D41C764D6A0CA732F7710D.7D0C4FCA4221B1E72353D613EC5C8AB2F276F17B&key=lh1&begin=0"},
-			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=300d04ab92ae653f&itag=18&source=picasa&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439313284&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=7B9D3F359DAA87054082AB409B41812C49E66EB7.D0E193F922EDF34247BDB04AEEBCFBDD1A222622&key=lh1"}
+			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=300d04ab92ae653f&itag=18&source=picasa&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439313284&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=7B9D3F359DAA87054082AB409B41812C49E66EB7.D0E193F922EDF34247BDB04AEEBCFBDD1A222622&key=lh1"},
+			{"src":"http://filmbagus21.com/out.php?type=&id=13601&link=0"}
 				]
 	},											  
 	{
@@ -288,6 +288,45 @@
 			{"src":"https://lh3.googleusercontent.com/pTJJ8HL4JlGAr_MJ3LqETVz0O0tiSZwmgD2bMrwMjQ8=m22"},
 			{"src":"http://fsd2.vodlocker.com:8777/lgceaqnpcw4pcnokajicn26www33yx77fh4fhi74zngewuoe6gtkmus5xu/v.mp4"},
 			{"src":"http://fsd2.vodlocker.com:8777/lgceajspcs4pcnokajicn26wwx6qvlgkpdg5ys3rtbgoitm2exgshyyeiq/v.mp4"}		
+				]	
+	},													
+	{
+		"id": 23, "titleUrl": "Street_Fighter:Assassin's_Fist", "title": "Street Fighter: Assassin's Fist", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Drama"}],
+		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "140 mins",
+		"summary": "A multi-layered series that looks back to the formative years of Ryu and Ken as they live a traditional warrior's life in secluded Japan. The boys are, unknowingly, the last practitioners of the ancient fighting style known as 'Ansatsuken' (Assassin's Fist). The series follows them as they learn about the mysterious past of their master, Goken, and the tragic, dark legacy of the Ansatsuken style.",
+		"poster": "https://lh3.googleusercontent.com/Sog22_HDKkM3VWkpwOy7pU9SBi7YnKQOhq-8ib3o0KA=w280-h400-no",
+		"image": "https://lh3.googleusercontent.com/WnsZWw0y9Y5x21SVx86kIqobhP6D7Zdk6L6_uWek8Vw=w626-h350-no",
+		"source": [
+			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=29d8286a80b0d435&itag=18&source=picasa&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439340054&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=B0187B359E30028262574ED1A79CA2C92E3F8286.10E4907F17B173747169F20635655F213C99C86F&key=lh1&begin=0"},
+			{"src":"http://filmbagus21.com/out.php?type=&id=25612&link=0"},
+			{"src":"https://r14---sn-a5m7ln7d.c.docs.google.com/videoplayback?requiressl=yes&id=92090743b4d24e47&itag=35&source=webdrive&app=docs&ip=50.87.144.163&ipbits=0&expire=1439317153&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=856EB20AFA3989C3786A8C8A97759EACEBEB38E1.8D439C951D0F85958034EFD6A6A22FFDC1C171E0&key=ck2&mm=30&mn=sn-a5m7ln7d&ms=nxu&mt=1439313329&mv=u&pl=20&begin=0&cm2=0"}		
+				]	
+	},													
+	{
+		"id": 24, "titleUrl": "Silent_Hill", "title": "Silent Hill", "category": "Movie", "genres": [{"genre":"Mystery | "},{"genre":"Horror"},{"genre":" | Thriller"}],
+		"released": 2006, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "125 mins",
+		"summary": "A woman goes in search for her daughter, within the confines of a strange, desolate town called Silent Hill. Based on the video game.",
+		"poster": "https://lh3.googleusercontent.com/8WeSBQILh_tpCV9UGLd_p4rFjI9yPJC8SbDmv3eNO2I=w280-h400-no",
+		"image": "https://lh3.googleusercontent.com/V4ITau860yFv5vY5TJDcF_q2u6_GuLpqGJlvjkzQtqM=w626-h350-no",
+		"source": [
+			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=853910dd9de75d13&itag=18&source=picasa&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439347059&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=1EFF3E6FE627C7A270B2B4DA12478BA16D2ACC44.73C1374D2E5425365A77F7F95BA7DA03C8CBEDFB&key=lh1&begin=0"},
+			{"src":"http://filmbagus21.com/out.php?type=&id=10595&link=0"},
+			{"src":"https://redirector.googlevideo.com/crossdomain.xml"}		
+				]	
+	},													
+	{
+		"id": 25, "titleUrl": "Silent_Hill:Revelation_3D", "title": "Silent Hill: Revelation 3D", "category": "Movie", "genres": [{"genre":"Mystery | "},{"genre":"Horror"},{"genre":" | Thriller"}],
+		"released": 2006, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "95 mins",
+		"summary": "When her father disappears, Heather Mason is drawn into a strange and terrifying alternate reality that holds answers to the horrific nightmares that have plagued her since childhood.",
+		"poster": "https://lh3.googleusercontent.com/JYzHD0cnxuz6oNmcJrki1DLAP_3-8OlByO4cOqxo1io=w280-h400-no",
+		"image": "https://lh3.googleusercontent.com/ELvl9th1EYifwCUY8Lkr2KpY-ddZWTrHh2r-OSCsNWY=w626-h350-no",
+		"source": [
+			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=474423cd93da9ae7&itag=18&source=picasa&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439348990&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=8E7E93E5596D03C815E54423623500E1B5EE5D3A.D70BA2EE746201EA2194B0442D1D7EDE57061931&key=lh1&begin=0"},
+			{"src":"https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=474423cd93da9ae7&itag=18&source=picasa&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1439349263&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C3B10917A492B99ACBC0CAB94DEB58FF4F2F3600.56834245F0E1C66947D150001021AC7C626CA6A&key=lh1&begin=0"},
+			{"src":"http://95.211.213.194/kj2vzoizem6vtaw52bjz4pgqgurb2mnj6acuty6ag2zjg66v4co4m2jzsegq/v.mp4"}		
 				]	
 	}
 
