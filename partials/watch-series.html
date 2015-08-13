@@ -33,40 +33,41 @@
 			{{seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].episodetitle}}
 			</h4>
 		</div>
-
-		<div style="margin-bottom:3px">
-			<button ng-click="server='server1'">Server 1</button> 
-			<button ng-click="server='server2'">Server 2</button> 
-			<button ng-click="server='server3'">Server 3</button>
+<!-- Server Buttons -->
+		<div style="margin-bottom:-1px">
+			<span ng-click="clickserver1()">
+				<button ng-click="server='server1'" style="font-size:1.2em;padding:5px;background:#ffffff;border:1px solid {{borderColor1}};border-bottom:none;" >Server 1</button> 
+			</span>
+			<span ng-click="clickserver2()">
+				<button ng-click="server='server2'" style="font-size:1.2em;padding:5px;background:#ffffff;border:1px solid {{borderColor2}}">Server 2</button> 
+			</span>
+			<span ng-click="clickserver3()">
+				<button ng-click="server='server3'" style="font-size:1.2em;padding:5px;background:#ffffff;border:1px solid {{borderColor3}}">Server 3</button>
+			</span>					
 		</div>
+<!-- END Server Buttons -->
 
-		<!-- Embed Video -->
+
 		<div ng-switch on="server">
+
+<!-- Embed Video -->
 		    <div ng-switch-default class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
-		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
 		      <iframe src="{{tvseriesplayer1()}}" frameborder="0" allowfullscreen></iframe>
 		    </div>
 		    <div ng-switch-when="server2" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
-		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
 		      <iframe src="{{tvseriesplayer2()}}" frameborder="0" allowfullscreen></iframe>
 		    </div>	
 		    <div ng-switch-when="server3" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
-		      <!-- <iframe src="{{'http://watchlist.co.nf/html5-video-player?link=' +moviesLink(getparamId) +'&poster=' +moviesPoster(getparamId)}}" allowfullscreen></iframe> -->
-		      <iframe src="{{tvseriesplayer3()}}" frameborder="0" allowfullscreen></iframe>
-		    </div>	 
-		
-		<!-- END Embed Video -->
+		      <iframe src="{{seriesSource3(tvseriesParams.seriesId,tvseriesParams.seasonId,tvseriesParams.episodeId)}}" frameborder="0" allowfullscreen></iframe>
+		    </div>	 	
+<!-- END Embed Video -->
 
-		 <!-- <div class="video-player" seriesplayer ></div> -->
-	
-	
-
-
+<!-- Episode Summary -->
 		<div class="episode-summary" style="margin-top:10px;overflow:hidden;">
 
 			<div style="width:70%;float:left;padding:5px;">
 				<h4 style="border-bottom:1px solid #ddd;padding-bottom:5px;">Summary:</h4>
-				<p style="text-indent:25px;padding-bottom:30px;font-size:.9em;background:url('https://lh3.googleusercontent.com/ujDFVxzFQHa3n7YBnw_K7fH1auF29O55SRJcfR3-yu8=w620-h102-no') repeat-x center;">
+				<p style="text-indent:25px;padding-bottom:30px;font-size:.9em;background:url('http://www.rainiertamayo.com/wp-content/themes/detube/images/section-shadow.png') repeat-x center;">
 				{{seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].summary}}
 				</p>
 

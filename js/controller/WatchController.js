@@ -36,15 +36,47 @@ app.controller('WatchController', ['$scope', '$http', '$routeParams', '$sce', fu
 			$scope.seriesSource1 = function(seriesId,seasonId,episodeId){
 				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[0].src);
 			};
+			 $scope.seriesSource2 = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[1].src);
+			};
+            $scope.seriesSource3 = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[2].src);
+			};
+			$scope.server1 = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[0].server);
+			};
+			$scope.server2 = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[1].server);
+			};
+			$scope.server3 = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source[2].server);
+			};
 			$scope.seriesPoster = function(seriesId,seasonId,episodeId){
 				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].images.img+$scope.tvseries[seriesId].season[seasonId].episode[episodeId].images.imgsize2);
+			};    
+
+			$scope.servers = function(seriesId,seasonId,episodeId){
+				return $sce.trustAsResourceUrl($scope.tvseries[seriesId].season[seasonId].episode[episodeId].source);
 			};
+			$scope.borderColor1 = "#ccc";
+			$scope.borderColor2 = "#ffffff";
+			$scope.borderColor3 = "#ffffff";
+			$scope.clickserver1 = function(){
+				$scope.borderColor1 = "#ccc";
+				$scope.borderColor2 = "#ffffff";
+				$scope.borderColor3 = "#ffffff";
+			}
+			$scope.clickserver2 = function(){
+				$scope.borderColor1 = "#ffffff";
+				$scope.borderColor2 = "#ccc";
+				$scope.borderColor3 = "#ffffff";
+			}
+			$scope.clickserver3 = function(){
+				$scope.borderColor1 = "#ffffff";
+				$scope.borderColor2 = "#ffffff";
+				$scope.borderColor3 = "#ccc";
+			}
                         
-			
-                        
-   //          $scope.seriesPoster = function(id){
-			// 	return $sce.trustAsResourceUrl($scope.tvseries[id].image);
-			// };
 
 			$scope.tvseriesplayer1 = function(){
 				return $sce.trustAsResourceUrl("http://watchlist.co.nf/html5-video-player/?source=seriesSource1("+$scope.tvseriesParams.seriesId+","+$scope.tvseriesParams.seasonId+","+$scope.tvseriesParams.episodeId +")&poster=" +$scope.seriesPoster($scope.tvseriesParams.seriesId,$scope.tvseriesParams.seasonId,$scope.tvseriesParams.episodeId));
