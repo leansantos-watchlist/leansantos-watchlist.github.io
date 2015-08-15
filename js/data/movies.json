@@ -354,6 +354,19 @@
 			{"src":""},
 			{"src":"http://123movies.to/player/TFPlayer.php?link=VEZFTkNPREUtYzVWYlhCU3IvUHhjU2hpc3RiYTdCOWNYRVY3cTZjZnZXay95bHZ4TjJiUGZWSzczOTFKVjlWV3Q1UWkvNmdBTXlJT3lvckU1RkJiOTBKR0wzdkNKMHZDWlZjRU1lcVV1Slo1Z2dNV29QMXNjQVZhdnF0SVByTThPVmdxV3FBeWlEQWpUVjFUQ0J3Vlc=&sub=&subf=&next=&filmid=4603&episode_id=27287"}		
 				]	
+	},													
+	{
+		"id": 27, "titleUrl": "Attack_on_Titan", "title": "Attack on Titan", "category": "Movie", "genres": [{"genre":"Drama | "},{"genre":"Adventure"},{"genre":" | Action"}],
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "106 mins",
+		"summary": "Mankind is under the terror of titans, a beast in which feast on human flesh. Eren Yeager, a young boy determined to make change when he himself could transform into one. He is humanity's last hope.",
+		"poster": "https://lh3.googleusercontent.com/t7b-8KF2Fq1Hf0913IWrLs9uNPy3T3VepaY0QS3Atto=w280-h400-no",
+		"image": "https://lh3.googleusercontent.com/EhhLZe3QL2jj6XwC4mpW7UbjCXFMkWpasgA8MOazOvA=w710-h397-no",
+		"source": [
+			{"src":"https://lh3.googleusercontent.com/WZA4USLP6JtgQVpaatOZ5NoIRrW992LdAEoGBf18nec=m22"},
+			{"src":""},
+			{"src":""}		
+				]	
 	}
 
 
