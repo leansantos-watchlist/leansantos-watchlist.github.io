@@ -1,9 +1,7 @@
-<div class="watch-series-page" >
+<div class="watch-series-page" style="min-height: 690px;padding-top:20px" >
 
 
-
-<div class="col-md-9" style="padding-right:5px;padding-left:20px">
-
+<div class="col-md-9" style="padding-right:5px;padding-left:20px;">
 	<div class="watch-series" style="border:1px solid #ddd;background:#ffffff;padding:0 5px">
 		<!-- Series info. -->
 		<div class="series-summary" style="overflow:hidden;margin-top:5px;height:282px;">
@@ -48,9 +46,10 @@
 <!-- END Server Buttons -->
 
 
-		<div ng-switch on="server">
+		
 
 <!-- Embed Video -->
+		<div ng-switch on="server">
 		    <div ng-switch-default class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
 		      <iframe src="{{tvseriesplayer1()}}" frameborder="0" allowfullscreen></iframe>
 		    </div>
@@ -59,7 +58,8 @@
 		    </div>	
 		    <div ng-switch-when="server3" class="embed-responsive embed-responsive-16by9" style="box-shadow: 0 8px 10px #777;background:black">
 		      <iframe src="{{seriesSource3(tvseriesParams.seriesId,tvseriesParams.seasonId,tvseriesParams.episodeId)}}" frameborder="0" allowfullscreen></iframe>
-		    </div>	 	
+		    </div>	
+		</div>	
 <!-- END Embed Video -->
 
 <!-- Episode Summary -->
@@ -70,6 +70,11 @@
 				<p style="text-indent:25px;padding-bottom:30px;font-size:.9em;background:url('http://www.rainiertamayo.com/wp-content/themes/detube/images/section-shadow.png') repeat-x center;">
 				{{seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].summary}}
 				</p>
+                                <div>
+                                  <!-- Facebook Comment Plug-in -->
+                                  <iframe height="890" style="border:none;width: 100%;" src="{{'http://watchlist.co.nf/comment-plugin?id='+ tvseriesParams.seriesId+ '&title='+ seriesList[tvseriesParams.seriesId].titleUrl+ '-'+ seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].episodetitle+ '_S'+ seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].season+ '-E'+seriesList[tvseriesParams.seriesId].season[tvseriesParams.seasonId].episode[tvseriesParams.episodeId].episode}}"></iframe>                          
+                                   <!-- END Facebook Comment Plug-in -->
+                                </div>
 
 
 			</div>
@@ -94,8 +99,7 @@
 				
 			</div>
 			
-		</div>
-
+		
 
 
 	</div><!-- END watch series class -->
