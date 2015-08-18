@@ -367,6 +367,19 @@
 			{"src":""},
 			{"src":""}		
 				]	
+	},													
+	{
+		"id": 28, "titleUrl": "Minions", "title": "Minions", "category": "Movie", "genres": [{"genre":"Comedy | "},{"genre":"Animation"},{"genre":" | Family"}],
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "91 mins",
+		"summary": "Minions Stuart, Kevin and Bob are recruited by Scarlett Overkill, a super-villain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
+		"poster": "http://ia.media-imdb.com/images/M/MV5BMTg2MTMyMzU0M15BMl5BanBnXkFtZTgwOTU3ODk4NTE@._V1__SX1377_SY733_.jpg",
+		"image": "http://ia.media-imdb.com/images/M/MV5BMTU2NTI0OTA5OV5BMl5BanBnXkFtZTgwNzM1NDgwNjE@._V1__SX1377_SY733_.jpg",
+		"source": [
+			{"src":""},
+			{"src":""},
+			{"src":"http://123movies.to/player/TFPlayer.php?link=VEZFTkNPREUtYzVWYlhCU3IvUHhjU2hpc3RiYTdCOWNYRVY3cTZjZnZXay95bHZ4TjJiTFVYSzc3QDFSWDlWQ3A0ZzYzNUFRTXlvaXl1YWNARGxiMEBZeUN5dnpMaVl5alJzSmFEdVJPVk1SUmhKYTFIaDFkV1R1UTFaZDg2YWhoRUhARHFsZllUUWVOTFNXL0ZBcFhpQDNUc2xLSEIxZWxWbFc1WHdDb0I2VT0=&sub=&subf=&next=&filmid=4041&episode_id=25023"}		
+				]	
 	}
 
 
