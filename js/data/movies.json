@@ -419,6 +419,19 @@
 			{"src":""},
 			{"src":""}		
 				]	
+	},													
+	{
+		"id": 32, "titleUrl": "Straight_Outta_Compton", "title": "Straight Outta Compton", "category": "Movie", "genres": [{"genre":"Drama | "},{"genre":"Biography"},{"genre":"Music"}],
+		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
+		"duration": "147 mins",
+		"summary": "The group NWA emerges from the mean streets of Compton in Los Angeles, California, in the mid-1980s and revolutionizes Hip Hop culture with their music and tales about life in the hood.",
+		"poster": "https://lh3.googleusercontent.com/gW4F8if1tJydmPxmq_iy8Xiy4am8LgCWD01FYroEy96GTxvTrbJRqw6lZjgH97RTXJl9pGL5dGkZ2pJtQh95B2AUnXK_xgDWEJ9B6g-ahvY73LFI231S0wKmouOQlR7cJnXlsvpDsUxOZBarTg6RTuGfTnz-2Lrth2EZR_z71kXzDXty0cfc6exYQfu0qc8TPKvI9L9tymccM5zYODm2UTqec3CyFO7qMM5-p8LzLv1UcjXcrjSrkwL8UYebh2SXjDCs_jTR1kKPb98xQ-ZSLg_wZYX5buQO3fi66-hhdZ4RZDYUORWnIZjzkEuVIt4-m0GW5IqyvGnTpL7Py7Twxii6FdS1P__xXdcHhoQ7mCSuWtx16MpolkyNU0WkLkADn27uk0ILxv9sN4NQl69daqCCn5w7IR9J1Oh9Kj6MHnj62TlDJuK-4uS0z706TyJZpPXAzZga4x0mjGywHNdHo1O7akpdYfjFLaprOfdoz-4NeVIygm5MwwBnJ3cN7auBOM50P4ihbdhR2kU7YaYDxNI=w280-h400-no",
+		"image": "https://lh3.googleusercontent.com/wB-oO2lx6Bv4vM6ffv4SS_AgJhb7Bq5r0nY1Prmmy-A5WhiigL_oHmIeaXDRBwp-d1HoiRcVDgJ_pBBiLA48RKQpKqIFPI1VuJjpX3vBYHHECHwF_72nuntgcvok1PA-29dz4s2_iAth7hPtqCApbZ_IebhB2hU72n2QRODKNJyLU3fV1wAZc_JpY0VXof5iX_XnF-fBz7vSujVOa4DgraH3hYgVLMQaBjfDRhg-R9PeFjxY6ktuWyiWqp9X7IrGV-DvaeRbhVpVgPEJUYHNK4jvwFPPAlMr_ExRM1IlFTO0D58uLYr21jyA8ldKBKuyV5wbC5PTHqJDwUSjC-Y3m1qouRti57NjlyIycJhfruZ5R1IiBvBwEGlcatIN5ycY_GHnPaFf5ycibuQTks1L3B9Tn3BwZkf1adzGK3eroG5njzTtvYW8AT4mY3IYNaNnCSGd_0dwRno5bd4XllUk6OhNELepD81gB8eZsO-pQIYVIkBqY4rsfCsRkpFDFgujUWPFMZT6KfHcXOIP7ne_kG4=w710-h397-no",
+		"source": [
+			{"src":"https://lh3.googleusercontent.com/-unf2YvZEw8Gwx6DsXst79EkgTwakLc1G7xhXbMfdYs=m18"},
+			{"src":"https://pgli82.dl.openload.io/dl/l/gee4BoYy8GA/Straight.Outta.Compton.2015.PROPER.1080p.HC.WEBRip.x264.AAC2.0-FGT.mp4?mime=true"},
+			{"src":""}		
+				]	
 	}
 
 
