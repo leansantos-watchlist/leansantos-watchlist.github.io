@@ -395,7 +395,7 @@
 				]	
 	},													
 	{
-		"id": 30, "titleUrl": "Avengers:_Age_of_Ultron", "title": "Avengers: Age of Ultron", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":"Sci-fi"}],
+		"id": 30, "titleUrl": "Avengers:_Age_of_Ultron", "title": "Avengers: Age of Ultron", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Adventure"},{"genre":" | Sci-fi"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "140 mins",
 		"summary": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's Mightiest Heroes to stop the villainous Ultron from enacting his terrible plans.",
@@ -408,7 +408,7 @@
 				]	
 	},													
 	{
-		"id": 31, "titleUrl": "San_Andreas", "title": "San Andreas", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Thriller"},{"genre":"Drama"}],
+		"id": 31, "titleUrl": "San_Andreas", "title": "San Andreas", "category": "Movie", "genres": [{"genre":"Action | "},{"genre":"Thriller"},{"genre":" | Drama"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "114 mins",
 		"summary": "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey with his ex-wife across the state in order to rescue his daughter.",
@@ -421,7 +421,7 @@
 				]	
 	},													
 	{
-		"id": 32, "titleUrl": "Straight_Outta_Compton", "title": "Straight Outta Compton", "category": "Movie", "genres": [{"genre":"Drama | "},{"genre":"Biography"},{"genre":"Music"}],
+		"id": 32, "titleUrl": "Straight_Outta_Compton", "title": "Straight Outta Compton", "category": "Movie", "genres": [{"genre":"Drama | "},{"genre":"Biography"},{"genre":" | Music"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "147 mins",
 		"summary": "The group NWA emerges from the mean streets of Compton in Los Angeles, California, in the mid-1980s and revolutionizes Hip Hop culture with their music and tales about life in the hood.",
@@ -447,7 +447,7 @@
 				]	
 	},													
 	{
-		"id": 34, "titleUrl": "Step_Up_All_In", "title": "Step Up All In", "category": "Movie", "genres": [{"genre":" Drama | "},{"genre":"Music"},{"genre":"Romance"}],
+		"id": 34, "titleUrl": "Step_Up_All_In", "title": "Step Up All In", "category": "Movie", "genres": [{"genre":" Drama | "},{"genre":"Music"},{"genre":" | Romance"}],
 		"released": 2014, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "112 mins",
 		"summary": "All-stars from the previous Step Up installments come together in glittering Las Vegas, battling for a victory that could define their dreams and their careers.",
@@ -460,7 +460,7 @@
 				]	
 	},													
 	{
-		"id": 35, "titleUrl": "Monster_Hunt", "title": "Monster Hunt", "category": "Movie", "genres": [{"genre":" Action | "},{"genre":"Fantacy"},{"genre":"Comedy"}],
+		"id": 35, "titleUrl": "Monster_Hunt", "title": "Monster Hunt", "category": "Movie", "genres": [{"genre":" Action | "},{"genre":"Fantacy"},{"genre":" | Comedy"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "111 mins",
 		"summary": "The cute baby monster Huba is the child of a human man and a monster queen, threatened by both monster-hating humans and monsters attempting to capture the new-born in an ancient world based on medieval China.",
@@ -473,7 +473,7 @@
 				]	
 	},													
 	{
-		"id": 36, "titleUrl": "Spooks:_The_Greater_Good", "title": "Spooks:The Greater Good", "category": "Movie", "genres": [{"genre":" Drama | "},{"genre":"Action"},{"genre":"Thriller"}],
+		"id": 36, "titleUrl": "Spooks:_The_Greater_Good", "title": "Spooks:The Greater Good", "category": "Movie", "genres": [{"genre":" Drama | "},{"genre":"Action"},{"genre":" | Thriller"}],
 		"released": 2015, "producedBy": "", "directedBy": "", "starring": "",
 		"duration": "104 mins",
 		"summary": "When a terrorist escapes custody during a routine handover, Will Holloway must team with disgraced MI5 Intelligence Chief Harry Pearce to track him down before an imminent terrorist attack on London.",
