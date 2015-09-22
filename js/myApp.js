@@ -1,15 +1,15 @@
 
 // for localhost
-// var app = angular.module('mymovieApp', ['ngRoute', 'angularUtils.directives.dirPagination'])
-// var moviesdata = "js/data/movies.json"; 
-// var seriesdata = "js/data/series.json";
-// var tvseriesdata = "js/data/tvseries.json";
+var app = angular.module('mymovieApp', ['ngRoute', 'angularUtils.directives.dirPagination'])
+var moviesdata = "js/data/movies.json"; 
+var seriesdata = "js/data/series.json";
+var tvseriesdata = "js/data/tvseries.json";
 
 
-var app = angular.module('mymovieApp', ['ngRoute', 'ngAnimate', 'angularUtils.directives.dirPagination'])
-var moviesdata = "http://leansantos-watchlist.github.io/js/data/movies.json"; 
-var seriesdata = "http://leansantos-watchlist.github.io/js/data/series.json";
-var tvseriesdata = "http://leansantos-watchlist.github.io/js/data/tvseries.json";
+// var app = angular.module('mymovieApp', ['ngRoute', 'ngAnimate', 'angularUtils.directives.dirPagination'])
+// var moviesdata = "http://leansantos-watchlist.github.io/js/data/movies.json"; 
+// var seriesdata = "http://leansantos-watchlist.github.io/js/data/series.json";
+// var tvseriesdata = "http://leansantos-watchlist.github.io/js/data/tvseries.json";
 
 
 app.config(['$routeProvider', function($routeProvider){
