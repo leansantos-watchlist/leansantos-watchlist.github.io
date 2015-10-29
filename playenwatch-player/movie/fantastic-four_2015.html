@@ -6,9 +6,13 @@
   <script src="http://vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js"></script>
 </head>
 <style>
-.embed-resposive{
-	width:100% !important;
-}
+	.embed-responsive{
+		width: 100% !important;
+		background:black;
+	}
+        video::-webkit-media-text-track-display {
+                  font-size: 150%;
+        }
 </style>
 <body>
   <video id="my-video" class="video-js embed-responsive embed-responsive-16by9" controls preload="auto" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
