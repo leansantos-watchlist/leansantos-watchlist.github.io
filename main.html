@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="mymovieApp">
+<head>
+    <meta charset="UTF-8">
+    <title>#WatchList</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0004_18.png" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet">
+
+    <script src="js/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-animate.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/dirPagination.js"></script>
+
+
+    <script src="js/myApp.js"></script>
+    <script src="js/controller/NavigationController.js"></script>
+    <script src="js/controller/HomeController.js"></script>
+    <script src="js/controller/MoviesController.js"></script>
+    <script src="js/controller/SeriesController.js"></script>
+    <script src="js/controller/WatchController.js"></script>
+<!-- PopAds.net Popunder Code for watchlist.co.nf -->
+<script type="text/javascript">
+  var _pop = _pop || [];
+  _pop.push(['siteId', 816794]);
+  _pop.push(['minBid', 0.000000]);
+  _pop.push(['popundersPerIP', 0]);
+  _pop.push(['delayBetween', 0]);
+  _pop.push(['default', false]);
+  _pop.push(['defaultPerDay', 0]);
+  _pop.push(['topmostLayer', false]);
+  (function() {
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    var s = document.getElementsByTagName('script')[0]; 
+    pa.src = '//c1.popads.net/pop.js';
+    pa.onerror = function() {
+      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
+      sa.src = '//c2.popads.net/pop.js';
+      s.parentNode.insertBefore(sa, s);
+    };
+    s.parentNode.insertBefore(pa, s);
+  })();
+</script>
+<!-- PopAds.net Popunder Code End -->        
+             
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1427131700946006";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div style="position:fixed;background-color:#ffffff;text-align:right;padding-right:50px;width:100%;z-index:5">
+<div style="float:left;padding-left:230px"  class="fb-like" data-href="https://www.facebook.com/pages/WatchList/1001340453285061" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div> <a href="">about us</a> | <a href="">contact us</a>
+</div>
+
+<!-- Header RigthSide Fixed navbar -->
+<div class="side-navbar side-navbar-fixed" style="z-index:5">
+    <div style="padding-top:10px">
+        <a href="#/">
+        <!-- <img width="218" height="70" src="http://localhost/watchlist_admin/js/data/watchlist_logo.jpg" alt=""> -->
+        <img width="218" height="58" src="http://localhost/watchlist_admin/js/data/watchlist_logo_grey.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="baseline-border">
+        <input type="text" class="form-control" ng-model="search" placeholder="Search here" style="text-align:center;">
+    </div>
+    <div class="navigation" ng-controller="NavigationController">
+        <ul>
+                        
+            <li ng-repeat="nav in navigation.mainNav">
+                <a href="{{nav.link}}">{{nav.nav}}</a>
+            </li>
+            <li>
+                <a class="twitter-icon" href="" title="twitter">
+                    <img src="https://cdn0.iconfinder.com/data/icons/ball/32/twitter.png" alt="twitter">
+                </a>
+                <a class="facebook-icon" href="https://www.facebook.com/pages/WatchList/1001340453285061" title="facebook">
+                    <img src="https://cdn0.iconfinder.com/data/icons/ball/32/facebook.png" alt="facebook">
+                </a>
+            </li>
+                        
+                        <li>
+                <p><?php echo $views;?> views</p>
+            </li>
+                        
+                       
+        </ul>
+    </div>
+
+</div>
+<!-- End Header RigthSide Fixed navbar -->
+
+
+<!-- Partials content -->
+<div class="partials">
+    <div ng-view=""></div>
+
+</div>
+<!-- End Partials content -->
+
+
+
+<div style="background:#ffffff;width:100%;overflow:hidden;text-align:right;padding-right:50px">
+    <p>Copyright 2015 © watchlist.com </p>
+
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66259327-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+   
+
+</body>
+</html>
