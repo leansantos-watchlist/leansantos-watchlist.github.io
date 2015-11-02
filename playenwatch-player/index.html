@@ -8,23 +8,12 @@
 	
 
 
-
-
-
 <script type="text/javacript">
-	function getUrlVars() {
-	var vars = {};
-	var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-	vars[key] = value;
-	});
-	return vars;
-	}
+	q=document.location.search.substring(0);
+	document.write("<h1>")
 
-	var first = getUrlVars()["id"];
-	var second = getUrlVars()["page"];
-
-	alert(first);
-	alert(second);
+	document.write(q);
+	document.write("<p>")
 </script>
 </body>
 </html>
